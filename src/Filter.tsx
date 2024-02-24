@@ -24,8 +24,11 @@ const Filter = ({ onChange } : FilterProps) => {
 
   const categories : (Dictionary.KeyWord | "")[] = [
     "",
+    "algorithmics",
+    "graph",
+    "language theory",
     "logic",
-    "set theory",
+    "mathematics",
   ];
 
   return (
