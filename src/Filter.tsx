@@ -20,7 +20,7 @@ const Filter = ({ onChange } : FilterProps) => {
   const [input, setInput] = useState(FilterNone.input);
   const [category, setCategory] = useState(FilterNone.category);
 
-  useEffect(() => onChange({ input, category }), [input, category]);
+  useEffect(() => onChange({ input, category }), [input, category, onChange]);
 
   const categories : (Dictionary.KeyWord | "")[] = [
     "",
