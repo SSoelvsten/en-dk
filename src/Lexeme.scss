@@ -1,0 +1,16 @@
+.Lexeme {
+    margin-bottom: 0.5rem;
+
+    .Word {
+        display: inline-block;
+        font-weight: bold;
+        margin-right: 0.8rem;
+    }
+    .Type {
+        display: inline-block;
+        font-style: italic;
+    }
+    .Translation {
+        display: block;
+    }
+}
