@@ -29,9 +29,9 @@ const Filter = ({ onChange } : FilterProps) => {
   ];
 
   return (
-    <div className="Search">
+    <div className="Filter">
         <input onChange={(e) => setInput(e.target.value)}
-               placeholder="search"
+               placeholder="filter . . ."
         />
 
         <select onChange={(e) => setCategory(e.target.value as any)}>

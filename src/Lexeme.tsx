@@ -12,7 +12,7 @@ const Lexeme = ({ lexeme } : LexemeProps) => {
       <div className="Word">{lexeme.word}</div>
       <div className="Type">({lexeme.type})</div>
 
-      <div className="Translation">~ {lexeme.translation}</div>
+      <div className="Translation">{lexeme.translation}</div>
     </div>
   );
 };

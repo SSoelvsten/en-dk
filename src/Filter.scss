@@ -1,0 +1,17 @@
+.Filter {
+  margin: auto;
+  width: fit-content;
+
+  $select-width: 7rem;
+
+  input {
+    margin-right: 0.4rem;
+  }
+
+  input, select {
+    background-color: white;
+    border-radius: 0.3rem;
+    border: 0.1rem solid black;
+    padding: 0.3rem 0.5rem;
+  }
+}

@@ -1,3 +1,26 @@
 .App {
+  padding: 2rem;
+  max-width: 42rem;
+  margin: auto;
 
+  .Separator {
+    margin: 1rem 0;
+    border-bottom: double;
+  }
+
+  .Words {
+    margin: 1rem;
+    column-count: 3;
+    column-gap: 2rem;
+    column-fill: balance;
+
+    @media screen and (max-width: 50rem) {
+        column-count: 2;
+    }
+
+    .Lexeme {
+      break-inside: avoid-column;
+      margin-bottom: 1rem;
+    }
+  }
 }

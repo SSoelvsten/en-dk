@@ -13,7 +13,9 @@ const App = () => {
     <div className="App">
       <Filter onChange={setFilterCtxt} />
 
-      <div>
+      <div className="Separator" />
+
+      <div className="Words">
         {Dictionary.en_dk
                    .filter((l : Dictionary.Lexeme) => {
                       return l.word.includes(filterCtxt.input)
