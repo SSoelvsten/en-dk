@@ -575,7 +575,14 @@ export const en_dk : Lexeme[] = [
   },
   { // TODO: Turn `translation` into a list of strings
     word: "word",
-    translations: ["ord", "maskinord"],
-    keywords: ["algorithmics", "language theory"]
+    note: "in computer",
+    translations: ["maskinord"],
+    keywords: ["algorithmics"]
+  },
+  { // TODO: Turn `translation` into a list of strings
+    word: "word",
+    note: "in language",
+    translations: ["ord"],
+    keywords: ["language theory"]
   },
 ];
