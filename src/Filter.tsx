@@ -26,11 +26,11 @@ const Filter = ({ onChange } : FilterProps) => {
     "",
     "algorithmics",
     "cryptography",
+    "formal methods",
     "geometry",
     "graph",
     "hashing",
     "language theory",
-    "logic",
     "mathematics",
   ];
 

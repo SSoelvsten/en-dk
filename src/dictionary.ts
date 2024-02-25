@@ -1,9 +1,9 @@
 export type KeyWord = "algorithmics"
                     | "cryptography"
+                    | "formal methods"
                     | "geometry"
                     | "hashing"
                     | "language theory"
-                    | "logic"
                     | "graph"
                     | "mathematics"
 ;
@@ -17,6 +17,12 @@ export type Lexeme = {
 
 export const en_dk : Lexeme[] = [
   {
+    word: "accept",
+    note: "verb",
+    translations: ["acceptere"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
     word: "acyclic",
     translations: ["acyklisk"],
     keywords: ["algorithmics", "graph"]
@@ -27,9 +33,29 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "graph"]
   },
   {
+    word: "algebra",
+    translations: ["algebra"],
+    keywords: ["mathematics"]
+  },
+  {
+    word: "algebraic",
+    translations: ["algebraisk"],
+    keywords: ["mathematics"]
+  },
+  {
     word: "algorithm",
     translations: ["algoritme"],
     keywords: ["algorithmics"]
+  },
+  {
+    word: "alphabet",
+    translations: ["alfabet"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
+    word: "ambiguous",
+    translations: ["tvetydig"],
+    keywords: ["formal methods"]
   },
   {
     word: "amortised",
@@ -49,12 +75,12 @@ export const en_dk : Lexeme[] = [
   {
     word: "automata",
     translations: ["automat"],
-    keywords: ["algorithmics", "graph", "logic"]
+    keywords: ["algorithmics", "formal methods", "graph"]
   },
   {
     word: "base case",
-    translations: ["basisskridt, induktionsstart, startbetingelse"],
-    keywords: ["algorithmics", "logic"]
+    translations: ["basis, basisskridt, induktionsstart, startbetingelse"],
+    keywords: ["algorithmics", "formal methods"]
   },
   {
     word: "bipartite",
@@ -88,14 +114,30 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "hashing"]
   },
   {
+    word: "character",
+    note: "see also \"symbol\"",
+    translations: ["tegn"],
+    keywords: ["algorithmics", "formal methods", "language theory"]
+  },
+  {
+    word: "class",
+    translations: ["klasse"],
+    keywords: ["mathematics"]
+  },
+  {
     word: "closed",
     translations: ["lukket"],
-    keywords: ["logic", "mathematics"]
+    keywords: ["formal methods", "mathematics"]
   },
   {
     word: "closure",
     translations: ["lukning"],
-    keywords: ["graph", "logic", "mathematics"]
+    keywords: ["formal methods", "graph", "mathematics"]
+  },
+  {
+    word: "closure property",
+    translations: ["lukkethedsegenskab"],
+    keywords: ["formal methods", "mathematics"]
   },
   {
     word: "collision",
@@ -103,14 +145,29 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "cryptography"]
   },
   {
+    word: "combine",
+    translations: ["kombiner"],
+    keywords: []
+  },
+  {
+    word: "compile",
+    translations: ["oversætte"],
+    keywords: []
+  },
+  {
     word: "compiler",
     translations: ["oversætter"],
     keywords: []
   },
   {
+    word: "complement",
+    translations: ["komplement [kʌmpləˈmεnˀd]"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
     word: "complete",
     translations: ["komplet"],
-    keywords: ["language theory", "logic"]
+    keywords: ["formal methods", "language theory"]
   },
   {
     word: "component",
@@ -138,6 +195,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "graph"]
   },
   {
+    word: "context-free",
+    translations: ["kontekstfri"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
     word: "convex",
     translations: ["konveks"],
     keywords: ["algorithmics", "geometry", "mathematics"]
@@ -145,7 +207,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "correctness",
     translations: ["korrekthed"],
-    keywords: ["algorithmics"]
+    keywords: ["algorithmics", "formal methods"]
   },
   {
     word: "countable",
@@ -173,6 +235,51 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics"]
   },
   {
+    word: "decidable",
+    translations: ["afgørlig"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
+    word: "decide",
+    translations: ["afgøre"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
+    word: "decision",
+    translations: ["beslutning"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
+    word: "decision problem",
+    translations: ["beslutningsproblem"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
+    word: "declarative",
+    translations: ["deklarativ"],
+    keywords: ["formal methods"]
+  },
+  {
+    word: "depth-first",
+    translations: ["dybde først"],
+    keywords: ["algorithmics", "graph"]
+  },
+  {
+    word: "derivation",
+    translations: ["derivation", "derivationstrin"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
+    word: "derivation tree",
+    translations: ["derivationstræ"],
+    keywords: ["formal methods"]
+  },
+  {
+    word: "determinisation",
+    translations: ["determinisering"],
+    keywords: ["algorithmics", "formal methods", "language theory"]
+  },
+  {
     word: "deterministic",
     translations: ["deterministisk"],
     keywords: ["algorithmics", "language theory"]
@@ -183,9 +290,9 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics"]
   },
   {
-    word: "divide-and-conquer",
-    translations: ["Del-og-kompinér"],
-    keywords: ["algorithmics"]
+    word: "directed",
+    translations: ["orienteret"],
+    keywords: ["graph"]
   },
   {
     word: "difference",
@@ -193,14 +300,24 @@ export const en_dk : Lexeme[] = [
     keywords: ["mathematics"]
   },
   {
-    word: "directed",
-    translations: ["orienteret"],
-    keywords: ["graph"]
+    word: "distinguish",
+    translations: ["skelne"],
+    keywords: ["formal methods"]
   },
   {
-    word: "depth-first",
-    translations: ["dybde først"],
-    keywords: ["algorithmics", "graph"]
+    word: "distinguishability",
+    translations: ["skelnelighed"],
+    keywords: ["formal methods"]
+  },
+  {
+    word: "distinguishable",
+    translations: ["skelnelig"],
+    keywords: ["formal methods"]
+  },
+  {
+    word: "divide-and-conquer",
+    translations: ["Del-og-kompinér"],
+    keywords: ["algorithmics"]
   },
   {
     word: "edge",
@@ -208,9 +325,39 @@ export const en_dk : Lexeme[] = [
     keywords: ["graph"]
   },
   {
+    word: "empty",
+    translations: ["tom"],
+    keywords: ["algorithmics", "formal methods", "language theory", "mathematics"]
+  },
+  {
+    word: "equivalence",
+    translations: ["ækvivalens"],
+    keywords: ["formal methods", "language theory", "mathematics"]
+  },
+  {
+    word: "equivalence class",
+    translations: ["ækvivalensklasse"],
+    keywords: ["formal methods", "language theory", "mathematics"]
+  },
+  {
+    word: "equivalence relation",
+    translations: ["ækvivalensrelation"],
+    keywords: ["formal methods", "language theory", "mathematics"]
+  },
+  {
+    word: "expression",
+    translations: ["udtryk"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
     word: "finite",
     translations: ["endelig"],
     keywords: ["mathematics"]
+  },
+  {
+    word: "fixpoint",
+    translations: ["fixpunkt"],
+    keywords: ["formal methods", "language theory", "mathematics"]
   },
   {
     word: "flow",
@@ -220,7 +367,12 @@ export const en_dk : Lexeme[] = [
   {
     word: "function",
     translations: ["funktion"],
-    keywords: ["cryptography", "logic"]
+    keywords: ["cryptography", "formal methods"]
+  },
+  {
+    word: "grammar",
+    translations: ["grammatik"],
+    keywords: ["formal methods", "language theory"]
   },
   {
     word: "graph",
@@ -260,7 +412,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "imply",
     translations: ["medføre"],
-    keywords: ["logic"]
+    keywords: ["formal methods"]
   },
   {
     word: "incidence matrix",
@@ -268,29 +420,44 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "graph"]
   },
   {
+    word: "indistinguishability",
+    translations: ["uskelnelighed"],
+    keywords: ["formal methods"]
+  },
+  {
+    word: "indistinguishable",
+    translations: ["uskelnelig"],
+    keywords: ["formal methods"]
+  },
+  {
     word: "induction",
     translations: ["induktion"],
-    keywords: ["logic"]
+    keywords: ["formal methods"]
   },
   {
     word: "induction hypothesis",
     translations: ["induktionshypotese"],
-    keywords: ["logic"]
+    keywords: ["formal methods"]
   },
   {
     word: "inductive",
     translations: ["induktiv"],
-    keywords: ["logic"]
+    keywords: ["formal methods"]
   },
   {
     word: "inductive case",
     translations: ["induktionskridt"],
-    keywords: ["logic"]
+    keywords: ["formal methods"]
   },
   {
     word: "infinite",
     translations: ["uendelig"],
     keywords: ["mathematics"]
+  },
+  {
+    word: "initial state",
+    translations: ["starttilstand"],
+    keywords: ["formal methods", "graph"]
   },
   {
     word: "input",
@@ -308,6 +475,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics"]
   },
   {
+    word: "irregular",
+    translations: ["iregulær, ikke-regulær"],
+    keywords: ["formal methods", "mathematics"]
+  },
+  {
     word: "key",
     translations: ["nøgle"],
     keywords: ["cryptography", "algorithmics"]
@@ -315,7 +487,12 @@ export const en_dk : Lexeme[] = [
   {
     word: "language",
     translations: ["sprog"],
-    keywords: ["cryptography", "language theory", "logic"]
+    keywords: ["cryptography", "formal methods", "language theory"]
+  },
+  {
+    word: "lexical",
+    translations: ["leksikalsk"],
+    keywords: ["algorithmics"]
   },
   {
     word: "linked list",
@@ -328,9 +505,19 @@ export const en_dk : Lexeme[] = [
     keywords: ["graph"]
   },
   {
+    word: "logic",
+    translations: ["logik"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
     word: "matrix, matrices",
     translations: ["matrix, matrice"],
     keywords: ["mathematics"]
+  },
+  {
+    word: "membership",
+    translations: ["medlemsskab"],
+    keywords: ["formal methods", "language theory", "mathematics"]
   },
   {
     word: "memory",
@@ -338,9 +525,15 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics"]
   },
   {
+    word: "minimization",
+    note: "GB: minimisation",
+    translations: ["minimering"],
+    keywords: ["formal methods"]
+  },
+  {
     word: "monad",
     translations: ["monade"],
-    keywords: ["logic"]
+    keywords: ["formal methods"]
   },
   {
     word: "monadic",
@@ -353,14 +546,39 @@ export const en_dk : Lexeme[] = [
     keywords: ["graph"]
   },
   {
+    word: "nondeterministic",
+    translations: ["nondeterministisk"],
+    keywords: ["algorithmics", "formal methods", "language theory"]
+  },
+  {
+    word: "nonterminal",
+    translations: ["nonterminal, ikke-terminal"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
+    word: "normalisation",
+    translations: ["normalisering"],
+    keywords: ["algorithmics", "formal methods"]
+  },
+  {
     word: "open adressing",
     translations: ["åben adressering"],
     keywords: ["algorithmics", "hashing"]
   },
   {
+    word: "operational",
+    translations: ["operationel"],
+    keywords: ["formal methods"]
+  },
+  {
     word: "output",
     translations: ["uddata"],
     keywords: ["algorithmics", "cryptography", "language theory"]
+  },
+  {
+    word: "partition",
+    translations: ["partition", "partitionering"],
+    keywords: ["formal methods", "mathematics"]
   },
   {
     word: "path",
@@ -383,6 +601,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["graph"]
   },
   {
+    word: "precedence",
+    translations: ["præcedens"],
+    keywords: ["formal methods", "mathematics"]
+  },
+  {
     word: "prefix",
     translations: ["præfiks"],
     keywords: ["algorithmics", "language theory"]
@@ -393,14 +616,24 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics"]
   },
   {
+    word: "product construction",
+    translations: ["produktkonsruktion"],
+    keywords: ["formal methods"]
+  },
+  {
+    word: "property",
+    translations: ["egenskab"],
+    keywords: ["formal methods", "language theory", "mathematics"]
+  },
+  {
     word: "quantified",
     translations: ["kvantificeret"],
-    keywords: ["logic"]
+    keywords: ["formal methods"]
   },
   {
     word: "quantifier",
     translations: ["kvantor"],
-    keywords: ["logic"]
+    keywords: ["formal methods"]
   },
   {
     word: "queue",
@@ -408,19 +641,29 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics"]
   },
   {
+    word: "quotient",
+    translations: ["kvotient"],
+    keywords: ["cryptography", "formal methods", "mathematics"]
+  },
+  {
     word: "random",
     translations: ["tilfældig"],
     keywords: ["algorithmics", "cryptography"]
   },
   {
+    word: "reachable",
+    translations: ["opnåelig"],
+    keywords: ["formal methods", "graph", "language theory"]
+  },
+  {
     word: "recursion",
     translations: ["rekursion"],
-    keywords: ["algorithmics", "logic"]
+    keywords: ["algorithmics", "formal methods"]
   },
   {
     word: "recursive",
     translations: ["rekursiv"],
-    keywords: ["algorithmics", "logic"]
+    keywords: ["algorithmics", "formal methods"]
   },
   {
     word: "reduction",
@@ -428,9 +671,24 @@ export const en_dk : Lexeme[] = [
     keywords: ["cryptography", "language theory"]
   },
   {
+    word: "reflexive",
+    translations: ["refleksiv"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
+    word: "regular",
+    translations: ["regulær"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
+    word: "regularity",
+    translations: ["regularitet"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
     word: "relation",
     translations: ["relation"],
-    keywords: ["algorithmics", "graph", "language theory", "logic", "mathematics"]
+    keywords: ["algorithmics",  "formal methods", "graph", "language theory", "mathematics"]
   },
   {
     word: "running time",
@@ -440,12 +698,12 @@ export const en_dk : Lexeme[] = [
   {
     word: "satisfiability",
     translations: ["tilfredstillelse"],
-    keywords: ["logic"]
+    keywords: ["formal methods"]
   },
   {
     word: "satisfiable",
     translations: ["tilfredstillelig"],
-    keywords: ["logic"]
+    keywords: ["formal methods"]
   },
   {
     word: "search tree",
@@ -470,7 +728,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "sound",
     translations: ["sund"],
-    keywords: ["language theory", "logic"]
+    keywords: ["formal methods", "language theory"]
   },
   {
     word: "source",
@@ -485,12 +743,17 @@ export const en_dk : Lexeme[] = [
   {
     word: "state",
     translations: ["tilstand"],
-    keywords: ["graph"]
+    keywords: ["formal methods", "graph"]
+  },
+  {
+    word: "state space",
+    translations: ["tilstandsrum"],
+    keywords: ["formal methods"]
   },
   {
     word: "string",
     translations: ["streng, ord"],
-    keywords: ["algorithmics", "cryptography", "language theory"]
+    keywords: ["algorithmics", "cryptography", "formal methods", "language theory"]
   },
   {
     word: "subset",
@@ -498,14 +761,29 @@ export const en_dk : Lexeme[] = [
     keywords: ["mathematics"]
   },
   {
+    word: "subset construction",
+    translations: ["delmængdekonsruktion"],
+    keywords: ["formal methods"]
+  },
+  {
     word: "suffix",
     translations: ["suffiks"],
     keywords: ["algorithmics", "language theory"]
   },
   {
+    word: "symbol",
+    translations: ["symbol, tegn"],
+    keywords: ["formal methods", "language theory"]
+  },
+  {
     word: "ternary",
     translations: ["trinær"],
     keywords: []
+  },
+  {
+    word: "terminal",
+    translations: ["terminal"],
+    keywords: ["formal methods", "language theory"]
   },
   {
     word: "termination",
@@ -530,7 +808,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "transitive",
     translations: ["transitiv"],
-    keywords: ["graph", "logic", "mathematics"]
+    keywords: ["formal methods", "graph", "mathematics"]
   },
   {
     word: "trie",
@@ -553,6 +831,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["mathematics"]
   },
   {
+    word: "undecidable",
+    translations: ["uafgørlig"],
+    keywords: ["language theory"]
+  },
+  {
     word: "union",
     translations: ["forening, foreningsmængde"],
     keywords: ["mathematics"]
@@ -561,6 +844,16 @@ export const en_dk : Lexeme[] = [
     word: "universal",
     translations: ["universel"],
     keywords: ["algorithmics", "cryptography", "hashing"]
+  },
+  {
+    word: "unreachable",
+    translations: ["uopnåelig"],
+    keywords: ["formal methods", "graph", "language theory"]
+  },
+  {
+    word: "validation",
+    translations: ["validering"],
+    keywords: []
   },
   { // TODO: Add actual references
     word: "vertex, vertices",
