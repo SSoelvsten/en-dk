@@ -90,7 +90,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "average",
-    translations: ["asymptotisk"],
+    translations: ["gennemsnitlig"],
     keywords: ["algorithmics"]
   },
   {
