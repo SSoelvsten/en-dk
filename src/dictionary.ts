@@ -573,13 +573,13 @@ export const en_dk : Lexeme[] = [
     translations: ["vægt"],
     keywords: ["algorithmics", "graph"]
   },
-  { // TODO: Turn `translation` into a list of strings
+  {
     word: "word",
     note: "in computer",
     translations: ["maskinord"],
     keywords: ["algorithmics"]
   },
-  { // TODO: Turn `translation` into a list of strings
+  {
     word: "word",
     note: "in language",
     translations: ["ord"],
