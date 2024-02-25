@@ -1077,7 +1077,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "total",
     note: "correctness",
-    translations: ["fuldstændig"],
+    translations: ["total"],
     keywords: ["formal methods"]
   },
   {
