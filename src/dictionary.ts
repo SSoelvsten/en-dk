@@ -1,6 +1,9 @@
 export type WordType = "noun" | "verb" | "adj." | "adv.";
 
 export type KeyWord = "algorithmics"
+                    | "cryptography"
+                    | "geometry"
+                    | "hashing"
                     | "language theory"
                     | "logic"
                     | "graph"
@@ -16,9 +19,39 @@ export type Lexeme = {
 
 export const en_dk : Lexeme[] = [
   {
+    word: "acyclic",
+    type: "adj.",
+    translation: "acyklisk",
+    keywords: ["algorithmics", "graph"]
+  },
+  {
+    word: "adjacency list",
+    type: "noun",
+    translation: "incidensliste",
+    keywords: ["algorithmics", "graph"]
+  },
+  {
     word: "algorithm",
     type: "noun",
     translation: "algoritme",
+    keywords: ["algorithmics"]
+  },
+  {
+    word: "amortised",
+    type: "adj.",
+    translation: "amortiseret",
+    keywords: ["algorithmics"]
+  },
+  {
+    word: "asymptotic",
+    type: "adj.",
+    translation: "asymptotisk",
+    keywords: ["algorithmics"]
+  },
+  {
+    word: "average",
+    type: "adj.",
+    translation: "asymptotisk",
     keywords: ["algorithmics"]
   },
   {
@@ -34,6 +67,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "logic"]
   },
   {
+    word: "bipartite",
+    type: "adj.",
+    translation: "todelt",
+    keywords: ["graph"]
+  },
+  {
     word: "binary",
     type: "adj.",
     translation: "binær",
@@ -46,16 +85,40 @@ export const en_dk : Lexeme[] = [
     keywords: []
   },
   {
+    word: "bottle neck",
+    type: "noun",
+    translation: "flaskehals",
+    keywords: ["algorithmics"]
+  },
+  {
+    word: "breadth-first",
+    type: "adj.",
+    translation: "bredde først",
+    keywords: ["algorithmics", "graph"]
+  },
+  {
+    word: "chaining (in hash table)",
+    type: "noun",
+    translation: "kollisionsliste",
+    keywords: ["algorithmics", "hashing"]
+  },
+  {
     word: "closed",
     type: "adj.",
     translation: "lukket",
     keywords: ["logic", "mathematics"]
   },
   {
-    word: "concatenate",
-    type: "verb",
-    translation: "konkatenere",
-    keywords: ["language theory"]
+    word: "closure",
+    type: "noun",
+    translation: "lukning",
+    keywords: ["graph", "logic", "mathematics"]
+  },
+  {
+    word: "collision",
+    type: "noun",
+    translation: "kollision",
+    keywords: ["algorithmics", "cryptography"]
   },
   {
     word: "compiler",
@@ -70,10 +133,46 @@ export const en_dk : Lexeme[] = [
     keywords: ["language theory", "logic"]
   },
   {
+    word: "component",
+    type: "noun",
+    translation: "komponent",
+    keywords: ["algorithmics", "graph"]
+  },
+  {
     word: "computer",
     type: "noun",
     translation: "datamat",
     keywords: []
+  },
+  {
+    word: "concatenate",
+    type: "verb",
+    translation: "konkatenere",
+    keywords: ["cryptography", "language theory"]
+  },
+  {
+    word: "configuration",
+    type: "noun",
+    translation: "konfiguration",
+    keywords: ["algorithmics", "language theory"]
+  },
+  {
+    word: "connected component",
+    type: "noun",
+    translation: "sammenhængskomponent",
+    keywords: ["algorithmics", "graph"]
+  },
+  {
+    word: "convex",
+    type: "verb",
+    translation: "konveks",
+    keywords: ["algorithmics", "geometry", "mathematics"]
+  },
+  {
+    word: "correctness",
+    type: "noun",
+    translation: "korrekthed",
+    keywords: ["algorithmics"]
   },
   {
     word: "countable",
@@ -88,9 +187,39 @@ export const en_dk : Lexeme[] = [
     keywords: ["graph"]
   },
   {
+    word: "cycle",
+    type: "noun",
+    translation: "cykel",
+    keywords: ["algorithmics", "graph"]
+  },
+  {
+    word: "cyclic",
+    type: "adj.",
+    translation: "cyklisk",
+    keywords: ["algorithmics", "graph"]
+  },
+  {
     word: "data structure",
     type: "noun",
     translation: "datastruktur",
+    keywords: ["algorithmics"]
+  },
+  {
+    word: "deterministic",
+    type: "adj.",
+    translation: "deterministisk",
+    keywords: ["algorithmics", "language theory"]
+  },
+  {
+    word: "dictionary",
+    type: "noun",
+    translation: "ordbog",
+    keywords: ["algorithmics"]
+  },
+  {
+    word: "divide-and-conquer",
+    type: "adj.",
+    translation: "Del-og-kompinér",
     keywords: ["algorithmics"]
   },
   {
@@ -106,6 +235,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["graph"]
   },
   {
+    word: "depth-first",
+    type: "adj.",
+    translation: "dybde først",
+    keywords: ["algorithmics", "graph"]
+  },
+  {
     word: "edge",
     type: "noun",
     translation: "kant",
@@ -118,10 +253,16 @@ export const en_dk : Lexeme[] = [
     keywords: ["mathematics"]
   },
   {
+    word: "flow",
+    type: "noun",
+    translation: "strømning",
+    keywords: ["algorithmics"]
+  },
+  {
     word: "function",
     type: "noun",
     translation: "funktion",
-    keywords: ["logic"]
+    keywords: ["cryptography", "logic"]
   },
   {
     word: "graph",
@@ -130,22 +271,28 @@ export const en_dk : Lexeme[] = [
     keywords: ["graph"]
   },
   {
+    word: "greedy",
+    type: "adj.",
+    translation: "grådig",
+    keywords: ["algorithmics"]
+  },
+  {
     word: "hash",
     type: "verb",
     translation: "hakke",
-    keywords: ["algorithmics"]
+    keywords: ["algorithmics", "cryptography", "hashing"]
   },
   {
     word: "hash function",
     type: "noun",
     translation: "hakkefunktion",
-    keywords: ["algorithmics"]
+    keywords: ["algorithmics", "cryptography", "hashing"]
   },
   {
     word: "hash table",
     type: "noun",
     translation: "hakketabel",
-    keywords: ["algorithmics"]
+    keywords: ["algorithmics", "hashing"]
   },
   {
     word: "heap",
@@ -154,10 +301,22 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics"]
   },
   {
+    word: "hull",
+    type: "noun",
+    translation: "hylster",
+    keywords: ["algorithmics", "geometry"]
+  },
+  {
     word: "imply",
     type: "verb",
     translation: "medføre",
     keywords: ["logic"]
+  },
+  {
+    word: "incidence matrix",
+    type: "noun",
+    translation: "incidensmatrix",
+    keywords: ["algorithmics", "graph"]
   },
   {
     word: "induction",
@@ -193,7 +352,7 @@ export const en_dk : Lexeme[] = [
     word: "input",
     type: "noun",
     translation: "inddata",
-    keywords: []
+    keywords: ["algorithmics", "cryptography", "language theory"]
   },
   {
     word: "intersection",
@@ -202,10 +361,28 @@ export const en_dk : Lexeme[] = [
     keywords: ["mathematics"]
   },
   {
+    word: "invariant",
+    type: "noun",
+    translation: "invariant",
+    keywords: ["algorithmics"]
+  },
+  {
+    word: "key",
+    type: "noun",
+    translation: "nøgle",
+    keywords: ["cryptography", "algorithmics"]
+  },
+  {
     word: "language",
     type: "noun",
     translation: "sprog",
-    keywords: ["language theory", "logic"]
+    keywords: ["cryptography", "language theory", "logic"]
+  },
+  {
+    word: "linked list",
+    type: "noun",
+    translation: "kædet liste, kædede lister",
+    keywords: ["algorithmics"]
   },
   {
     word: "location",
@@ -218,6 +395,12 @@ export const en_dk : Lexeme[] = [
     type: "noun",
     translation: "matrix, matrice",
     keywords: ["mathematics"]
+  },
+  {
+    word: "memory",
+    type: "noun",
+    translation: "hukommelse",
+    keywords: ["algorithmics"]
   },
   {
     word: "monad",
@@ -238,10 +421,52 @@ export const en_dk : Lexeme[] = [
     keywords: ["graph"]
   },
   {
+    word: "open adressing",
+    type: "noun",
+    translation: "åben adressering",
+    keywords: ["algorithmics", "hashing"]
+  },
+  {
     word: "output",
     type: "noun",
     translation: "uddata",
-    keywords: []
+    keywords: ["algorithmics", "cryptography", "language theory"]
+  },
+  {
+    word: "path",
+    type: "noun",
+    translation: "sti, vej",
+    keywords: ["algorithmics", "graph"]
+  },
+  {
+    word: "path compression",
+    type: "noun",
+    translation: "stikomprimering",
+    keywords: ["algorithmics"]
+  },
+  {
+    word: "pattern",
+    type: "noun",
+    translation: "mønster",
+    keywords: ["algorithmics"]
+  },
+  {
+    word: "planar",
+    type: "adj.",
+    translation: "planar",
+    keywords: ["graph"]
+  },
+  {
+    word: "prefix",
+    type: "noun",
+    translation: "præfiks",
+    keywords: ["algorithmics", "language theory"]
+  },
+  {
+    word: "priority queue",
+    type: "noun",
+    translation: "prioritetskø",
+    keywords: ["algorithmics"]
   },
   {
     word: "quantified",
@@ -256,10 +481,16 @@ export const en_dk : Lexeme[] = [
     keywords: ["logic"]
   },
   {
+    word: "queue",
+    type: "noun",
+    translation: "kø",
+    keywords: ["algorithmics"]
+  },
+  {
     word: "random",
     type: "adj.",
     translation: "tilfældig",
-    keywords: ["algorithmics"]
+    keywords: ["algorithmics", "cryptography"]
   },
   {
     word: "recursion",
@@ -277,7 +508,19 @@ export const en_dk : Lexeme[] = [
     word: "reduction",
     type: "noun",
     translation: "reduktion",
-    keywords: ["language theory"]
+    keywords: ["cryptography", "language theory"]
+  },
+  {
+    word: "relation",
+    type: "noun",
+    translation: "relation",
+    keywords: ["algorithmics", "graph", "language theory", "logic", "mathematics"]
+  },
+  {
+    word: "running time",
+    type: "noun",
+    translation: "udførselstid",
+    keywords: ["algorithmics"]
   },
   {
     word: "satisfiability",
@@ -292,15 +535,27 @@ export const en_dk : Lexeme[] = [
     keywords: ["logic"]
   },
   {
+    word: "search tree",
+    type: "noun",
+    translation: "søgetræ",
+    keywords: ["algorithmics"]
+  },
+  {
     word: "set",
     type: "noun",
     translation: "mængde",
     keywords: ["mathematics"]
   },
   {
+    word: "sequence",
+    type: "noun",
+    translation: "sekvens",
+    keywords: ["algorithmics", "language theory"]
+  },
+  {
     word: "sink",
     type: "noun",
-    translation: "dræn",
+    translation: "afløb, dræn",
     keywords: ["graph"]
   },
   {
@@ -312,8 +567,14 @@ export const en_dk : Lexeme[] = [
   {
     word: "source",
     type: "noun",
-    translation: "dræn",
+    translation: "kilde",
     keywords: ["graph"]
+  },
+  {
+    word: "stack",
+    type: "noun",
+    translation: "stak",
+    keywords: ["algorithmics"]
   },
   {
     word: "state",
@@ -325,7 +586,7 @@ export const en_dk : Lexeme[] = [
     word: "string",
     type: "noun",
     translation: "streng, ord",
-    keywords: ["algorithmics", "language theory"]
+    keywords: ["algorithmics", "cryptography", "language theory"]
   },
   {
     word: "subset",
@@ -334,10 +595,28 @@ export const en_dk : Lexeme[] = [
     keywords: ["mathematics"]
   },
   {
+    word: "suffix",
+    type: "noun",
+    translation: "suffiks",
+    keywords: ["algorithmics", "language theory"]
+  },
+  {
     word: "ternary",
     type: "adj.",
     translation: "trinær",
     keywords: []
+  },
+  {
+    word: "termination",
+    type: "noun",
+    translation: "terminering",
+    keywords: ["algorithmics"]
+  },
+  {
+    word: "topologic",
+    type: "adj.",
+    translation: "topologisk",
+    keywords: ["algorithmics", "graph"]
   },
   {
     word: "transition",
@@ -350,6 +629,18 @@ export const en_dk : Lexeme[] = [
     type: "noun",
     translation: "transitionsfunktion",
     keywords: ["graph"]
+  },
+  {
+    word: "transitive",
+    type: "noun",
+    translation: "transitiv",
+    keywords: ["graph", "logic", "mathematics"]
+  },
+  {
+    word: "trie",
+    type: "noun",
+    translation: "trie",
+    keywords: ["algorithmics"]
   },
   {
     word: "undirected",
@@ -375,10 +666,28 @@ export const en_dk : Lexeme[] = [
     translation: "forening, foreningsmængde",
     keywords: ["mathematics"]
   },
+  {
+    word: "universal",
+    type: "adj.",
+    translation: "universel",
+    keywords: ["algorithmics", "cryptography", "hashing"]
+  },
   { // TODO: Add actual references
     word: "vertex, vertices",
     type: "noun",
     translation: "se \"node\"",
     keywords: ["graph"]
+  },
+  {
+    word: "weight",
+    type: "noun",
+    translation: "vægt",
+    keywords: ["algorithmics", "graph"]
+  },
+  { // TODO: Turn `translation` into a list of strings
+    word: "word",
+    type: "noun",
+    translation: "maskinord",
+    keywords: ["algorithmics"]
   },
 ];
