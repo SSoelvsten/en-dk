@@ -20,7 +20,7 @@ const App = () => {
                    .filter((l : Dictionary.Lexeme) => {
                       return (l.word.includes(filterCtxt.input)
                               || (!l.note || l.note.includes(filterCtxt.input)))
-                          && l.keywords.some((kw : string) => kw == filterCtxt.category)
+                          && (filterCtxt.category == "" || l.keywords.some((kw : string) => kw == filterCtxt.category))
                     })
                    .map((l: Dictionary.Lexeme) => {
                       return <Lexeme lexeme={l} key={l.word} />
