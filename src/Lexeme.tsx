@@ -10,7 +10,7 @@ const Lexeme = ({ lexeme } : LexemeProps) => {
   return (
     <div className="Lexeme">
       <div className="Word">{lexeme.word}</div>
-      <div className="Type">({lexeme.type})</div>
+      { lexeme.note && <div className="Note">({lexeme.note})</div> }
 
       <div className="Translation">{lexeme.translation}</div>
     </div>

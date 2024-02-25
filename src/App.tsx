@@ -18,7 +18,8 @@ const App = () => {
       <div className="Words">
         {Dictionary.en_dk
                    .filter((l : Dictionary.Lexeme) => {
-                      return l.word.includes(filterCtxt.input)
+                      return (l.word.includes(filterCtxt.input)
+                              || (!l.note || l.note.includes(filterCtxt.input)))
                           && l.keywords.some((kw : string) => kw.includes(filterCtxt.category))
                     })
                    .map((l: Dictionary.Lexeme) => {
