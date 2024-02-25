@@ -12,7 +12,7 @@ const Lexeme = ({ lexeme } : LexemeProps) => {
       <div className="Word">{lexeme.word}</div>
       { lexeme.note && <div className="Note">({lexeme.note})</div> }
 
-      <div className="Translation">{lexeme.translation}</div>
+      { lexeme.translations.map((t) => <div className="Translation">{t}</div>) }
     </div>
   );
 };

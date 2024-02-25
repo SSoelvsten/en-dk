@@ -11,570 +11,571 @@ export type KeyWord = "algorithmics"
 export type Lexeme = {
   word: string;
   note?: string;
-  translation: string;
+  translations: string[];
   keywords: KeyWord[];
 };
 
 export const en_dk : Lexeme[] = [
   {
     word: "acyclic",
-    translation: "acyklisk",
+    translations: ["acyklisk"],
     keywords: ["algorithmics", "graph"]
   },
   {
     word: "adjacency list",
-    translation: "incidensliste",
+    translations: ["incidensliste"],
     keywords: ["algorithmics", "graph"]
   },
   {
     word: "algorithm",
-    translation: "algoritme",
+    translations: ["algoritme"],
     keywords: ["algorithmics"]
   },
   {
     word: "amortised",
-    translation: "amortiseret",
+    translations: ["amortiseret"],
     keywords: ["algorithmics"]
   },
   {
     word: "asymptotic",
-    translation: "asymptotisk",
+    translations: ["asymptotisk"],
     keywords: ["algorithmics"]
   },
   {
     word: "average",
-    translation: "asymptotisk",
+    translations: ["asymptotisk"],
     keywords: ["algorithmics"]
   },
   {
     word: "automata",
-    translation: "automat",
+    translations: ["automat"],
     keywords: ["algorithmics", "graph", "logic"]
   },
   {
     word: "base case",
-    translation: "basisskridt, induktionsstart, startbetingelse",
+    translations: ["basisskridt, induktionsstart, startbetingelse"],
     keywords: ["algorithmics", "logic"]
   },
   {
     word: "bipartite",
-    translation: "todelt",
+    translations: ["todelt"],
     keywords: ["graph"]
   },
   {
     word: "binary",
-    translation: "binær",
+    translations: ["binær"],
     keywords: []
   },
   {
     word: "Boolean",
-    translation: "Boolsk",
+    translations: ["Boolsk"],
     keywords: []
   },
   {
     word: "bottle neck",
-    translation: "flaskehals",
+    translations: ["flaskehals"],
     keywords: ["algorithmics"]
   },
   {
     word: "breadth-first",
-    translation: "bredde først",
+    translations: ["bredde først"],
     keywords: ["algorithmics", "graph"]
   },
   {
     word: "chaining",
     note: "in hash table",
-    translation: "kollisionsliste",
+    translations: ["kollisionsliste"],
     keywords: ["algorithmics", "hashing"]
   },
   {
     word: "closed",
-    translation: "lukket",
+    translations: ["lukket"],
     keywords: ["logic", "mathematics"]
   },
   {
     word: "closure",
-    translation: "lukning",
+    translations: ["lukning"],
     keywords: ["graph", "logic", "mathematics"]
   },
   {
     word: "collision",
-    translation: "kollision",
+    translations: ["kollision"],
     keywords: ["algorithmics", "cryptography"]
   },
   {
     word: "compiler",
-    translation: "oversætter",
+    translations: ["oversætter"],
     keywords: []
   },
   {
     word: "complete",
-    translation: "komplet",
+    translations: ["komplet"],
     keywords: ["language theory", "logic"]
   },
   {
     word: "component",
-    translation: "komponent",
+    translations: ["komponent"],
     keywords: ["algorithmics", "graph"]
   },
   {
     word: "computer",
-    translation: "datamat",
+    translations: ["datamat"],
     keywords: []
   },
   {
     word: "concatenate",
-    translation: "konkatenere",
+    translations: ["konkatenere"],
     keywords: ["cryptography", "language theory"]
   },
   {
     word: "configuration",
-    translation: "konfiguration",
+    translations: ["konfiguration"],
     keywords: ["algorithmics", "language theory"]
   },
   {
     word: "connected component",
-    translation: "sammenhængskomponent",
+    translations: ["sammenhængskomponent"],
     keywords: ["algorithmics", "graph"]
   },
   {
     word: "convex",
-    translation: "konveks",
+    translations: ["konveks"],
     keywords: ["algorithmics", "geometry", "mathematics"]
   },
   {
     word: "correctness",
-    translation: "korrekthed",
+    translations: ["korrekthed"],
     keywords: ["algorithmics"]
   },
   {
     word: "countable",
-    translation: "tællelig",
+    translations: ["tællelig"],
     keywords: ["mathematics"]
   },
   {
     word: "cut",
-    translation: "snit",
+    translations: ["snit"],
     keywords: ["graph"]
   },
   {
     word: "cycle",
-    translation: "cykel",
+    translations: ["cykel"],
     keywords: ["algorithmics", "graph"]
   },
   {
     word: "cyclic",
-    translation: "cyklisk",
+    translations: ["cyklisk"],
     keywords: ["algorithmics", "graph"]
   },
   {
     word: "data structure",
-    translation: "datastruktur",
+    translations: ["datastruktur"],
     keywords: ["algorithmics"]
   },
   {
     word: "deterministic",
-    translation: "deterministisk",
+    translations: ["deterministisk"],
     keywords: ["algorithmics", "language theory"]
   },
   {
     word: "dictionary",
-    translation: "ordbog",
+    translations: ["ordbog"],
     keywords: ["algorithmics"]
   },
   {
     word: "divide-and-conquer",
-    translation: "Del-og-kompinér",
+    translations: ["Del-og-kompinér"],
     keywords: ["algorithmics"]
   },
   {
     word: "difference",
-    translation: "difference, forskel",
+    translations: ["difference, forskel"],
     keywords: ["mathematics"]
   },
   {
     word: "directed",
-    translation: "orienteret",
+    translations: ["orienteret"],
     keywords: ["graph"]
   },
   {
     word: "depth-first",
-    translation: "dybde først",
+    translations: ["dybde først"],
     keywords: ["algorithmics", "graph"]
   },
   {
     word: "edge",
-    translation: "kant",
+    translations: ["kant"],
     keywords: ["graph"]
   },
   {
     word: "finite",
-    translation: "endelig",
+    translations: ["endelig"],
     keywords: ["mathematics"]
   },
   {
     word: "flow",
-    translation: "strømning",
+    translations: ["strømning"],
     keywords: ["algorithmics"]
   },
   {
     word: "function",
-    translation: "funktion",
+    translations: ["funktion"],
     keywords: ["cryptography", "logic"]
   },
   {
     word: "graph",
-    translation: "graf",
+    translations: ["graf"],
     keywords: ["graph"]
   },
   {
     word: "greedy",
-    translation: "grådig",
+    translations: ["grådig"],
     keywords: ["algorithmics"]
   },
   {
     word: "hash",
-    translation: "hakke",
+    translations: ["hakke"],
     keywords: ["algorithmics", "cryptography", "hashing"]
   },
   {
     word: "hash function",
-    translation: "hakkefunktion",
+    translations: ["hakkefunktion"],
     keywords: ["algorithmics", "cryptography", "hashing"]
   },
   {
     word: "hash table",
-    translation: "hakketabel",
+    translations: ["hakketabel"],
     keywords: ["algorithmics", "hashing"]
   },
   {
     word: "heap",
-    translation: "hob",
+    translations: ["hob"],
     keywords: ["algorithmics"]
   },
   {
     word: "hull",
-    translation: "hylster",
+    translations: ["hylster"],
     keywords: ["algorithmics", "geometry"]
   },
   {
     word: "imply",
-    translation: "medføre",
+    translations: ["medføre"],
     keywords: ["logic"]
   },
   {
     word: "incidence matrix",
-    translation: "incidensmatrix",
+    translations: ["incidensmatrix"],
     keywords: ["algorithmics", "graph"]
   },
   {
     word: "induction",
-    translation: "induktion",
+    translations: ["induktion"],
     keywords: ["logic"]
   },
   {
     word: "induction hypothesis",
-    translation: "induktionshypotese",
+    translations: ["induktionshypotese"],
     keywords: ["logic"]
   },
   {
     word: "inductive",
-    translation: "induktiv",
+    translations: ["induktiv"],
     keywords: ["logic"]
   },
   {
     word: "inductive case",
-    translation: "induktionskridt",
+    translations: ["induktionskridt"],
     keywords: ["logic"]
   },
   {
     word: "infinite",
-    translation: "uendelig",
+    translations: ["uendelig"],
     keywords: ["mathematics"]
   },
   {
     word: "input",
-    translation: "inddata",
+    translations: ["inddata"],
     keywords: ["algorithmics", "cryptography", "language theory"]
   },
   {
     word: "intersection",
-    translation: "fællesmængde",
+    translations: ["fællesmængde"],
     keywords: ["mathematics"]
   },
   {
     word: "invariant",
-    translation: "invariant",
+    translations: ["invariant"],
     keywords: ["algorithmics"]
   },
   {
     word: "key",
-    translation: "nøgle",
+    translations: ["nøgle"],
     keywords: ["cryptography", "algorithmics"]
   },
   {
     word: "language",
-    translation: "sprog",
+    translations: ["sprog"],
     keywords: ["cryptography", "language theory", "logic"]
   },
   {
     word: "linked list",
-    translation: "kædet liste, kædede lister",
+    translations: ["kædet liste, kædede lister"],
     keywords: ["algorithmics"]
   },
   {
     word: "location",
-    translation: "lokation",
+    translations: ["lokation"],
     keywords: ["graph"]
   },
   {
     word: "matrix, matrices",
-    translation: "matrix, matrice",
+    translations: ["matrix, matrice"],
     keywords: ["mathematics"]
   },
   {
     word: "memory",
-    translation: "hukommelse",
+    translations: ["hukommelse"],
     keywords: ["algorithmics"]
   },
   {
     word: "monad",
-    translation: "monade",
+    translations: ["monade"],
     keywords: ["logic"]
   },
   {
     word: "monadic",
-    translation: "monadisk",
+    translations: ["monadisk"],
     keywords: []
   },
   {
     word: "node",
-    translation: "knude",
+    translations: ["knude"],
     keywords: ["graph"]
   },
   {
     word: "open adressing",
-    translation: "åben adressering",
+    translations: ["åben adressering"],
     keywords: ["algorithmics", "hashing"]
   },
   {
     word: "output",
-    translation: "uddata",
+    translations: ["uddata"],
     keywords: ["algorithmics", "cryptography", "language theory"]
   },
   {
     word: "path",
-    translation: "sti, vej",
+    translations: ["sti, vej"],
     keywords: ["algorithmics", "graph"]
   },
   {
     word: "path compression",
-    translation: "stikomprimering",
+    translations: ["stikomprimering"],
     keywords: ["algorithmics"]
   },
   {
     word: "pattern",
-    translation: "mønster",
+    translations: ["mønster"],
     keywords: ["algorithmics"]
   },
   {
     word: "planar",
-    translation: "planar",
+    translations: ["planar"],
     keywords: ["graph"]
   },
   {
     word: "prefix",
-    translation: "præfiks",
+    translations: ["præfiks"],
     keywords: ["algorithmics", "language theory"]
   },
   {
     word: "priority queue",
-    translation: "prioritetskø",
+    translations: ["prioritetskø"],
     keywords: ["algorithmics"]
   },
   {
     word: "quantified",
-    translation: "kvantificeret",
+    translations: ["kvantificeret"],
     keywords: ["logic"]
   },
   {
     word: "quantifier",
-    translation: "kvantor",
+    translations: ["kvantor"],
     keywords: ["logic"]
   },
   {
     word: "queue",
-    translation: "kø",
+    translations: ["kø"],
     keywords: ["algorithmics"]
   },
   {
     word: "random",
-    translation: "tilfældig",
+    translations: ["tilfældig"],
     keywords: ["algorithmics", "cryptography"]
   },
   {
     word: "recursion",
-    translation: "rekursion",
+    translations: ["rekursion"],
     keywords: ["algorithmics", "logic"]
   },
   {
     word: "recursive",
-    translation: "rekursiv",
+    translations: ["rekursiv"],
     keywords: ["algorithmics", "logic"]
   },
   {
     word: "reduction",
-    translation: "reduktion",
+    translations: ["reduktion"],
     keywords: ["cryptography", "language theory"]
   },
   {
     word: "relation",
-    translation: "relation",
+    translations: ["relation"],
     keywords: ["algorithmics", "graph", "language theory", "logic", "mathematics"]
   },
   {
     word: "running time",
-    translation: "udførselstid",
+    translations: ["udførselstid"],
     keywords: ["algorithmics"]
   },
   {
     word: "satisfiability",
-    translation: "tilfredstillelse",
+    translations: ["tilfredstillelse"],
     keywords: ["logic"]
   },
   {
     word: "satisfiable",
-    translation: "tilfredstillelig",
+    translations: ["tilfredstillelig"],
     keywords: ["logic"]
   },
   {
     word: "search tree",
-    translation: "søgetræ",
+    translations: ["søgetræ"],
     keywords: ["algorithmics"]
   },
   {
     word: "set",
-    translation: "mængde",
+    translations: ["mængde"],
     keywords: ["mathematics"]
   },
   {
     word: "sequence",
-    translation: "sekvens",
+    translations: ["sekvens"],
     keywords: ["algorithmics", "language theory"]
   },
   {
     word: "sink",
-    translation: "afløb, dræn",
+    translations: ["afløb, dræn"],
     keywords: ["graph"]
   },
   {
     word: "sound",
-    translation: "sund",
+    translations: ["sund"],
     keywords: ["language theory", "logic"]
   },
   {
     word: "source",
-    translation: "kilde",
+    translations: ["kilde"],
     keywords: ["graph"]
   },
   {
     word: "stack",
-    translation: "stak",
+    translations: ["stak"],
     keywords: ["algorithmics"]
   },
   {
     word: "state",
-    translation: "tilstand",
+    translations: ["tilstand"],
     keywords: ["graph"]
   },
   {
     word: "string",
-    translation: "streng, ord",
+    translations: ["streng, ord"],
     keywords: ["algorithmics", "cryptography", "language theory"]
   },
   {
     word: "subset",
-    translation: "delmængde",
+    translations: ["delmængde"],
     keywords: ["mathematics"]
   },
   {
     word: "suffix",
-    translation: "suffiks",
+    translations: ["suffiks"],
     keywords: ["algorithmics", "language theory"]
   },
   {
     word: "ternary",
-    translation: "trinær",
+    translations: ["trinær"],
     keywords: []
   },
   {
     word: "termination",
-    translation: "terminering",
+    translations: ["terminering"],
     keywords: ["algorithmics"]
   },
   {
     word: "topologic",
-    translation: "topologisk",
+    translations: ["topologisk"],
     keywords: ["algorithmics", "graph"]
   },
   {
     word: "transition",
-    translation: "transition",
+    translations: ["transition"],
     keywords: ["graph"]
   },
   {
     word: "transition function",
-    translation: "transitionsfunktion",
+    translations: ["transitionsfunktion"],
     keywords: ["graph"]
   },
   {
     word: "transitive",
-    translation: "transitiv",
+    translations: ["transitiv"],
     keywords: ["graph", "logic", "mathematics"]
   },
   {
     word: "trie",
-    translation: "trie",
+    translations: ["trie"],
     keywords: ["algorithmics"]
   },
   {
     word: "undirected",
-    translation: "uorienteret",
+    translations: ["uorienteret"],
     keywords: ["graph"]
   },
   {
     word: "unary",
-    translation: "unær",
+    translations: ["unær"],
     keywords: []
   },
   {
     word: "uncountable",
-    translation: "overtællelig",
+    translations: ["overtællelig"],
     keywords: ["mathematics"]
   },
   {
     word: "union",
-    translation: "forening, foreningsmængde",
+    translations: ["forening, foreningsmængde"],
     keywords: ["mathematics"]
   },
   {
     word: "universal",
-    translation: "universel",
+    translations: ["universel"],
     keywords: ["algorithmics", "cryptography", "hashing"]
   },
   { // TODO: Add actual references
     word: "vertex, vertices",
-    translation: "se \"node\"",
-    keywords: ["graph"]
+    note: "see also \"node\"",
+    translations: ["hjørne"],
+    keywords: ["geometry", "graph"]
   },
   {
     word: "weight",
-    translation: "vægt",
+    translations: ["vægt"],
     keywords: ["algorithmics", "graph"]
   },
   { // TODO: Turn `translation` into a list of strings
     word: "word",
-    translation: "maskinord",
-    keywords: ["algorithmics"]
+    translations: ["ord", "maskinord"],
+    keywords: ["algorithmics", "language theory"]
   },
 ];
