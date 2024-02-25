@@ -19,4 +19,4 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 
 ## Contributions
 
-The dictionary is not complete. The scope of this page can also be extended, e.g. by adding more languages and features. Any contributions of either kind is very welcome!
+The dictionary is not complete. The scope of this page can also be extended, e.g. by adding more words, more languages and new features. Any contributions of all kinds is very welcome!
