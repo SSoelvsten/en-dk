@@ -99,6 +99,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "formal methods", "graph"]
   },
   {
+    word: "axiom",
+    translations: ["aksiom"],
+    keywords: ["mathematics"]
+  }
+  {
     word: "axiomatisation",
     translations: ["aksiomatisering"],
     keywords: ["formal methods", "mathematics"]
@@ -116,15 +121,25 @@ export const en_dk : Lexeme[] = [
   {
     word: "binary",
     translations: ["binær"],
-    keywords: []
+    keywords: ["mathematics"]
+  },
+  {
+    word: "bijection",
+    translation: ["bijektion"],
+    keywords: ["mathematics"]
+  },
+  {
+    word: "bijective",
+    translation: ["bijektiv"],
+    keywords: ["mathematics"]
   },
   {
     word: "Boolean",
-    translations: ["Boolsk"],
+    translations: ["boolsk"],
     keywords: []
   },
   {
-    word: "bottle neck",
+    word: "bottleneck",
     translations: ["flaskehals"],
     keywords: ["algorithmics"]
   },
@@ -207,7 +222,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "complement",
-    translations: ["komplement [kʌmpləˈmεnˀd]"],
+    translations: ["komplement [kʌmpləˈmεnˀd]", "komplementærmængde"],
     keywords: ["formal methods", "language theory"]
   },
   {
@@ -392,13 +407,13 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods"]
   },
   {
-    word: "dristributive",
+    word: "distributive",
     translations: ["distributiv"],
     keywords: ["mathematics"]
   },
   {
     word: "divide-and-conquer",
-    translations: ["Del-og-kompinér"],
+    translations: ["del-og-kombinér"],
     keywords: ["algorithmics"]
   },
   {
@@ -534,6 +549,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["mathematics"]
   },
   {
+    word : "implication",
+    translations: ["implication"],
+    keywords: ["formal methods, mathematics"]
+  },
+  {
     word: "implies",
     translations: ["medfører, implikation"],
     keywords: ["formal methods"]
@@ -580,7 +600,12 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "inductive case",
-    translations: ["induktionskridt"],
+    translations: ["induktionstilfælde"],
+    keywords: ["formal methods"]
+  },
+  {
+    word: "inductive step",
+    translations: ["induktionsskridt"],
     keywords: ["formal methods"]
   },
   {
@@ -610,7 +635,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "intersection",
-    translations: ["fællesmængde"],
+    translations: ["fællesmængde", "snit"],
     keywords: ["mathematics"]
   },
   {
@@ -641,6 +666,11 @@ export const en_dk : Lexeme[] = [
   {
     word: "lexical",
     translations: ["leksikalsk"],
+    keywords: ["algorithmics"]
+  },
+  {
+    word: "lexicographic",
+    translations: ["leksikografisk"],
     keywords: ["algorithmics"]
   },
   {
@@ -706,7 +736,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "nondeterministic",
-    translations: ["nondeterministisk"],
+    translations: ["nondeterministisk", "ikke-deterministisk"],
     keywords: ["algorithmics", "formal methods", "language theory"]
   },
   {
@@ -783,7 +813,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "planar",
-    translations: ["planar"],
+    translations: ["planær"],
     keywords: ["graph"]
   },
   {
@@ -918,12 +948,12 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "rename",
-    translations: ["omnavngive"],
+    translations: ["omnavngive", "omdøb"],
     keywords: ["formal methods"]
   },
   {
     word: "running time",
-    translations: ["udførselstid"],
+    translations: ["udførselstid", "kørselstid"],
     keywords: ["algorithmics"]
   },
   {
@@ -1033,7 +1063,7 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods", "language theory"]
   },
   {
-    word: "symmertric",
+    word: "symmetric",
     translations: ["symmetrisk"],
     keywords: ["formal methods", "mathematics"]
   },
@@ -1175,7 +1205,7 @@ export const en_dk : Lexeme[] = [
   { // TODO: Add actual references
     word: "vertex, vertices",
     note: "see also \"node\"",
-    translations: ["hjørne"],
+    translations: ["hjørne", "punkt", "knude"],
     keywords: ["geometry", "graph"]
   },
   {
