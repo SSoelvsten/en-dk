@@ -6,6 +6,7 @@ export type KeyWord = "algorithmics"
                     | "language theory"
                     | "graph"
                     | "mathematics"
+                    | "complexity theory"
 ;
 
 export type Lexeme = {
