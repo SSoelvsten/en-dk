@@ -32,6 +32,7 @@ const Filter = ({ onChange } : FilterProps) => {
     "hashing",
     "language theory",
     "mathematics",
+    "OOP",
   ];
 
   return (
