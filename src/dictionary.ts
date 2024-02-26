@@ -102,7 +102,7 @@ export const en_dk : Lexeme[] = [
     word: "axiom",
     translations: ["aksiom"],
     keywords: ["mathematics"]
-  }
+  },
   {
     word: "axiomatisation",
     translations: ["aksiomatisering"],
@@ -234,6 +234,11 @@ export const en_dk : Lexeme[] = [
     word: "completeness",
     translations: ["fuldstændighed"],
     keywords: ["formal methods", "language theory"]
+  },
+  {
+    word: "complexity",
+    translations: ["kompleksitet"],
+    keywords: ["algorithmics", "complexity theory"]
   },
   {
     word: "component",
@@ -550,7 +555,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word : "implication",
-    translations: ["implication"],
+    translations: ["implikation"],
     keywords: ["formal methods, mathematics"]
   },
   {
@@ -635,7 +640,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "intersection",
-    translations: ["fællesmængde", "snit"],
+    translations: ["fællesmængde", "snit, snitmængde"],
     keywords: ["mathematics"]
   },
   {
@@ -778,8 +783,13 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "order",
-    translations: ["orden, rækkefølge, sortering"],
+    translations: ["orden, rækkefølge, sortering", "ordning"],
     keywords: ["algorithmics", "formal methods", "language theory", "mathematics"]
+  },
+  {
+    word: "ordered",
+    translations: ["ordnet", "sorteret"],
+    keywords: ["algorithmics, mathematics"]
   },
   {
     word: "output",
@@ -937,6 +947,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods", "language theory"]
   },
   {
+    word: "regular expression",
+    translations: ["regulær udtryk"],
+    keywords: ["language theory"]
+  },
+  {
     word: "reject",
     translations: ["afvise"],
     keywords: ["cryptography", "formal methods", "language theory"]
@@ -948,7 +963,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "rename",
-    translations: ["omnavngive", "omdøb"],
+    translations: ["omdøb", "omnavngive"],
     keywords: ["formal methods"]
   },
   {
@@ -1010,6 +1025,11 @@ export const en_dk : Lexeme[] = [
     word: "source",
     translations: ["kilde"],
     keywords: ["graph"]
+  },
+  {
+    word: "space complexity",
+    translations: ["rumkompleksitet"], // better suggestion?
+    keywords: ["algorithmics", "complexity theory"]
   },
   {
     word: "square",
@@ -1097,6 +1117,11 @@ export const en_dk : Lexeme[] = [
     note: "also: \"halt\"",
     translations: ["terminering"],
     keywords: ["algorithmics", "formal methods", "language theory"]
+  },
+  {
+    word: "time complexity",
+    translations: ["tidskompleksitet"],
+    keywords: ["algorithmics", "complexity theory"]
   },
   {
     word: "topologic",
