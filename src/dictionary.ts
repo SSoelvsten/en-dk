@@ -1,12 +1,18 @@
-export type KeyWord = "algorithmics"
-                    | "cryptography"
-                    | "formal methods"
-                    | "geometry"
-                    | "hashing"
-                    | "language theory"
-                    | "graph"
-                    | "mathematics"
-;
+export const KeyWordList =
+  [
+    "",
+    "algorithmics",
+    "cryptography",
+    "formal methods",
+    "geometry",
+    "hashing",
+    "language theory",
+    "graph",
+    "mathematics",
+    "OOP"
+  ] as const;
+
+export type KeyWord = (typeof KeyWordList)[number];
 
 export type Lexeme = {
   word: string;
@@ -15,7 +21,7 @@ export type Lexeme = {
   keywords: KeyWord[];
 };
 
-export const en_dk : Lexeme[] = [
+export const en_dk: Lexeme[] = [
   {
     word: "accept",
     note: "verb",
@@ -914,7 +920,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "relation",
     translations: ["relation"],
-    keywords: ["algorithmics",  "formal methods", "graph", "language theory", "mathematics"]
+    keywords: ["algorithmics", "formal methods", "graph", "language theory", "mathematics"]
   },
   {
     word: "rename",
