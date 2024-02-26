@@ -2,10 +2,11 @@ export type KeyWord = "algorithmics"
                     | "cryptography"
                     | "formal methods"
                     | "geometry"
+                    | "graph"
                     | "hashing"
                     | "language theory"
-                    | "graph"
                     | "mathematics"
+                    | "OOP"
 ;
 
 export type Lexeme = {
@@ -163,7 +164,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "class",
     translations: ["klasse"],
-    keywords: ["mathematics"]
+    keywords: ["mathematics", "OPP"]
   },
   {
     word: "closed",
@@ -453,6 +454,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["cryptography", "formal methods"]
   },
   {
+    word: "field",
+    note: "in mathematics",
+    translations: ["legeme"],
+    keywords: ["mathematics]
+  },
+  {
+    word: "field",
+    note: "in OOP",
+    translations: ["felt"],
+    keywords: ["OOP]
+  },  
+  {
     word: "finite",
     translations: ["endelig"],
     keywords: ["mathematics"]
@@ -729,6 +742,12 @@ export const en_dk : Lexeme[] = [
     note: "also: \"negation\"",
     translations: ["ikke, negation"],
     keywords: ["algorithmics", "formal methods"]
+  },
+  {
+    word: "object-oriented programming",
+    note: "OOP",
+    translations: ["objektorienteret programmering"],
+    keywords: ["OOP"]
   },
   {
     word: "open adressing",
