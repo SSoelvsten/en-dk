@@ -22,18 +22,7 @@ const Filter = ({ onChange } : FilterProps) => {
 
   useEffect(() => onChange({ input, category }), [input, category, onChange]);
 
-  const categories : (Dictionary.KeyWord | "")[] = [
-    "",
-    "algorithmics",
-    "cryptography",
-    "formal methods",
-    "geometry",
-    "graph",
-    "hashing",
-    "language theory",
-    "mathematics",
-    "OOP",
-  ];
+  const categories : (Dictionary.KeyWord | "")[] = [""].concat([w in Dictionary.KeyWord];
 
   return (
     <div className="Filter">
