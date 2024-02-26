@@ -937,6 +937,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods"]
   },
   {
+    word: "satisfy",
+    translations: ["tilfredstille"],
+    keywords: ["formal methods"]
+  },
+  {
     word: "search tree",
     translations: ["søgetræ"],
     keywords: ["algorithmics"]
