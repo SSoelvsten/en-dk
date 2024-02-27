@@ -77,8 +77,8 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "and",
-    note: "also: \"conjunction\"",
-    translations: ["og, både-og, konjunktion"],
+    note: "see also: \"conjunction\"",
+    translations: ["og, både-og"],
     keywords: ["algorithmics", "formal methods"]
   },
   {
@@ -280,6 +280,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "algorithmics"]
   },
   {
+    word: "conjunction",
+    translations: ["konjunktion"],
+    keywords: ["formal methods"]
+  },
+  {
     word: "connected component",
     translations: ["sammenhængskomponent"],
     keywords: ["algorithmics", "graph"]
@@ -404,6 +409,11 @@ export const en_dk : Lexeme[] = [
     word: "difference",
     translations: ["difference, forskel"],
     keywords: ["mathematics"]
+  },
+  {
+    word: "disjunction",
+    translations: ["disjunktion"],
+    keywords: ["formal methods"]
   },
   {
     word: "distinguish",
@@ -786,8 +796,8 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "or",
-    note: "also: \"disjunction\"",
-    translations: ["eller, og/eller, disjunktion"],
+    note: "see also: \"disjunction\"",
+    translations: ["eller, og/eller"],
     keywords: ["algorithmics", "formal methods"]
   },
   {
