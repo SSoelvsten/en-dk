@@ -877,7 +877,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "product construction",
-    translations: ["produktkonsruktion"],
+    translations: ["produktkonstruktion"],
     keywords: ["formal methods"]
   },
   {
