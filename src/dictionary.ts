@@ -303,7 +303,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "countable",
     translations: ["tællelig"],
-    keywords: ["mathematics"]
+    keywords: ["complexity theory", "mathematics"]
   },
   {
     word: "cut",
@@ -802,6 +802,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods", "mathematics"]
   },
   {
+    word: "partial correctness",
+    translations: ["partiel korrekthed"],
+    keywords: ["formal methods", "mathematics"]
+  },
+  {
     word: "partition",
     translations: ["partition", "partitionering"],
     keywords: ["formal methods", "mathematics"]
@@ -1124,6 +1129,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "complexity theory"]
   },
   {
+    word: "top",
+    note: "see also: \"true\"",
+    translations: ["top"],
+    keywords: ["cryptography", "formal methods"]
+  },
+  {
     word: "topologic",
     translations: ["topologisk"],
     keywords: ["algorithmics", "graph"]
@@ -1135,9 +1146,8 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods", "graph", "mathematics"]
   },
   {
-    word: "total",
-    note: "correctness",
-    translations: ["total"],
+    word: "total correctness",
+    translations: ["total korrekthed"],
     keywords: ["formal methods"]
   },
   {
@@ -1172,9 +1182,9 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "true",
-    note: "also: \"top\"",
-    translations: ["sand, tautologi", "top"],
-    keywords: ["cryptography", "formal methods"]
+    note: "see also: \"top\"",
+    translations: ["sand"],
+    keywords: ["formal methods"]
   },
   {
     word: "truth table",
@@ -1194,7 +1204,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "uncountable",
     translations: ["overtællelig"],
-    keywords: ["mathematics"]
+    keywords: ["complexity theory", "mathematics"]
   },
   {
     word: "undecidable",
@@ -1241,14 +1251,8 @@ export const en_dk : Lexeme[] = [
   {
     word: "word",
     note: "in computer",
-    translations: ["maskinord"],
-    keywords: ["algorithmics"]
-  },
-  {
-    word: "word",
-    note: "in language",
-    translations: ["ord"],
-    keywords: ["complexity theory"]
+    translations: ["ord", "(in computer) maskinord"],
+    keywords: ["algorithmics", "complexity theory"]
   },
   {
     word: "xor",
