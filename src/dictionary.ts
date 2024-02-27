@@ -231,7 +231,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "complement",
-    translations: ["komplement [kʌmpləˈmεnˀd]", "komplementærmængde"],
+    translations: ["komplement [kʌmpləˈmεnˀd], komplementærmængde"],
     keywords: ["complexity theory", "formal methods"]
   },
   {
@@ -987,7 +987,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "rename",
-    translations: ["omdøb", "omnavngive"],
+    translations: ["omdøb, omnavngive"],
     keywords: ["formal methods"]
   },
   {
