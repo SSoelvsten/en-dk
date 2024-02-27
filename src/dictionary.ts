@@ -1,12 +1,15 @@
-export type KeyWord = "algorithmics"
-                    | "complexity theory"
-                    | "cryptography"
-                    | "formal methods"
-                    | "geometry"
-                    | "hashing"
-                    | "graph"
-                    | "mathematics"
-;
+export const keywords = [
+  "algorithmics",
+  "complexity theory",
+  "cryptography",
+  "formal methods",
+  "geometry",
+  "hashing",
+  "graph",
+  "mathematics",
+] as const;
+
+export type KeyWord = typeof keywords[number];
 
 export type Lexeme = {
   word: string;

@@ -16,23 +16,15 @@ interface FilterProps {
   onChange: (ctxt: FilterContext) => void;
 };
 
+type FilterCategory = Dictionary.KeyWord | "";
+
+const FilterCategories: FilterCategory[] = ["", ...Dictionary.keywords];
+
 const Filter = ({ onChange }: FilterProps) => {
   const [input, setInput] = useState(FilterNone.input);
   const [category, setCategory] = useState(FilterNone.category);
 
   useEffect(() => onChange({ input, category }), [input, category, onChange]);
-
-  const categories: (Dictionary.KeyWord | "")[] = [
-    "",
-    "algorithmics",
-    "complexity theory",
-    "cryptography",
-    "formal methods",
-    "geometry",
-    "graph",
-    "hashing",
-    "mathematics",
-  ];
 
   return (
     <div className="Filter">
@@ -40,8 +32,8 @@ const Filter = ({ onChange }: FilterProps) => {
         placeholder="filter . . ."
       />
 
-      <select onChange={(e) => setCategory(e.target.value as any)}>
-        {categories.map((c) => <option key={c}>{c}</option>)}
+      <select onChange={(e) => setCategory(e.target.value as FilterCategory)}>
+        {FilterCategories.map((c) => <option key={c}>{c}</option>)}
       </select>
     </div>
   );
