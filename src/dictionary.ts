@@ -406,8 +406,13 @@ export const en_dk : Lexeme[] = [
     keywords: ["graph"]
   },
   {
+    word: "directed acyclic graph",
+    translations: ["orienteret acyklisk graf"],
+    keywords: ["graph"]
+  },
+  {
     word: "difference",
-    translations: ["difference, forskel"],
+    translations: ["difference, differens, forskel"],
     keywords: ["mathematics"]
   },
   {
@@ -443,12 +448,17 @@ export const en_dk : Lexeme[] = [
   {
     word: "edge",
     translations: ["kant"],
-    keywords: ["graph"]
+    keywords: ["graph", "geometry"]
   },
   {
     word: "empty",
     translations: ["tom"],
     keywords: ["algorithmics", "complexity theory", "formal methods", "mathematics"]
+  },
+  {
+    word: "empty set",
+    translations: ["tom mængde, tomme mængde"],
+    keywords: ["mathemamtics"]
   },
   {
     word: "enumerate",
@@ -1034,6 +1044,16 @@ export const en_dk : Lexeme[] = [
     word: "sequence",
     translations: ["sekvens"],
     keywords: ["complexity theory", "algorithmics"]
+  },
+  {
+    word: "simplex",
+    translations: ["simpleks"],
+    keywords: ["geometry"]
+  },
+  {
+    word: "simplicial complex",
+    translations: ["simplicielt kompleks"],
+    keywords: ["geometry"]
   },
   {
     word: "sink",
