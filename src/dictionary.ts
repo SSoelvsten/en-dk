@@ -26,7 +26,7 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods"]
   },
   {
-    word: "accept state",
+    word: "accepting state",
     translations: ["accepttilstand"],
     keywords: ["complexity theory", "formal methods", "graph"]
   },
