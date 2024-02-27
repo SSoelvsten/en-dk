@@ -1259,7 +1259,7 @@ export const en_dk : Lexeme[] = [
   { // TODO: Add actual references
     word: "vertex, vertices",
     note: "see also \"node\"",
-    translations: ["hjørne", "punkt", "knude"],
+    translations: ["hjørne, punkt", "knude"],
     keywords: ["geometry", "graph"]
   },
   {
