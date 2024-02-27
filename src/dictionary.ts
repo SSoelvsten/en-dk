@@ -568,7 +568,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "iff",
-    note: "abr. if-and-only-if",
+    note: "abr. \"if and only if\"",
     translations: ["hviss (hvis og kun hvis)"],
     keywords: ["mathematics"]
   },
