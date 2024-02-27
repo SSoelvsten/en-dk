@@ -391,7 +391,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "diagonalization",
-    note: "GS: diagonalisation",
+    note: "GB: diagonalisation",
     translations: ["diagonalisering"],
     keywords: ["complexity theory", "formal methods"]
   },
