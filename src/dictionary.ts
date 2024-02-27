@@ -139,6 +139,12 @@ export const en_dk : Lexeme[] = [
     keywords: []
   },
   {
+    word: "bottom",
+    note: "see also: \"false\"",
+    translations: ["bund"],
+    keywords: ["formal methods", "mathematics"]
+  },
+  {
     word: "bottleneck",
     translations: ["flaskehals"],
     keywords: ["algorithmics"]
@@ -468,9 +474,9 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "false",
-    note: "also: \"bot\"",
-    translations: ["falsk, kontradiktion", "bund"],
-    keywords: ["cryptography", "formal methods"]
+    note: "see also: \"bot\"",
+    translations: ["falsk"],
+    keywords: ["formal methods", "mathematics"]
   },
   {
     word: "finite",
@@ -1184,7 +1190,7 @@ export const en_dk : Lexeme[] = [
     word: "true",
     note: "see also: \"top\"",
     translations: ["sand"],
-    keywords: ["formal methods"]
+    keywords: ["formal methods", "mathematics"]
   },
   {
     word: "truth table",
