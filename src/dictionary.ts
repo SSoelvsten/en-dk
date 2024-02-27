@@ -1269,8 +1269,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "word",
-    note: "in computer",
-    translations: ["ord", "(in computer) maskinord"],
+    translations: ["ord", "(in hardware) maskinord"],
     keywords: ["algorithmics", "complexity theory"]
   },
   {
