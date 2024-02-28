@@ -816,6 +816,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics"]
   },
   {
+    word: "machine learning",
+    translations: ["maskinlæring"],
+    keywords: ["machine learning"]
+  },
+  {
     word: "matrix, matrices",
     translations: ["matrix, matrice"],
     keywords: ["mathematics"]
