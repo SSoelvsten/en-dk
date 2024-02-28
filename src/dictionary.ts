@@ -158,6 +158,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "graph"]
   },
   {
+    word: "calculus",
+    translations: ["kalkyle"],
+    keywords: ["formal methods", "mathematics"]
+  },
+  {
     word: "canonical",
     translations: ["kanonisk"],
     keywords: ["algorithmics", "complexity theory", "formal methods", "mathematics"]
