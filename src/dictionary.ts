@@ -642,6 +642,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "geometry"]
   },
   {
+    word: "human-computer interaction",
+    translations: ["menneske-maskine interaktion"],
+    keywords: []
+  },
+  {
     word: "iff",
     note: "abr. \"if and only if\"",
     translations: ["hviss (hvis og kun hvis)"],
