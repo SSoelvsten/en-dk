@@ -458,7 +458,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "empty set",
     translations: ["tom mængde, tomme mængde"],
-    keywords: ["mathemamtics"]
+    keywords: ["mathematics"]
   },
   {
     word: "enumerate",
