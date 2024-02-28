@@ -831,6 +831,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["greek alphabet"]
   },
   {
+    word: "mu-calculus",
+    note: "μ-calculus",
+    translations: ["my-kalkyle"],
+    keywords: ["formal methods"]
+  },
+  {
     word: "natural deduction",
     translations: ["naturlig deduktion"],
     keywords: ["formal methods"]
