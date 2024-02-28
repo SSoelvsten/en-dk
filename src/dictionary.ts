@@ -8,6 +8,7 @@ export const keywords = [
   "hashing",
   "graph",
   "greek alphabet",
+  "machine learning",
   "mathematics",
 ] as const;
 
@@ -629,6 +630,11 @@ export const en_dk : Lexeme[] = [
     word: "heap",
     translations: ["hob"],
     keywords: ["algorithmics"]
+  },
+  {
+    word: "hidden layer",
+    translations: ["skjulte lagg"],
+    keywords: ["machine learning"]
   },
   {
     word: "hull",
