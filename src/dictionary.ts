@@ -396,6 +396,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods"]
   },
   {
+    word: "decision tree",
+    translations: ["beslutningstræ"],
+    keywords: ["machine learning"]
+  },
+  {
     word: "declarative",
     translations: ["deklarativ"],
     keywords: ["formal methods"]
