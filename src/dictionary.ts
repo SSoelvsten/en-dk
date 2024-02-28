@@ -1297,6 +1297,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "complexity theory"]
   },
   {
+    word: "supervised learning",
+    translations: ["overvåget læring"],
+    keywords: ["machine learning"]
+  },
+  {
     word: "surjective",
     translations: ["surjektiv"],
     keywords: ["mathematics"]
