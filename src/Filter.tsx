@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './Filter.scss';
 import * as Dictionary from './dictionary.ts';
 
@@ -26,10 +26,27 @@ const Filter = ({ onChange }: FilterProps) => {
 
   useEffect(() => onChange({ input, category }), [input, category, onChange]);
 
+  const textInput = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    return () => {
+      // Based on: https://stackoverflow.com/a/71778581/13300643
+      window.addEventListener('keydown', (e) => {
+        if (e.key === "F3" || (e.ctrlKey && e.key === "f")) {
+          if (textInput.current) {
+            e.preventDefault();
+            textInput.current.focus();
+          }
+        }
+      });
+    };
+  }, []);
+
   return (
     <div className="Filter">
       <input onChange={(e) => setInput(e.target.value)}
-        placeholder="filter . . ."
+             placeholder="filter . . ."
+             ref={textInput}
       />
 
       <select onChange={(e) => setCategory(e.target.value as FilterCategory)}>
