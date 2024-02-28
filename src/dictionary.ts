@@ -848,7 +848,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "nondeterministic",
-    translations: ["nondeterministisk", "ikke-deterministisk"],
+    translations: ["nondeterministisk, ikke-deterministisk"],
     keywords: ["algorithmics", "complexity theory", "formal methods"]
   },
   {
