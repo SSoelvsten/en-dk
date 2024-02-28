@@ -6,6 +6,7 @@ export const keywords = [
   "geometry",
   "hashing",
   "graph",
+  "greek alphabet",
   "mathematics",
 ] as const;
 
@@ -59,6 +60,12 @@ export const en_dk : Lexeme[] = [
     word: "algorithm",
     translations: ["algoritme"],
     keywords: ["algorithmics"]
+  },
+  {
+    word: "alpha",
+    note: "Α α",
+    translations: ["alfa"],
+    keywords: ["greek alphabet"]
   },
   {
     word: "alphabet",
@@ -115,6 +122,12 @@ export const en_dk : Lexeme[] = [
     word: "base case",
     translations: ["basis, basisskridt, induktionsstart, startbetingelse"],
     keywords: ["algorithmics", "formal methods"]
+  },
+  {
+    word: "beta",
+    note: "Β β",
+    translations: ["beta"],
+    keywords: ["greek alphabet"]
   },
   {
     word: "bipartite",
@@ -188,6 +201,12 @@ export const en_dk : Lexeme[] = [
     word: "characteristic",
     translations: ["karakteristisk"],
     keywords: ["complexity theory", "formal methods", "mathematics"]
+  },
+  {
+    word: "chi",
+    note: "Χ χ",
+    translations: ["chi, chei"],
+    keywords: ["greek alphabet"]
   },
   {
     word: "class",
@@ -370,6 +389,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods"]
   },
   {
+    word: "delta",
+    note: "Δ δ",
+    translations: ["delta"],
+    keywords: ["greek alphabet"]
+  },
+  {
     word: "depth-first",
     translations: ["dybde først"],
     keywords: ["algorithmics", "graph"]
@@ -476,6 +501,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods", "mathematics"]
   },
   {
+    word: "epsilon",
+    note: "Ε ε",
+    translations: ["epsilon"],
+    keywords: ["greek alphabet"]
+  },
+  {
     word: "equivalence",
     translations: ["ækvivalens"],
     keywords: ["complexity theory", "formal methods", "mathematics"]
@@ -489,6 +520,12 @@ export const en_dk : Lexeme[] = [
     word: "equivalence relation",
     translations: ["ækvivalensrelation"],
     keywords: ["complexity theory", "formal methods", "mathematics"]
+  },
+  {
+    word: "eta",
+    note: "Η η",
+    translations: ["eta"],
+    keywords: ["greek alphabet"]
   },
   {
     word: "expression",
@@ -540,6 +577,12 @@ export const en_dk : Lexeme[] = [
     word: "function",
     translations: ["funktion"],
     keywords: ["cryptography", "formal methods"]
+  },
+  {
+    word: "gamma",
+    note: "Γ γ",
+    translations: ["gamma"],
+    keywords: ["greek alphabet"]
   },
   {
     word: "grammar",
@@ -683,14 +726,32 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics"]
   },
   {
+    word: "iota",
+    note: "Ι ι",
+    translations: ["jota, iota"],
+    keywords: ["greek alphabet"]
+  },
+  {
     word: "irregular",
     translations: ["iregulær, ikke-regulær"],
     keywords: ["formal methods", "mathematics"]
   },
   {
+    word: "kappa",
+    note: "Κ κ",
+    translations: ["kappa"],
+    keywords: ["greek alphabet"]
+  },
+  {
     word: "key",
     translations: ["nøgle"],
     keywords: ["cryptography", "algorithmics"]
+  },
+  {
+    word: "lambda",
+    note: "Λ λ",
+    translations: ["lambda"],
+    keywords: ["greek alphabet"]
   },
   {
     word: "language",
@@ -764,6 +825,12 @@ export const en_dk : Lexeme[] = [
     keywords: []
   },
   {
+    word: "mu",
+    note: "Μ μ",
+    translations: ["my"],
+    keywords: ["greek alphabet"]
+  },
+  {
     word: "natural deduction",
     translations: ["naturlig deduktion"],
     keywords: ["formal methods"]
@@ -798,6 +865,24 @@ export const en_dk : Lexeme[] = [
     note: "also: \"negation\"",
     translations: ["ikke, negation"],
     keywords: ["algorithmics", "formal methods"]
+  },
+  {
+    word: "nu",
+    note: "Ν ν",
+    translations: ["ny"],
+    keywords: ["greek alphabet"]
+  },
+  {
+    word: "omega",
+    note: "Ω ω",
+    translations: ["omega"],
+    keywords: ["greek alphabet"]
+  },
+  {
+    word: "omicron",
+    note: "Ο ο",
+    translations: ["omikron"],
+    keywords: ["greek alphabet"]
   },
   {
     word: "open adressing",
@@ -861,9 +946,21 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics"]
   },
   {
+    word: "phi",
+    note: "Φ φ",
+    translations: ["phi, phei"],
+    keywords: ["greek alphabet"]
+  },
+  {
     word: "planar",
     translations: ["planær"],
     keywords: ["graph"]
+  },
+  {
+    word: "pi",
+    note: "Π π",
+    translations: ["pi"],
+    keywords: ["greek alphabet"]
   },
   {
     word: "precedence",
@@ -914,6 +1011,12 @@ export const en_dk : Lexeme[] = [
     word: "property",
     translations: ["egenskab"],
     keywords: ["complexity theory", "formal methods", "mathematics"]
+  },
+  {
+    word: "psi",
+    note: "Ψ ψ",
+    translations: ["phi, phei"],
+    keywords: ["greek alphabet"]
   },
   {
     word: "quantified",
@@ -1006,6 +1109,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods"]
   },
   {
+    word: "rho",
+    note: "Ρ ρ",
+    translations: ["rho"],
+    keywords: ["greek alphabet"]
+  },
+  {
     word: "running time",
     translations: ["udførselstid", "kørselstid"],
     keywords: ["algorithmics"]
@@ -1049,6 +1158,12 @@ export const en_dk : Lexeme[] = [
     word: "sequence",
     translations: ["sekvens"],
     keywords: ["complexity theory", "algorithmics"]
+  },
+  {
+    word: "sigma",
+    note: "Σ σ, ς",
+    translations: ["sigma"],
+    keywords: ["greek alphabet"]
   },
   {
     word: "simplex",
@@ -1147,6 +1262,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods"]
   },
   {
+    word: "tau",
+    note: "Τ τ",
+    translations: ["tau"],
+    keywords: ["greek alphabet"]
+  },
+  {
     word: "tautology",
     translations: ["tautologi"],
     keywords: ["formal methods"]
@@ -1166,6 +1287,12 @@ export const en_dk : Lexeme[] = [
     note: "also: \"halt\"",
     translations: ["terminering"],
     keywords: ["algorithmics", "complexity theory", "formal methods"]
+  },
+  {
+    word: "theta",
+    note: "Θ θ",
+    translations: ["theta"],
+    keywords: ["greek alphabet"]
   },
   {
     word: "time complexity",
@@ -1272,6 +1399,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods", "graph"]
   },
   {
+    word: "upsilon",
+    note: "Υ υ",
+    translations: ["ypsilon"],
+    keywords: ["greek alphabet"]
+  },
+  {
     word: "valid",
     translations: ["gyldig"],
     keywords: ["formal methods"]
@@ -1302,5 +1435,17 @@ export const en_dk : Lexeme[] = [
     note: "also: \"exclusive or\"",
     translations: ["enten-eller, eksklusivt eller"],
     keywords: ["algorithmics", "formal methods"]
+  },
+  {
+    word: "xi",
+    note: "Ξ ξ",
+    translations: ["xi"],
+    keywords: ["greek alphabet"]
+  },
+  {
+    word: "zeta",
+    note: "Ζ ζ",
+    translations: ["zeta"],
+    keywords: ["greek alphabet"]
   },
 ];
