@@ -2,6 +2,7 @@ export const keywords = [
   "algorithmics",
   "complexity theory",
   "cryptography",
+  "databases",
   "formal methods",
   "geometry",
   "hashing",
@@ -152,7 +153,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "Boolean",
     translations: ["boolsk"],
-    keywords: []
+    keywords: ["mathematics"]
   },
   {
     word: "bottom",
@@ -163,6 +164,11 @@ export const en_dk : Lexeme[] = [
   {
     word: "bottleneck",
     translations: ["flaskehals"],
+    keywords: ["algorithmics"]
+  },
+  {
+    word: "bound",
+    translations: ["grænse"],
     keywords: ["algorithmics"]
   },
   {
@@ -292,6 +298,11 @@ export const en_dk : Lexeme[] = [
     word: "computability",
     translations: ["beregnelighed"],
     keywords: ["complexity theory", "formal methods"]
+  },
+  {
+    word: "computation",
+    translations: ["beregning"],
+    keywords: [] // idk if any category fits
   },
   {
     word: "concatenate",
@@ -774,6 +785,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics"]
   },
   {
+    word: "linear",
+    translations: ["lineær"],
+    keywords: ["mathematics"]
+  },
+  {
     word: "linked list",
     translations: ["kædet liste, kædede lister"],
     keywords: ["algorithmics"]
@@ -789,8 +805,19 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods"]
   },
   {
+    word: "lower bound",
+    translations: ["nedre grænse"],
+    keywords: ["algorithmics"]
+  },
+  {
     word: "matrix, matrices",
     translations: ["matrix, matrice"],
+    keywords: ["mathematics"]
+  },
+  {
+    word: "map",
+    note: "also \"mapping\"",
+    translations: ["afbildning"],
     keywords: ["mathematics"]
   },
   {
@@ -922,6 +949,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "complexity theory", "cryptography"]
   },
   {
+    word: "paradigm",
+    note: "programming",
+    translations: ["paradigme"],
+    keywords: []
+  },
+  {
     word: "partial",
     translations: ["partiel"],
     keywords: ["formal methods", "mathematics"]
@@ -1002,6 +1035,11 @@ export const en_dk : Lexeme[] = [
     word: "production",
     translations: ["produktion"],
     keywords: ["formal methods"]
+  },
+  {
+    word: "projection",
+    translations: ["projektion"],
+    keywords: ["databases", "mathematics"]
   },
   {
     word: "proof",
@@ -1312,8 +1350,23 @@ export const en_dk : Lexeme[] = [
     keywords: ["cryptography", "formal methods"]
   },
   {
-    word: "topologic",
+    word: "topologic, topological",
     translations: ["topologisk"],
+    keywords: ["algorithmics", "graph"]
+  },
+  {
+      word: "topological order",
+      translations: ["topologisk ordning"],
+      keywords: ["algorithmics", "graph"]
+  },
+  {
+      word: "topological ordered",
+      translations: ["topologisk ordnet"],
+      keywords: ["algorithmics", "graph"]
+  },
+  {
+    word: "topological sort",
+    translations: ["topologisk sortering"],
     keywords: ["algorithmics", "graph"]
   },
   {
@@ -1409,6 +1462,11 @@ export const en_dk : Lexeme[] = [
     note: "Υ υ",
     translations: ["ypsilon"],
     keywords: ["greek alphabet"]
+  },
+  {
+    word: "upper bound",
+    translations: ["øvre grænse"],
+    keywords: ["algorithmics"]
   },
   {
     word: "valid",
