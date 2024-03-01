@@ -29,17 +29,21 @@ const Filter = ({ onChange }: FilterProps) => {
   const textInput = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    return () => {
-      // Based on: https://stackoverflow.com/a/71778581/13300643
-      window.addEventListener('keydown', (e) => {
-        if (e.key === "F3" || (e.ctrlKey && e.key === "f")) {
-          if (textInput.current) {
-            e.preventDefault();
-            textInput.current.focus();
-          }
+    console.log("Filter Component: Attaching key listener");
+
+    // Based on: https://stackoverflow.com/a/71778581/13300643
+    const keyListener = (e: KeyboardEvent) => {
+      if (e.key === "F3" || (e.ctrlKey && e.key === "f")) {
+        if (textInput.current) {
+          e.preventDefault();
+          textInput.current.focus();
         }
-      });
+      }
     };
+
+    // Add event listener and return clean-up function
+    window.addEventListener('keydown', keyListener);
+    return () => { window.removeEventListener('keydown', keyListener); }
   }, []);
 
   return (
