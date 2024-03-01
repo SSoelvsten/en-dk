@@ -6,10 +6,12 @@
     font-weight: bold;
     margin-right: 0.8rem;
   }
+
   .Note {
     display: inline-block;
     font-style: italic;
   }
+
   .Translation::before {
     content: "\007E";
     margin-right: 0.2rem;

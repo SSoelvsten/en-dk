@@ -15,11 +15,12 @@
     column-fill: balance;
 
     @media screen and (max-width: 55rem) {
-        column-count: 2;
+      column-count: 2;
     }
+
     @media screen and (max-width: 42rem) {
       column-count: 1;
-  }
+    }
 
     .Lexeme {
       break-inside: avoid-column;

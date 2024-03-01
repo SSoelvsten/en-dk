@@ -49,8 +49,8 @@ const Filter = ({ onChange }: FilterProps) => {
   return (
     <div className="Filter">
       <input onChange={(e) => setInput(e.target.value)}
-             placeholder="filter . . ."
-             ref={textInput}
+        placeholder="filter . . ."
+        ref={textInput}
       />
 
       <select onChange={(e) => setCategory(e.target.value as FilterCategory)}>
