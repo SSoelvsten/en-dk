@@ -885,6 +885,11 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods"]
   },
   {
+    word: "narrow",
+    translations: ["tynd"],
+    keywords: ["graph"]
+  },
+  {
     word: "natural deduction",
     translations: ["naturlig deduktion"],
     keywords: ["formal methods"]
@@ -1514,6 +1519,16 @@ export const en_dk : Lexeme[] = [
     word: "weight",
     translations: ["vægt"],
     keywords: ["algorithmics", "graph"]
+  },
+  {
+    word: "wide",
+    translations: ["bred"],
+    keywords: ["graph"]
+  },
+  {
+    word: "width",
+    translations: ["bredde"],
+    keywords: ["graph"]
   },
   {
     word: "word",
