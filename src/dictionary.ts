@@ -1189,7 +1189,6 @@ export const en_dk : Lexeme[] = [
   {
     word: "paradigm",
     type: "sb.",
-    note: "programming",
     translations: ["paradigme, -t, -r, -rne"],
     keywords: []
   },
