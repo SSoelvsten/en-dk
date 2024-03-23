@@ -1008,7 +1008,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "machine learning",
     type: "sb.",
-    translations: ["maskinlæring"],
+    translations: ["maskinlæring, -en"],
     keywords: ["machine learning"]
   },
   {
