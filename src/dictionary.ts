@@ -266,7 +266,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "closed",
     type: "adj.",
-    translations: ["lukke|t, -t, -de"],
+    translations: ["luk|ket, -ket, -kede"],
     keywords: ["complexity theory", "formal methods", "mathematics"]
   },
   {
