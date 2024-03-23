@@ -87,7 +87,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "and",
     note: "see also: \"conjunction\"",
-    translations: ["og, både-og"],
+    translations: ["og", "både-og"],
     keywords: ["algorithmics", "formal methods"]
   },
   {
@@ -122,7 +122,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "base case",
-    translations: ["basis, basisskridt, induktionsstart, startbetingelse"],
+    translations: ["basis", "basisskridt", "induktionsstart", "startbetingelse"],
     keywords: ["algorithmics", "formal methods"]
   },
   {
@@ -337,7 +337,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "contradiction",
-    translations: ["modstrid, kontradiktion"],
+    translations: ["modstrid", "kontradiktion"],
     keywords: ["formal methods", "mathematics"]
   },
   {
@@ -387,7 +387,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "decision",
-    translations: ["beslutning, afgørelse"],
+    translations: ["beslutning", "afgørelse"],
     keywords: ["complexity theory", "formal methods"]
   },
   {
@@ -459,7 +459,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "difference",
-    translations: ["difference, differens, forskel"],
+    translations: ["differens", "difference", "forskel"],
     keywords: ["mathematics"]
   },
   {
@@ -504,17 +504,17 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "empty set",
-    translations: ["tom mængde, tomme mængde"],
+    translations: ["tomme mængde"],
     keywords: ["mathematics"]
   },
   {
     word: "enumerate",
-    translations: ["enumerere, opliste"],
+    translations: ["enumerere", "opliste"],
     keywords: ["formal methods", "mathematics"]
   },
   {
     word: "enumerable",
-    translations: ["enumererbar, oplistelig"],
+    translations: ["enumererbar", "oplistelig"],
     keywords: ["formal methods", "mathematics"]
   },
   {
@@ -577,7 +577,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "for all",
-    translations: ["for alle, universel"],
+    translations: ["for alle", "universel"],
     keywords: ["formal methods"]
   },
   {
@@ -755,7 +755,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "iota",
     note: "Ι ι",
-    translations: ["jota, iota"],
+    translations: ["jota", "iota"],
     keywords: ["greek alphabet"]
   },
   {
@@ -832,7 +832,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "matrix, matrices",
-    translations: ["matrix, matrice"],
+    translations: ["matrix", "matrice"],
     keywords: ["mathematics"]
   },
   {
@@ -901,12 +901,12 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "nondeterministic",
-    translations: ["nondeterministisk, ikke-deterministisk"],
+    translations: ["nondeterministisk", "ikke-deterministisk"],
     keywords: ["algorithmics", "complexity theory", "formal methods"]
   },
   {
     word: "nonterminal",
-    translations: ["nonterminal, ikke-terminal"],
+    translations: ["nonterminal", "ikke-terminal"],
     keywords: ["complexity theory", "formal methods"]
   },
   {
@@ -922,7 +922,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "not",
     note: "also: \"negation\"",
-    translations: ["ikke, negation"],
+    translations: ["ikke", "negation"],
     keywords: ["algorithmics", "formal methods"]
   },
   {
@@ -956,12 +956,12 @@ export const en_dk : Lexeme[] = [
   {
     word: "or",
     note: "see also: \"disjunction\"",
-    translations: ["eller, og/eller"],
+    translations: ["eller", "og/eller"],
     keywords: ["algorithmics", "formal methods"]
   },
   {
     word: "order",
-    translations: ["orden, rækkefølge, sortering", "ordning"],
+    translations: ["orden", "rækkefølge", "sortering", "ordning"],
     keywords: ["algorithmics", "complexity theory", "formal methods", "mathematics"]
   },
   {
@@ -1013,7 +1013,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "phi",
     note: "Φ φ",
-    translations: ["phi, phei"],
+    translations: ["phi", "phei"],
     keywords: ["greek alphabet"]
   },
   {
@@ -1175,7 +1175,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "rename",
-    translations: ["omdøb, omnavngive"],
+    translations: ["omdøbe", "omnavngive"],
     keywords: ["formal methods"]
   },
   {
@@ -1247,7 +1247,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "sink",
-    translations: ["afløb, dræn"],
+    translations: ["dræn", "afløb"],
     keywords: ["graph"]
   },
   {
@@ -1288,7 +1288,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "string",
-    translations: ["streng, ord"],
+    translations: ["streng", "ord"],
     keywords: ["algorithmics", "complexity theory", "cryptography", "formal methods"]
   },
   {
@@ -1318,7 +1318,7 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "symbol",
-    translations: ["symbol, tegn"],
+    translations: ["symbol", "tegn"],
     keywords: ["formal methods", "complexity theory"]
   },
   {
@@ -1512,7 +1512,7 @@ export const en_dk : Lexeme[] = [
   { // TODO: Add actual references
     word: "vertex, vertices",
     note: "see also \"node\"",
-    translations: ["hjørne, punkt", "knude"],
+    translations: ["hjørne", "punkt", "knude"],
     keywords: ["geometry", "graph"]
   },
   {
@@ -1532,13 +1532,19 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "word",
-    translations: ["ord", "(in hardware) maskinord"],
+    translations: ["ord"],
     keywords: ["algorithmics", "complexity theory"]
+  },
+  {
+    word: "word",
+    note: "in hardware",
+    translations: ["maskinord"],
+    keywords: []
   },
   {
     word: "xor",
     note: "also: \"exclusive or\"",
-    translations: ["enten-eller, eksklusivt eller"],
+    translations: ["enten-eller", "eksklusivt eller"],
     keywords: ["algorithmics", "formal methods"]
   },
   {
