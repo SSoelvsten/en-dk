@@ -506,7 +506,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "depth-first",
     type: "adj.",
-    translations: ["dybde først"],
+    translations: ["dybde først, -, -"],
     keywords: ["algorithmics", "graph"]
   },
   {
