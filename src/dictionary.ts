@@ -1685,7 +1685,7 @@ export const en_dk : Lexeme[] = [
     word: "top",
     type: "sb.",
     note: "see also: \"true\"",
-    translations: ["top, -pen, -pe, -perne"],
+    translations: ["top, -pen, -pe, -pene"],
     keywords: ["cryptography", "formal methods"]
   },
   {
