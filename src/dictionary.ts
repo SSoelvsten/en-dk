@@ -95,7 +95,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "amortised",
     type: "adj.",
-    translations: ["amortisere|t, -t, -de"],
+    translations: ["amortise|ret, -ret, -rede"],
     keywords: ["algorithmics"]
   },
   {
