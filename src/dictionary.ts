@@ -1085,7 +1085,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "psi",
     note: "Ψ ψ",
-    translations: ["phi, phei"],
+    translations: ["psi"],
     keywords: ["greek alphabet"]
   },
   {
