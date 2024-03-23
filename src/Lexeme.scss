@@ -20,4 +20,15 @@
     content: "\007E";
     margin-right: 0.2rem;
   }
+
+  .Phrases {
+    margin-top: 0.1rem;
+    .English {
+      display: inline-block;
+    }
+    .Danish {
+      display: inline-block;
+      font-style: italic;
+    }
+  }
 }

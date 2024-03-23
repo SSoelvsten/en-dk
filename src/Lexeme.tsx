@@ -15,6 +15,16 @@ const Lexeme = ({ lexeme }: LexemeProps) => {
       {lexeme.note && <div className="Note">({lexeme.note})</div>}
 
       {lexeme.translations.map((t) => <div className="Translation">{t}</div>)}
+
+      {lexeme.phrases && <div className="Phrases">
+        {lexeme.phrases.map(([en,dk], idx) =>
+          <>
+            <div className="English">{en}</div>
+            <div className="Danish">{dk}</div>
+            {idx+1 !== lexeme.phrases?.length && <> ⚬ </>}
+          </>
+        )}
+      </div>}
     </div>
   );
 };
