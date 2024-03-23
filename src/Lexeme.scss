@@ -6,9 +6,13 @@
     font-weight: bold;
     margin-right: 0.8rem;
   }
+  .Type {
+    display: inline-block;
+    font-style: italic;
+  }
 
   .Note {
-    display: inline-block;
+    display: block;
     font-style: italic;
   }
 
