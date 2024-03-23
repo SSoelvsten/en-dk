@@ -205,7 +205,7 @@ export const en_dk : Lexeme[] = [
     word: "bound",
     type: "sb.",
     translations: ["grænse, -n, -r, -rne"],
-    keywords: ["algorithmics"]
+    keywords: ["algorithmics", "mathematics"]
   },
   {
     word: "breadth-first",
@@ -1000,10 +1000,10 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods"]
   },
   {
-    word: "lower bound",
-    type: "sb.",
-    translations: ["nedre grænse"],
-    keywords: ["algorithmics"]
+    word: "lower",
+    type: "adj.",
+    translations: ["nedre, -, -"],
+    keywords: ["algorithmics", "mathematics"]
   },
   {
     word: "machine learning",
@@ -1805,10 +1805,10 @@ export const en_dk : Lexeme[] = [
     keywords: ["greek alphabet"]
   },
   {
-    word: "upper bound",
-    type: "sb.",
-    translations: ["øvre grænse"],
-    keywords: ["algorithmics"]
+    word: "upper",
+    type: "adj.",
+    translations: ["øvre, -, -"],
+    keywords: ["algorithmics", "mathematics"]
   },
   {
     word: "valid",
