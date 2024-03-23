@@ -785,7 +785,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "hidden layer",
     type: "sb.",
-    translations: ["et skjult lag, det skjulte lag, de skjulte lag"],
+    translations: ["(et) skjult lag, (det) skjulte lag, (de) skjulte lag"],
     keywords: ["machine learning"]
   },
   {
@@ -984,7 +984,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "linked list",
     type: "sb.",
-    translations: ["kædet liste, kædede liste, kædede lister"],
+    translations: ["(en) kædet liste, (den) kædede liste, (de) kædede lister"],
     keywords: ["algorithmics"]
   },
   {
