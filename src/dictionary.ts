@@ -1200,12 +1200,6 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods", "mathematics"]
   },
   {
-    word: "partial correctness",
-    type: "sb.",
-    translations: ["partiel korrekthed, -en, -er, -erne"],
-    keywords: ["formal methods", "mathematics"]
-  },
-  {
     word: "partition",
     type: "sb.",
     translations: [
