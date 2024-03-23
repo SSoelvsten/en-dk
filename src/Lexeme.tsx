@@ -10,6 +10,8 @@ const Lexeme = ({ lexeme }: LexemeProps) => {
   return (
     <div className="Lexeme">
       <div className="Word">{lexeme.word}</div>
+      {lexeme.type && <div className="Type">{lexeme.type}</div>}
+
       {lexeme.note && <div className="Note">({lexeme.note})</div>}
 
       {lexeme.translations.map((t) => <div className="Translation">{t}</div>)}
