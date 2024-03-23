@@ -22,6 +22,7 @@ export type Lexeme = {
   note?: string;
   translations: string[];
   keywords: KeyWord[];
+  phrases?: [string, string][];
 };
 
 export const en_dk : Lexeme[] = [
@@ -1704,13 +1705,10 @@ export const en_dk : Lexeme[] = [
     type: "adj.",
     note: "automata",
     translations: ["fuldstændig, -t, -e"],
-    keywords: ["formal methods", "graph", "mathematics"]
-  },
-  { // TODO: Merge into 'total' as a special phrase?
-    word: "total correctness",
-    type: "sb.",
-    translations: ["total korrekthed"],
-    keywords: ["formal methods"]
+    keywords: ["formal methods", "graph", "mathematics"],
+    phrases: [
+      ["the functions total correctness", "funktionens totale korrekthed"]
+    ]
   },
   {
     word: "transition",
@@ -1831,7 +1829,7 @@ export const en_dk : Lexeme[] = [
     translations: ["validering, -en, -er, -erne"],
     keywords: []
   },
-  { // TODO: Add actual references
+  {
     word: "vertex, vertice",
     type: "sb.",
     note: "see also \"node\"",
@@ -1863,14 +1861,10 @@ export const en_dk : Lexeme[] = [
     word: "word",
     type: "sb.",
     translations: ["ord, -et, -, -ene"],
-    keywords: ["algorithmics", "complexity theory"]
-  },
-  { // TODO: Merge into 'word' as a phrase?
-    word: "word",
-    type: "sb.",
-    note: "in hardware",
-    translations: ["maskinord, -et, -, -ene"],
-    keywords: []
+    keywords: ["algorithmics", "complexity theory"],
+    phrases: [
+      ["a machine word is often 1 byte", "et maskinord er ofte 1 byte stor"]
+    ]
   },
   {
     word: "xor",
