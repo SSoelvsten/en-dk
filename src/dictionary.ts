@@ -1206,8 +1206,8 @@ export const en_dk : Lexeme[] = [
     word: "ordered",
     type: "adj.",
     translations: [
-      "ordne|t, -t, -ede",
-      "sortere|t, -t, -ede"
+      "ord|net, -ret, -nede",
+      "sorte|ret, -ret, -rede"
     ],
     keywords: ["algorithmics", "mathematics"]
   },
