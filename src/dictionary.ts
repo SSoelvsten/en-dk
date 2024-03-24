@@ -1726,12 +1726,11 @@ export const en_dk : Lexeme[] = [
   {
     word: "total",
     type: "adj.",
-    note: "automata",
-    translations: ["fuldstændig, -t, -e"],
+    translations: [
+      "(automata) fuldstændig, -t, -e",
+      "(correctness) total, -t, -e"
+    ],
     keywords: ["formal methods", "graph", "mathematics"],
-    phrases: [
-      ["the functions total correctness", "funktionens totale korrekthed"]
-    ]
   },
   {
     word: "transition",
