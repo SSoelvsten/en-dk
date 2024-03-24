@@ -189,6 +189,12 @@ export const en_dk : Lexeme[] = [
     keywords: []
   },
   {
+    word: "blockchain",
+    type: "sb.",
+    translations: ["blok-kæde, -n, -r, -rne"],
+    keywords: ["cryptography"]
+  },
+  {
     word: "Boolean",
     type: "adj.",
     translations: ["boolsk, -, -e"],
