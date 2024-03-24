@@ -183,6 +183,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["mathematics"]
   },
   {
+    word: "bit",
+    type: "sb.",
+    translations: ["bit, -ten, -s, -tene"],
+    keywords: []
+  },
+  {
     word: "Boolean",
     type: "adj.",
     translations: ["boolsk, -, -e"],
@@ -208,10 +214,22 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "mathematics"]
   },
   {
+    word: "bound",
+    type: "vb.",
+    translations: ["begrænse, -r, -de, -t"],
+    keywords: ["algorithmics", "mathematics"]
+  },
+  {
     word: "breadth-first",
     type: "adj.",
     translations: ["bredde først, -, -"],
     keywords: ["algorithmics", "graph"]
+  },
+  {
+    word: "byte",
+    type: "sb.",
+    translations: ["byte, -n, -s, -ne"],
+    keywords: []
   },
   {
     word: "calculus",
@@ -348,6 +366,18 @@ export const en_dk : Lexeme[] = [
     word: "computer",
     type: "sb.",
     translations: ["datamat, -en, -er, -erne"],
+    keywords: []
+  },
+  {
+    word: "computer science",
+    type: "sb.",
+    translations: ["datalogi, -en"],
+    keywords: []
+  },
+  {
+    word: "computer scientist",
+    type: "sb.",
+    translations: ["datalog, -en, -er, -erne"],
     keywords: []
   },
   {
