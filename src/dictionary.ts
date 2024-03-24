@@ -958,7 +958,7 @@ export const en_dk : Lexeme[] = [
     type: "adj.",
     note: "also: \"non-regular\"",
     translations: [
-      "iregulær, -t, -e",
+      "irregulær, -t, -e",
       "ikke-regulær, t, -e"
     ],
     keywords: ["formal methods", "mathematics"]
