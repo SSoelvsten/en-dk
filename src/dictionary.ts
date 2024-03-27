@@ -10,6 +10,8 @@ export const keywords = [
   "greek alphabet",
   "machine learning",
   "mathematics",
+  "programming languages",
+  "software engineering"
 ] as const;
 
 export type KeyWord = typeof keywords[number];
@@ -332,13 +334,13 @@ export const en_dk : Lexeme[] = [
     word: "compile",
     type: "vb.",
     translations: ["over|sætte, -sætter, -satte, -sat"],
-    keywords: []
+    keywords: ["programming languages"]
   },
   {
     word: "compiler",
     type: "sb.",
     translations: ["oversætter, -en, -e, -ne"],
-    keywords: []
+    keywords: ["programming languages"]
   },
   {
     word: "complement",
@@ -495,6 +497,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["datastruktur, -en, -er, -erne"],
     keywords: ["algorithmics"]
+  },
+  {
+    word: "debugger",
+    type: "sb.",
+    translations: ["fejlfinder, -en, -e, -ne"],
+    keywords: ["software engineering"]
   },
   {
     word: "decidable",
@@ -943,6 +951,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "algorithmics", "cryptography"]
   },
   {
+    word: "interpret",
+    type: "vb.",
+    translations: ["fortolke, -r, -de, -t"],
+    keywords: ["programming languages"]
+  },
+  {
+    word: "interpreter",
+    type: "sb.",
+    translations: ["fortolker, -en, -e, -ne"],
+    keywords: ["programming languages"]
+  },
+  {
     word: "intersection",
     type: "sb.",
     translations: [
@@ -1052,6 +1072,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["maskinlæring, -en"],
     keywords: ["machine learning"]
+  },
+  {
+    word: "machine code",
+    type: "sb.",
+    translations: ["maskinkode, -n, -, rne"],
+    keywords: ["programming languages"]
   },
   {
     word: "matrix, matrices",
@@ -1331,6 +1357,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods"]
   },
   {
+    word: "programming language",
+    type: "sb.",
+    translations: ["programmeringssprog, -et, -, -ene"],
+    keywords: ["programming languages"]
+  },
+  {
     word: "projection",
     type: "sb.",
     translations: ["projektion, -en, -er, -erne"],
@@ -1569,6 +1601,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["kilde, -n, -r, -rne"],
     keywords: ["graph"]
+  },
+  {
+    word: "source code",
+    type: "sb.",
+    translations: ["kildekode, -n, -r, -rne"],
+    keywords: ["programming languages"]
   },
   {
     word: "space",
