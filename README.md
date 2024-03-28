@@ -8,8 +8,12 @@ in parts...
 ## Usage
 
 This project was bootstrapped with [Create React
-App](https://github.com/facebook/create-react-app). In the project directory,
-you can run:
+App](https://github.com/facebook/create-react-app). After having installed
+[NPM](https://www.npmjs.com/), you can run the following commands.
+
+### `npm install`
+
+Install all dependencies, e.g. the React frontend framework.
 
 ### `npm start`
 
