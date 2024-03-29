@@ -867,6 +867,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods"]
   },
   {
+    word: "impure",
+    type: "adj.",
+    translations: ["uren, -t, -e"],
+    keywords: ["programming languages"]
+  },
+  {
     word: "incidence matrix",
     type: "sb.",
     translations: ["incidensmat|rix, -rixen, ricer, -ricerne"],
@@ -949,6 +955,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["inddata, -en, -, -ene"],
     keywords: ["complexity theory", "algorithmics", "cryptography"]
+  },
+  {
+    word: "interface",
+    type: "sb.",
+    translations: ["grænseflade, -n, -r, -rne"],
+    keywords: ["programming languages", "software engineering"]
   },
   {
     word: "interpret",
@@ -1391,6 +1403,12 @@ export const en_dk : Lexeme[] = [
     note: "Ψ ψ",
     translations: ["psi"],
     keywords: ["greek alphabet"]
+  },
+  {
+    word: "pure",
+    type:  "adj.",
+    translations: ["ren, -t, -e"],
+    keywords: ["programming languages"]
   },
   {
     word: "quantifier",
