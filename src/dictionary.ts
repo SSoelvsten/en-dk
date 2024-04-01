@@ -734,6 +734,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods"]
   },
   {
+    word: "factorial",
+    type: "sb.",
+    translations: ["fakultet, -et, -er, -erne"],
+    keywords: ["complexity theory", "mathematics"]
+  },
+  {
     word: "false",
     type: "sb.",
     note: "see also: \"bot\"",
@@ -1050,6 +1056,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics"]
   },
   {
+    word: "lazy",
+    type: "adj.",
+    translations: ["doven, -t, dovne"],
+    keywords: ["programming languages"]
+  },
+  {
     word: "linear",
     type: "adj.",
     translations: ["lineær, -t, -e"],
@@ -1307,6 +1319,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["møns|ter, -teret, -tre, -trene"],
     keywords: ["algorithmics"]
+  },
+  {
+    word: "pattern matching",
+    type: "sb.",
+    translations: ["mønstergenkendelse, -n, -r, -rne"],
+    keywords: ["programming languages"]
   },
   {
     word: "phi",
@@ -1581,6 +1599,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["sekvens, -en, -er, -erne"],
     keywords: ["complexity theory", "algorithmics"]
+  },
+  {
+    word: "side effect",
+    type: "sb.",
+    translations: ["bivirkning, -en, -er, -erne"],
+    keywords: ["programming languages"]
   },
   {
     word: "sigma",
