@@ -493,6 +493,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "graph"]
   },
   {
+    word: "deadline",
+    type: "sb.",
+    translations: ["frist, -en, -er, -erne"],
+    keywords: []
+  },
+  {
     word: "data structure",
     type: "sb.",
     translations: ["datastruktur, -en, -er, -erne"],
