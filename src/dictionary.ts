@@ -1711,7 +1711,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "subset construction",
     type: "sb.",
-    translations: ["delmængdekonsruktion, -en, -er, -erne"],
+    translations: ["delmængdekonstruktion, -en, -er, -erne"],
     keywords: ["formal methods"]
   },
   {
