@@ -2000,7 +2000,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "verification",
     type: "sb.",
-    translations: ["bevisførelse, -n, -r, -rne"],
+    translations: ["verifikation, -en, -er, -erne"],
     keywords: ["formal methods"]
   },
   {
