@@ -203,6 +203,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["mathematics"]
   },
   {
+    word: "Boolean",
+    type: "sb.",
+    translations: ["sandhedsværdi, -en, -er, -erne"],
+    keywords: ["programming languages", "databases", "software engineering"]
+  },
+  {
     word: "bottom",
     type: "sb.",
     note: "see also: \"false\"",
@@ -226,6 +232,12 @@ export const en_dk : Lexeme[] = [
     type: "vb.",
     translations: ["begrænse, -r, -de, -t"],
     keywords: ["algorithmics", "mathematics"]
+  },
+  {
+    word: "branching",
+    type: "sb.",
+    translations: ["forgrening, -en, -er, -erne"],
+    keywords: ["algorithmics", "programming languages", "software engineering"]
   },
   {
     word: "breadth-first",
@@ -969,6 +981,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "algorithmics", "cryptography"]
   },
   {
+    word: "integer",
+    type: "sb.",
+    translations: ["heltal, -let, -, -lene"],
+    keywords: ["databases", "mathematics", "programming languages", "software engineering"]
+  },
+  {
     word: "interface",
     type: "sb.",
     translations: ["grænseflade, -n, -r, -rne"],
@@ -1092,6 +1110,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods"]
   },
   {
+    word: "loop",
+    type: "sb.",
+    translations: ["løkke, -n, -r, -rne"],
+    keywords: ["algorithmics", "programming languages", "software engineering"]
+  },
+  {
     word: "lower",
     type: "adj.",
     translations: ["nedre, -, -"],
@@ -1170,6 +1194,12 @@ export const en_dk : Lexeme[] = [
     note: "μ-calculus",
     translations: ["my-kalkyle, -n, -r, -rne"],
     keywords: ["formal methods"]
+  },
+  {
+    word: "mutable",
+    type: "adj.",
+    translations: ["mutérbar, -t, -e"],
+    keywords: ["programming languages", "software engineering"]
   },
   {
     word: "narrow",
@@ -1357,6 +1387,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods", "mathematics"]
   },
   {
+    word: "pointer",
+    type: "sb.",
+    translations: ["peger, -en, -e, -erne"],
+    keywords: ["programming languages", "software engineering"]
+  },
+  {
     word: "predicate",
     type: "sb.",
     translations: ["prædikat, -et, -er, -erne"],
@@ -1477,6 +1513,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods", "graph"]
   },
   {
+    word: "record",
+    type: "sb.",
+    translations: ["post,  -en, -er, -erne"],
+    keywords: ["databases", "programming languages", "software engineering"]
+  },
+  {
     word: "recursion",
     type: "sb.",
     translations: ["rekursion, -en, -er, -erne"],
@@ -1576,6 +1618,12 @@ export const en_dk : Lexeme[] = [
     type: "vb.",
     translations: ["tilfredstille, -r, -de, -t"],
     keywords: ["formal methods"]
+  },
+  {
+    word: "scope",
+    type: "sb.",
+    translations: ["virkefelt, -et, -er, -erne"],
+    keywords: ["programming languages"]
   },
   {
     word: "search tree",
@@ -1948,6 +1996,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["validering, -en, -er, -erne"],
     keywords: []
+  },
+  {
+    word: "verification",
+    type: "sb.",
+    translations: ["verifikation, -en, -er, -erne"],
+    keywords: ["formal methods"]
   },
   {
     word: "vertex, vertice",
