@@ -547,6 +547,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods"]
   },
   {
+    word: "decision diagram",
+    type: "sb.",
+    translations: ["beslutningsdiagram, -met, -mer, -merne"],
+    keywords: ["algorithmics", "formal methods"]
+  },
+  {
     word: "decision problem",
     type: "sb.",
     translations: ["beslutningsproblem, -et, -er, -erne"],
