@@ -752,7 +752,7 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods"]
   },
   {
-    word: "expressability",
+    word: "expressiveness",
     type: "sb.",
     translations: ["udtrykskraft, -en, -er, -erne"],
     keywords: ["complexity theory", "formal methods"]
