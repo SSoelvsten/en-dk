@@ -1281,7 +1281,7 @@ export const en_dk : Lexeme[] = [
     keywords: ["greek alphabet"]
   },
   {
-    word: "open adressing",
+    word: "open addressing",
     type: "sb.",
     translations: ["åben adressering, -en, -er, -erne"],
     keywords: ["algorithmics", "hashing"]
