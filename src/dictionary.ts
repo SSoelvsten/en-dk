@@ -483,7 +483,10 @@ export const en_dk : Lexeme[] = [
   {
     word: "countable",
     type: "adj.",
-    translations: ["tællelig, -t, -e"],
+    translations: [
+        "tællelig, -t, -e",
+        "nummera|bel, -belt, -ble"
+    ],
     keywords: ["complexity theory", "mathematics"]
   },
   {
@@ -701,7 +704,7 @@ export const en_dk : Lexeme[] = [
     word: "enumerate",
     type: "vb.",
     translations: [
-      "enumerere, -r, -de, -t",
+      "nummerere, -r, -de, -t",
       "opliste, -r, -de, -t"
     ],
     keywords: ["formal methods", "mathematics"]
@@ -710,7 +713,7 @@ export const en_dk : Lexeme[] = [
     word: "enumerable",
     type: "adj.",
     translations: [
-      "enumererbar, -t, -e",
+      "nummera|bel, -belt, -ble",
       "oplistelig, -t, -e"
     ],
     keywords: ["formal methods", "mathematics"]
@@ -1539,7 +1542,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "recursively enumerable",
     type: "adj.",
-    translations: ["rekursiv enumera|bel, -belt, -ble"],
+    translations: ["rekursiv nummera|bel, -belt, -ble"],
     keywords: ["complexity theory", "formal methods"]
   },
   {
@@ -1948,7 +1951,10 @@ export const en_dk : Lexeme[] = [
   {
     word: "uncountable",
     type: "adj.",
-    translations: ["overtællelig, -t, -e"],
+    translations: [
+        "overtællelig, -t, -e",
+        "ikke-nummera|bel, -belt, -ble",
+    ],
     keywords: ["complexity theory", "mathematics"]
   },
   {
