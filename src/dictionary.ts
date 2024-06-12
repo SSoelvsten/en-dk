@@ -743,10 +743,32 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods", "mathematics"]
   },
   {
+    word: "error",
+    type: "sb.",
+    translations: ["fejl, -en, -, -ene"],
+    keywords: ["programming languages", "software engineering"]
+  },
+  {
+    word: "error code",
+    type: "sb.",
+    translations: ["fejlkode, -n, -r, -rne"],
+    keywords: ["programming languages", "software engineering"]
+  },
+  {
     word: "eta",
     note: "Η η",
     translations: ["eta"],
     keywords: ["greek alphabet"]
+  },
+  {
+    word: "exception",
+    type: "sb.",
+    translations: ["undtagelse, -n, -r, -rne"],
+    keywords: ["programming languages", "software engineering"],
+    phrases: [
+      ["an exception was thrown", "en undtagelse blev kastet"],
+      ["exceptions are exceptional", "undtagelser er kun undtgelsesvis"]
+    ]
   },
   {
     word: "expression",
@@ -1858,6 +1880,12 @@ export const en_dk : Lexeme[] = [
     note: "Θ θ",
     translations: ["theta"],
     keywords: ["greek alphabet"]
+  },
+  {
+    word: "throw",
+    type: "vb.",
+    translations: ["kaste, -r, -ede"],
+    keywords: ["programming languages", "software engineering"]
   },
   {
     word: "time complexity",
