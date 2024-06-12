@@ -33,7 +33,7 @@ deployed!
 ## Contributions
 
 The dictionary is not complete. The scope of this page can also be extended,
-e.g. by adding more bords and new features. Any contributions of all kinds is
-very welcome, either by opening an
+e.g. by adding more bords and new features. Any contributions or request of any
+kind is very welcome, either by opening an
 [issue](https://github.com/SSoelvsten/cs-dict/issues/new) or a [pull
 request](https://github.com/SSoelvsten/cs-dict/compare)!
