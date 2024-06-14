@@ -586,6 +586,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "graph"]
   },
   {
+    word: "dereference",
+    type: "vb.",
+    translations: ["afreferere, -r, -de, -t"],
+    keywords: ["programming languages", "software engineering"]
+  },
+  {
     word: "derivation",
     type: "sb.",
     translations: [
@@ -1572,6 +1578,18 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["reduktion, -en, -er, -erne"],
     keywords: ["complexity theory", "cryptography"]
+  },
+  {
+    word: "reference",
+    type: "sb.",
+    translations: ["reference, -n, -r, -rne"],
+    keywords: ["programming languages", "software engineering"]
+  },
+  {
+    word: "reference",
+    type: "vb.",
+    translations: ["referere, -r, -de, -t"],
+    keywords: ["programming languages", "software engineering"]
   },
   {
     word: "reflexive",
