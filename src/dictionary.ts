@@ -1074,6 +1074,21 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods", "mathematics"]
   },
   {
+    word: "isomorphic",
+    type: "adj.",
+    translations: ["isomorf, -, -e"],
+    keywords: ["graph"]
+  },
+  {
+    word: "isomorphism",
+    type: "sb.",
+    translations: [
+      "isomorfi, -en, -er, -erne",
+      "isomorfisme, -n, -r, -rne"
+    ],
+    keywords: ["graph"]
+  },
+  {
     word: "kappa",
     note: "Κ κ",
     translations: ["kappa"],
