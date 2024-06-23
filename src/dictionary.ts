@@ -1772,7 +1772,10 @@ export const en_dk : Lexeme[] = [
     word: "space",
     type: "sb.",
     translations: ["plads, -en, -er, -erne"],
-    keywords: ["algorithmics", "complexity theory"]
+    keywords: ["algorithmics", "complexity theory"],
+    phrases: [
+      ["the algorithm's uses linear space", "algoritmens pladsforbrug er lineær"]
+    ]
   },
   {
     word: "space complexity",
