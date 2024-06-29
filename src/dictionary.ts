@@ -65,13 +65,13 @@ export const en_dk : Lexeme[] = [
     word: "algebra",
     type: "sb.",
     translations: ["algebra, -en, -er, -erne"],
-    keywords: ["mathematics"]
+    keywords: ["formal methods", "mathematics"]
   },
   {
     word: "algebraic",
     type: "adj.",
     translations: ["algebraisk, -, -e"],
-    keywords: ["mathematics"]
+    keywords: ["formal methods", "mathematics", "programming languages"]
   },
   {
     word: "algorithm",
@@ -147,7 +147,10 @@ export const en_dk : Lexeme[] = [
     word: "axiom",
     type: "sb.",
     translations: ["aksiom, -et, -er, -erne"],
-    keywords: ["mathematics"]
+    keywords: ["mathematics"],
+    phrases: [
+      ["axiom of choice", "udvalgsaksiomet"]
+    ]
   },
   {
     word: "axiomatisation",
@@ -306,6 +309,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods", "mathematics"]
   },
   {
+    word: "category",
+    type: "adj.",
+    translations: ["kategori, -en, -er, -erne"],
+    keywords: ["formal methods", "mathematics"]
+  },
+  {
     word: "chain",
     type: "sb.",
     translations: [
@@ -362,6 +371,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["lukkethedsegenskab, -en, -er, -erne"],
     keywords: ["complexity theory", "formal methods", "mathematics"]
+  },
+  {
+    word: "coalgebra",
+    type: "sb.",
+    translations: ["koalgebra, -en, -er, -erne"],
+    keywords: ["formal methods", "mathematics"]
   },
   {
     word: "collision",
@@ -493,6 +508,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "complexity theory", "cryptography", "formal methods", "mathematics"]
   },
   {
+    word: "construction",
+    type: "sb.",
+    translations: ["konstruktion, -en, -er, -erne"],
+    keywords: ["algorithmics", "complexity theory", "cryptography", "formal methods", "mathematics"]
+  },
+  {
+    word: "constructor",
+    type: "sb.",
+    translations: ["konstruktør, -en, -er, -erne"],
+    keywords: ["formal methods", "programming languages"]
+  },
+  {
     word: "context-free",
     type: "adj.",
     translations: ["kontekstfri, -t, -e"],
@@ -539,6 +566,19 @@ export const en_dk : Lexeme[] = [
     type: "adj.",
     translations: ["kryptografisk, -, -e"],
     keywords: ["cryptography", "hashing"]
+  },
+  {
+    word: "cube",
+    type: "sb.",
+    translations: ["kube, -n, -r, -rne"],
+    keywords: ["algorithmics", "formal methods", "geometry", "mathematics"]
+  },
+  {
+    word: "cubic",
+    type: "adj.",
+    note: "also : \"cubical\"",
+    translations: ["kubisk, -, -e"],
+    keywords: ["algorithmics", "formal methods", "geometry", "mathematics"]
   },
   {
     word: "cut",
@@ -626,6 +666,12 @@ export const en_dk : Lexeme[] = [
     type: "adj.",
     translations: ["deklarativ, -t, -e"],
     keywords: ["formal methods"]
+  },
+  {
+    word: "define",
+    type: "vb.",
+    translations: ["definere, -r, -de, -t"],
+    keywords: ["algorithmics", "cryptography", "formal methods", "mathematics", "programming languages"]
   },
   {
     word: "delta",
@@ -981,6 +1027,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["machine learning"]
   },
   {
+    word: "homotopy",
+    type: "sb.",
+    translations: ["homotopi, -en, -er, -erne"],
+    keywords: ["formal methods", "geometry", "mathematics"]
+  },
+  {
+    word: "homotopy",
+    type: "adj.",
+    translations: ["homotopisk, -, -e"],
+    keywords: ["formal methods", "geometry", "mathematics"]
+  },
+  {
     word: "hull",
     type: "sb.",
     translations: ["hylst|er, -eret, -re, -rerne"],
@@ -1244,6 +1302,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["graph"]
   },
   {
+    word: "lift",
+    type: "vb.",
+    translations: ["løfte, -r, -de, -t"],
+    keywords: ["formal methods", "mathematics"]
+  },
+  {
+    word: "limit",
+    type: "sb.",
+    translations: ["grænse, -n, -er, -erne"],
+    keywords: ["formal methods", "mathematics"]
+  },
+  {
     word: "linear",
     type: "adj.",
     translations: ["lineær, -t, -e"],
@@ -1253,7 +1323,7 @@ export const en_dk : Lexeme[] = [
     word: "linearithmic",
     type: "adj.",
     translations: ["linearitmisk, -, -e"],
-    keywords: ["algorithmics"]
+    keywords: ["algorithmics", "mathematics"]
   },
   {
     word: "linear probing",
@@ -1612,6 +1682,18 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["peger, -en, -e, -erne"],
     keywords: ["programming languages", "software engineering"]
+  },
+  {
+    word: "polynomial",
+    type: "sb.",
+    translations: ["polynomie, -t, -r, -rne"],
+    keywords: ["algorithmics", "complexity theory", "formal methods", "mathematics"]
+  },
+  {
+    word: "polynomial",
+    type: "adj.",
+    translations: ["polynomiel, -t, -le"],
+    keywords: ["algorithmics", "complexity theory", "formal methods", "mathematics"]
   },
   {
     word: "predicate",
@@ -2231,9 +2313,33 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods", "mathematics"]
   },
   {
+    word: "truncate",
+    type: "vb.",
+    translations: ["trunkere, -r, -de, -t"],
+    keywords: ["algorithmics", "cryptography", "formal methods"]
+  },
+  {
+    word: "truncated",
+    type: "adj.",
+    translations: ["trunke|ret, -ret, -rede"],
+    keywords: ["algorithmics", "cryptography", "formal methods"]
+  },
+  {
     word: "truth table",
     type: "sb.",
     translations: ["sandhedstabel, -len, -ler, -lerne"],
+    keywords: ["formal methods"]
+  },
+  {
+    word: "type",
+    type: "sb.",
+    translations: ["type, -n, -r, -erne"],
+    keywords: ["formal methods", "programming languages"]
+  },
+  {
+    word: "type theory",
+    type: "sb.",
+    translations: ["typeteori, -n, -r, -erne"],
     keywords: ["formal methods"]
   },
   {
@@ -2286,6 +2392,18 @@ export const en_dk : Lexeme[] = [
       ["union by rank", "rangeret forening"],
       ["union by size", "vægtet forening"]
     ]
+  },
+  {
+    word: "unit",
+    type: "sb.",
+    translations: ["enhed, -en, -er, -erne"],
+    keywords: ["formal methods", "mathematics", "progranmming languages"]
+  },
+  {
+    word: "unit type",
+    type: "sb.",
+    translations: ["enhedstype, -n, -r, -rne"],
+    keywords: ["formal methods", "progranmming languages"]
   },
   {
     word: "universal",
