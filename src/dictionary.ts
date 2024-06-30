@@ -117,7 +117,7 @@ export const en_dk : Lexeme[] = [
       "række, -n, -er, -rne",
       "liste, -n, -r, -rne"
     ],
-    keywords: ["algorithmics", "programming languages", "software enginnering"]
+    keywords: ["algorithmics", "programming languages", "software engineering"]
   },
   {
     word: "associative",
@@ -2397,13 +2397,13 @@ export const en_dk : Lexeme[] = [
     word: "unit",
     type: "sb.",
     translations: ["enhed, -en, -er, -erne"],
-    keywords: ["formal methods", "mathematics", "progranmming languages"]
+    keywords: ["formal methods", "mathematics", "programming languages"]
   },
   {
     word: "unit type",
     type: "sb.",
     translations: ["enhedstype, -n, -r, -rne"],
-    keywords: ["formal methods", "progranmming languages"]
+    keywords: ["formal methods", "programming languages"]
   },
   {
     word: "universal",
@@ -2445,7 +2445,7 @@ export const en_dk : Lexeme[] = [
     word: "vector",
     type: "sb.",
     translations: ["vektor, -en, -er, -erne"],
-    keywords: ["data structures", "mathematics", "programming languages", "software engineering"],
+    keywords: ["algorithmics", "mathematics", "programming languages", "software engineering"],
     phrases: [
       ["the element is inserted into a vector", "elementet indsættes i en ubegrænset række"]
     ]
