@@ -6,6 +6,7 @@ export const keywords = [
   "formal methods",
   "geometry",
   "hashing",
+  "git",
   "graph",
   "greek alphabet",
   "machine learning",
@@ -96,6 +97,12 @@ export const en_dk : Lexeme[] = [
     type: "adj.",
     translations: ["tvetydig, -t, -e"],
     keywords: ["formal methods"]
+  },
+  {
+    word: "amend",
+    type: "vb.",
+    translations: ["tilrette, -r, -de, -t"],
+    keywords: ["git"]
   },
   {
     word: "amortised",
@@ -206,6 +213,12 @@ export const en_dk : Lexeme[] = [
     keywords: []
   },
   {
+    word: "blame",
+    type: "vb.",
+    translations: ["tilrette, -r, -de, -t"],
+    keywords: ["git"]
+  },
+  {
     word: "blockchain",
     type: "sb.",
     translations: ["blok-kæde, -n, -r, -rne"],
@@ -256,6 +269,24 @@ export const en_dk : Lexeme[] = [
     type: "vb.",
     translations: ["begrænse, -r, -de, -t"],
     keywords: ["algorithmics", "mathematics"]
+  },
+  {
+    word: "amend",
+    type: "sb.",
+    translations: ["gren, -en, -e, -ene"],
+    keywords: ["git"]
+  },
+  {
+    word: "branch",
+    type: "sb.",
+    translations: ["gren, -en, -e, -ene"],
+    keywords: ["git"]
+  },
+  {
+    word: "branch",
+    type: "vb.",
+    translations: ["forgrene, -r, -de, -t"],
+    keywords: ["git"]
   },
   {
     word: "branching",
@@ -340,6 +371,15 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods", "mathematics"]
   },
   {
+    word: "cherry-pick",
+    type: "vb.",
+    translations: ["håndplukke, -r, -de, -t"],
+    keywords: ["git"],
+    phrases: [
+      ["We just cherry-pick it from the developerbranch", "Det håndplukker vi da bare fra udviklergrenen"]
+    ]
+  },
+  {
     word: "chi",
     note: "Χ χ",
     translations: ["chi, chei"],
@@ -389,6 +429,18 @@ export const en_dk : Lexeme[] = [
     type: "vb.",
     translations: ["kombinere, -r, -de, -t"],
     keywords: []
+  },
+  {
+    word: "commit",
+    type: "sb.",
+    translations: ["fastlæggelse, -n, -r, -rne"],
+    keywords: ["git"]
+  },
+  {
+    word: "commit",
+    type: "vb.",
+    translations: ["fast|lægge, -lægger, -lagde, -lagt"],
+    keywords: ["git"]
   },
   {
     word: "commutative",
@@ -728,6 +780,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "algorithmics"]
   },
   {
+    word: "developer",
+    type: "sb.",
+    translations: ["udvikler, -en, -e, -ne"],
+    keywords: ["git", "software engineering"]
+  },
+  {
     word: "diagonalization",
     type: "sb.",
     note: "GB: diagonalisation",
@@ -912,6 +970,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods", "mathematics"]
   },
   {
+    word: "fetch",
+    type: "vb.",
+    translations: ["hente, -r, -de, -t"],
+    keywords: ["git"]
+  },
+  {
     word: "field",
     type: "sb.",
     translations: ["legeme, -t, -r, -rne"],
@@ -1013,6 +1077,13 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["hakkeværdi, -en, -er, -erne"],
     keywords: ["algorithmics", "cryptography", "hashing"]
+  },
+  {
+    word: "head",
+    type: "sb.",
+    note: "also \"car\"",
+    translations: ["hoved, -et, -er, -erne"],
+    keywords: ["git", "programming languages"]
   },
   {
     word: "heap",
@@ -1432,6 +1503,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "databases"]
   },
   {
+    word: "merge request",
+    type: "sb.",
+    translations: ["fletteanmodning, -en, -er, -erne"],
+    keywords: ["git"]
+  },
+  {
     word: "merge sort",
     type: "sb.",
     translations: ["flettesortering, -en, -er, -erne"],
@@ -1795,10 +1872,31 @@ export const en_dk : Lexeme[] = [
     keywords: ["greek alphabet"]
   },
   {
+    word: "pull",
+    type: "vb.",
+    translations: ["hale, -r, -de, -t"],
+    keywords: ["git"]
+  },
+  {
+    word: "pull request",
+    type: "sb.",
+    translations: ["haleanmodning, -en, -er, -erne"],
+    keywords: ["git"]
+  },
+  {
     word: "pure",
     type:  "adj.",
     translations: ["ren, -t, -e"],
     keywords: ["programming languages"]
+  },
+  {
+    word: "push",
+    type: "vb.",
+    translations: ["puffe, -r, -de, -t"],
+    keywords: ["git"],
+    phrases: [
+      ["I force pushed to the main branch", "Jeg tvangspuffede vistnok til hovedgrenen"]
+    ]
   },
   {
     word: "quadratic",
@@ -1859,6 +1957,12 @@ export const en_dk : Lexeme[] = [
     type: "adj.",
     translations: ["opnåelig, -t, -e"],
     keywords: ["complexity theory", "formal methods", "graph"]
+  },
+  {
+    word: "rebase",
+    type: "vb.",
+    translations: ["genbasere, -r, -de, -t"],
+    keywords: ["git"]
   },
   {
     word: "record",
@@ -1940,6 +2044,12 @@ export const en_dk : Lexeme[] = [
       "omnavngive, -r, -de, -t"
     ],
     keywords: ["formal methods"]
+  },
+  {
+    word: "repository",
+    type: "sb.",
+    translations: ["repositorium, -et, -er, -erne"],
+    keywords: ["git"]
   },
   {
     word: "rho",
@@ -2100,10 +2210,22 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "formal methods"]
   },
   {
+    word: "squash",
+    type: "vb.",
+    translations: ["kvase, -r, kvaste / -de, kvast / -t"],
+    keywords: ["git"]
+  },
+  {
     word: "stack",
     type: "sb.",
     translations: ["stak, -ken, -ke, -kene"],
     keywords: ["algorithmics"]
+  },
+  {
+    word: "stash",
+    type: "vb.",
+    translations: ["gemme, -r, gemte, gemt"],
+    keywords: ["git"]
   },
   {
     word: "state",
@@ -2157,6 +2279,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["mathematics"]
   },
   {
+    word: "switch",
+    type: "vb.",
+    translations: ["skifte, -r, -de, -t"],
+    keywords: ["git"]
+  },
+  {
     word: "symbol",
     type: "sb.",
     translations: [
@@ -2182,6 +2310,25 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["tabel, -len, -ler, -lerne"],
     keywords: ["algorithmics", "hashing"]
+  },
+  {
+    word: "tag",
+    type: "sb.",
+    translations: ["mærke, -t, -r, -rne"],
+    keywords: ["git"]
+  },
+  {
+    word: "tag",
+    type: "vb.",
+    translations: ["opmærke"],
+    keywords: ["git"]
+  },
+  {
+    word: "tail",
+    note: "also \"cdr\"",
+    type: "sb.",
+    translations: ["hale, -n, -r, -rne"],
+    keywords: ["programming languages"]
   },
   {
     word: "tape",
