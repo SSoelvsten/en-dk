@@ -249,7 +249,7 @@ export const en_dk : Lexeme[] = [
     word: "bit",
     type: "sb.",
     translations: ["bit, -ten, -s, -tene"],
-    keywords: []
+    keywords: ["computer science"]
   },
   {
     word: "blame",
@@ -358,7 +358,7 @@ export const en_dk : Lexeme[] = [
     word: "byte",
     type: "sb.",
     translations: ["byte, -n, -s, -ne"],
-    keywords: []
+    keywords: ["computer science"]
   },
   {
     word: "calculus",
@@ -542,19 +542,19 @@ export const en_dk : Lexeme[] = [
     word: "computer",
     type: "sb.",
     translations: ["datamat, -en, -er, -erne"],
-    keywords: []
+    keywords: ["computer science"]
   },
   {
     word: "computer science",
     type: "sb.",
     translations: ["datalogi, -en"],
-    keywords: []
+    keywords: ["computer science"]
   },
   {
     word: "computer scientist",
     type: "sb.",
     translations: ["datalog, -en, -er, -erne"],
-    keywords: []
+    keywords: ["computer science"]
   },
   {
     word: "computable",
@@ -928,7 +928,7 @@ export const en_dk : Lexeme[] = [
     word: "execute",
     type: "vb.",
     translations: ["eksekvere, -r, -de, -t"],
-    keywords: []
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "edge",
@@ -2492,7 +2492,7 @@ export const en_dk : Lexeme[] = [
     word: "ternary",
     type: "sb.",
     translations: ["trinær"],
-    keywords: []
+    keywords: ["computer science"]
   },
   {
     word: "terminal",
@@ -2645,7 +2645,7 @@ export const en_dk : Lexeme[] = [
     word: "unary",
     type: "adj.",
     translations: ["unær, -t, -e"],
-    keywords: []
+    keywords: ["computer science"]
   },
   {
     word: "uncountable",
@@ -2738,7 +2738,7 @@ export const en_dk : Lexeme[] = [
     word: "validation",
     type: "sb.",
     translations: ["validering, -en, -er, -erne"],
-    keywords: []
+    keywords: ["computer science"]
   },
   {
     word: "vector",
