@@ -1,17 +1,31 @@
 .Filter {
-  margin: auto;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  width: calc(100% - 2rem);
+  background-color: white;
 
-  input,
-  select {
-    margin: 0.2rem;
+  position: fixed;
+  left: 1rem;
+  top: 0;
 
-    background-color: white;
-    border-radius: 0.3rem;
-    border: 0.1rem solid black;
-    padding: 0.3rem 0.5rem;
+  .Inputs {
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    input,
+    select {
+      margin: 0.2rem;
+
+      background-color: white;
+      border-radius: 0.3rem;
+      border: 0.1rem solid black;
+      padding: 0.3rem 0.5rem;
+    }
+  }
+
+  .Separator {
+    margin: 1rem 0 0.1rem 0;
+    border-bottom: double;
   }
 
   @media print

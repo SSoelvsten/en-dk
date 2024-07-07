@@ -48,14 +48,18 @@ const Filter = ({ onChange }: FilterProps) => {
 
   return (
     <div className="Filter">
-      <input onChange={(e) => setInput(e.target.value)}
-        placeholder="filter . . ."
-        ref={textInput}
-      />
+      <div className="Inputs">
+        <input onChange={(e) => setInput(e.target.value)}
+          placeholder="filter . . ."
+          ref={textInput}
+        />
 
-      <select onChange={(e) => setCategory(e.target.value as FilterCategory)}>
-        {FilterCategories.map((c) => <option key={c}>{c}</option>)}
-      </select>
+        <select onChange={(e) => setCategory(e.target.value as FilterCategory)}>
+          {FilterCategories.map((c) => <option key={c}>{c}</option>)}
+        </select>
+      </div>
+
+      <div className="Separator" />
     </div>
   );
 };

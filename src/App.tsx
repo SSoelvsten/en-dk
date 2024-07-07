@@ -13,8 +13,6 @@ const App = () => {
     <div className="App">
       <Filter onChange={setFilterCtxt} />
 
-      <div className="Separator" />
-
       <div className="Words">
         {Dictionary.en_dk
           .filter((l: Dictionary.Lexeme) => {

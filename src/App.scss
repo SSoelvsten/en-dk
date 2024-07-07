@@ -1,20 +1,14 @@
 .App {
   padding: 2rem;
+  @media not print
+  {
+    padding-top: 5rem;
+  }
   max-width: 64rem;
   margin: auto;
 
-  .Separator {
-    margin: 1rem 0;
-    border-bottom: double;
-
-    @media print
-    {
-        display: none !important;
-    }
-  }
-
   .Words {
-    margin: 1rem;
+    margin: 0;
     column-count: 3;
     column-gap: 2rem;
     column-fill: balance;
