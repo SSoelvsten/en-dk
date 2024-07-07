@@ -1,18 +1,8 @@
 export const keywords = [
-  "algorithmics",
-  "complexity theory",
-  "concurrency",
-  "cryptography",
-  "databases",
-  "formal methods",
-  "geometry",
-  "hashing",
+  "computer science",
   "git",
-  "graph",
   "greek alphabet",
-  "machine learning",
   "mathematics",
-  "programming languages",
   "software engineering"
 ] as const;
 
@@ -34,13 +24,13 @@ export const en_dk : Lexeme[] = [
     word: "abstract",
     type: "adj.",
     translations: ["abstrakt, -, -"],
-    keywords: ["formal methods", "programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "abstract",
     type: "vb.",
     translations: ["abstrahere, -r, -de, -t"],
-    keywords: ["programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "abstract",
@@ -52,13 +42,13 @@ export const en_dk : Lexeme[] = [
     word: "accept",
     type: "vb.",
     translations: ["acceptere, -r, -de, -t"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "accepting state",
     type: "sb.",
     translations: ["accepttilstand, -en, -e, -ene"],
-    keywords: ["complexity theory", "formal methods", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "acyclic",
@@ -67,13 +57,13 @@ export const en_dk : Lexeme[] = [
       "acyklisk, -, -e",
       "kredsfri, -t, -e"
     ],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "adjacency list",
     type: "sb.",
     translations: ["incidensliste, -n, -r, -rne"],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "affine",
@@ -88,7 +78,7 @@ export const en_dk : Lexeme[] = [
       "... på forhånd",
       "forhånds-..."
     ],
-    keywords: ["programming languages"],
+    keywords: ["computer science"],
     phrases: [
       ["ahead-of-time optimizations", "forhåndsoptimeret / optimeret på forhånd"]
     ]
@@ -97,19 +87,19 @@ export const en_dk : Lexeme[] = [
     word: "algebra",
     type: "sb.",
     translations: ["algebra, -en, -er, -erne"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "algebraic",
     type: "adj.",
     translations: ["algebraisk, -, -e"],
-    keywords: ["formal methods", "mathematics", "programming languages"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "algorithm",
     type: "sb.",
     translations: ["algoritme, -n, -r, -rne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "alpha",
@@ -121,25 +111,25 @@ export const en_dk : Lexeme[] = [
     word: "alphabet",
     type: "sb.",
     translations: ["alfabet, -et, -er, -erne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "analyse",
     type: "vb.",
     translations: ["analysere, -r, -de, -t"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "analysis",
     type: "sb.",
     translations: ["analyse, -n, -r, -rne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "ambiguous",
     type: "adj.",
     translations: ["tvetydig, -t, -e"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "amend",
@@ -151,14 +141,14 @@ export const en_dk : Lexeme[] = [
     word: "amortised",
     type: "adj.",
     translations: ["amortise|ret, -ret, -rede"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "and",
     type: "adv.",
     note: "see also \"conjunction\"",
     translations: ["og", "både-og"],
-    keywords: ["algorithmics", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "array",
@@ -167,7 +157,7 @@ export const en_dk : Lexeme[] = [
       "række, -n, -er, -rne",
       "liste, -n, -r, -rne"
     ],
-    keywords: ["algorithmics", "programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "associative",
@@ -179,19 +169,19 @@ export const en_dk : Lexeme[] = [
     word: "asymptotic",
     type: "adj.",
     translations: ["asymptotisk, -, -e"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "average",
     type: "adj.",
     translations: ["gennemsnitlig, -t, -e"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "automata",
     type: "sb.",
     translations: ["automat, -en, -er, -erne"],
-    keywords: ["algorithmics", "formal methods", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "axiom",
@@ -206,7 +196,7 @@ export const en_dk : Lexeme[] = [
     word: "axiomatisation",
     type: "sb.",
     translations: ["aksiomatisering, -en, -er, -erne"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "base case",
@@ -217,13 +207,13 @@ export const en_dk : Lexeme[] = [
       "induktionsstart, -en, -er, -erne",
       "startbetingelse, -n, -r, -rne"
     ],
-    keywords: ["algorithmics", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "behaviour",
     type: "sb.",
     translations: ["adfærd, -en"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "beta",
@@ -235,7 +225,7 @@ export const en_dk : Lexeme[] = [
     word: "bipartite",
     type: "adj.",
     translations: ["todelt, -, -e"],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "binary",
@@ -271,7 +261,7 @@ export const en_dk : Lexeme[] = [
     word: "blockchain",
     type: "sb.",
     translations: ["blok-kæde, -n, -r, -rne"],
-    keywords: ["cryptography"]
+    keywords: ["computer science"]
   },
   {
     word: "Boolean",
@@ -283,20 +273,20 @@ export const en_dk : Lexeme[] = [
     word: "Boolean",
     type: "sb.",
     translations: ["sandhedsværdi, -en, -er, -erne"],
-    keywords: ["programming languages", "databases", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "bottom",
     type: "sb.",
     note: "see also \"false\"",
     translations: ["bund, -en, -e, -ene"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "bottom-up",
     type: "adj.",
     translations: ["bund-op"],
-    keywords: ["algorithmics"],
+    keywords: ["computer science"],
     phrases: [
       ["bottom-up 2-4 tree", "bund-op 2-4-træ"]
     ]
@@ -305,19 +295,19 @@ export const en_dk : Lexeme[] = [
     word: "bottleneck",
     type: "sb.",
     translations: ["flaskehals, -en, -e, -erne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "bound",
     type: "sb.",
     translations: ["grænse, -n, -r, -rne"],
-    keywords: ["algorithmics", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "bound",
     type: "vb.",
     translations: ["begrænse, -r, -de, -t"],
-    keywords: ["algorithmics", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "amend",
@@ -341,19 +331,19 @@ export const en_dk : Lexeme[] = [
     word: "branching",
     type: "sb.",
     translations: ["forgrening, -en, -er, -erne"],
-    keywords: ["algorithmics", "programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "breadth-first",
     type: "adj.",
     translations: ["bredde først, -, -"],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "breadth-first order",
     type: "sb.",
     translations: ["breddenummerering, -en, -er, -erne"],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "breadth-first search",
@@ -362,7 +352,7 @@ export const en_dk : Lexeme[] = [
       "bredde først søgning, -en, -er, -erne",
       "breddesøgning, -en, -er, -erne"
     ],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "byte",
@@ -374,25 +364,25 @@ export const en_dk : Lexeme[] = [
     word: "calculus",
     type: "sb.",
     translations: ["kalkyle, -n, -r, -rne"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "canonical",
     type: "adj.",
     translations: ["kanonisk, -, -e"],
-    keywords: ["algorithmics", "complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "Cartesian product",
     type: "sb.",
     translations: ["(det) kartesiske produkt"],
-    keywords: ["complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "category",
     type: "adj.",
     translations: ["kategori, -en, -er, -erne"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "chain",
@@ -401,7 +391,7 @@ export const en_dk : Lexeme[] = [
       "kæde, -n, -r, -rne",
       "(hash table) kollisionsliste, -n, -r, -rne"
     ],
-    keywords: ["algorithmics", "hashing"],
+    keywords: ["computer science"],
     phrases: [
       ["The table uses hashing with chaining", "Tabellen bruger kollisionslister"]
     ]
@@ -410,20 +400,20 @@ export const en_dk : Lexeme[] = [
     word: "channel",
     type: "sb.",
     translations: ["kanal, -en, -er, -erne"],
-    keywords: ["algorithmics", "concurrency", "cryptography", "programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "character",
     type: "sb.",
     note: "see also \"symbol\"",
     translations: ["tegn, -et, -, -ene"],
-    keywords: ["algorithmics", "complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "characteristic",
     type: "adj.",
     translations: ["karakteristisk, -, -e"],
-    keywords: ["complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "cherry-pick",
@@ -431,7 +421,7 @@ export const en_dk : Lexeme[] = [
     translations: ["håndplukke, -r, -de, -t"],
     keywords: ["git"],
     phrases: [
-      ["We just cherry-pick it from the developerbranch", "Det håndplukker vi da bare fra udviklergrenen"]
+      ["We cherry-pick it from the developerbranch", "Det håndplukker vi fra udviklergrenen"]
     ]
   },
   {
@@ -450,7 +440,7 @@ export const en_dk : Lexeme[] = [
     word: "closed",
     type: "adj.",
     translations: ["luk|ket, -ket, -kede"],
-    keywords: ["complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "closure",
@@ -459,25 +449,25 @@ export const en_dk : Lexeme[] = [
       "lukning, -en, -er, -erne",
       "afslutning, -en, -er, -erne"
     ],
-    keywords: ["formal methods", "graph", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "closure property",
     type: "sb.",
     translations: ["lukkethedsegenskab, -en, -er, -erne"],
-    keywords: ["complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "coalgebra",
     type: "sb.",
     translations: ["koalgebra, -en, -er, -erne"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "collision",
     type: "sb.",
     translations: ["kollision, -en, -er, -erne"],
-    keywords: ["algorithmics", "cryptography"]
+    keywords: ["computer science"]
   },
   {
     word: "combine",
@@ -507,13 +497,13 @@ export const en_dk : Lexeme[] = [
     word: "compile",
     type: "vb.",
     translations: ["over|sætte, -sætter, -satte, -sat"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "compiler",
     type: "sb.",
     translations: ["oversætter, -en, -e, -ne"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "complement",
@@ -522,31 +512,31 @@ export const en_dk : Lexeme[] = [
       "komplement [kʌmpləˈmεnˀd], -et, -er, -erne",
       "komplementærmængde, -n, -r, -rne"
     ],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "complete",
     type: "adj.",
     translations: ["fuldstændig, -t, -e"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "completeness",
     type: "sb.",
     translations: ["fuldstændighed, -en, -er, -erne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "complexity",
     type: "sb.",
     translations: ["kompleksitet, -en, -er, -erne"],
-    keywords: ["complexity theory", "algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "component",
     type: "sb.",
     translations: ["komponent, -en, -er, -erne"],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "computer",
@@ -570,79 +560,79 @@ export const en_dk : Lexeme[] = [
     word: "computable",
     type: "adj.",
     translations: ["beregnelig, -t, -e"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "computability",
     type: "sb.",
     translations: ["beregnelighed, -en, -er, -erne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "computation",
     type: "sb.",
     translations: ["beregning, -en, -er, -erne"],
-    keywords: ["complexity theory"]
+    keywords: ["computer science"]
   },
   {
     word: "concatenate",
     type: "vb.",
     translations: ["konkatenere, -r, -de, -t"],
-    keywords: ["complexity theory", "cryptography"]
+    keywords: ["computer science"]
   },
   {
     word: "concept",
     type: "sb.",
     translations: ["koncept, -et, -er, -erne"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "concurrent",
     type: "adj.",
     translations: ["parallel, -t, -le"],
-    keywords: ["concurrency"]
+    keywords: ["computer science"]
   },
   {
     word: "configuration",
     type: "sb.",
     translations: ["konfiguration, -en, -er, -erne"],
-    keywords: ["complexity theory", "algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "conjunction",
     type: "sb.",
     translations: ["konjunktion, -en, -er, -erne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "connected component",
     type: "sb.",
     translations: ["sammenhængskomponent, -en, -er, -erne"],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "constant",
     type: "sb.",
     translations: ["konstant, -en, -er, -erne"],
-    keywords: ["algorithmics", "complexity theory", "cryptography", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "construction",
     type: "sb.",
     translations: ["konstruktion, -en, -er, -erne"],
-    keywords: ["algorithmics", "complexity theory", "cryptography", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "constructor",
     type: "sb.",
     translations: ["konstruktør, -en, -er, -erne"],
-    keywords: ["formal methods", "programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "context-free",
     type: "adj.",
     translations: ["kontekstfri, -t, -e"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "contradiction",
@@ -651,25 +641,25 @@ export const en_dk : Lexeme[] = [
       "modstrid, -en",
       "kontradiktion, -en, -er, -erne"
     ],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "convex",
     type: "adj.",
     translations: ["konveks, -t, -e"],
-    keywords: ["algorithmics", "geometry", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "core",
     type: "sb.",
     translations: ["kerne, -n, -r, -rne"],
-    keywords: ["concurrency"]
+    keywords: ["computer science"]
   },
   {
     word: "correctness",
     type: "sb.",
     translations: ["korrekthed, -en"],
-    keywords: ["algorithmics", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "countable",
@@ -678,44 +668,44 @@ export const en_dk : Lexeme[] = [
         "tællelig, -t, -e",
         "nummera|bel, -belt, -ble"
     ],
-    keywords: ["complexity theory", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "cryptography",
     type: "sb.",
     translations: ["kryptografi, -en, -er, -erne"],
-    keywords: ["cryptography", "hashing"]
+    keywords: ["computer science"]
   },
   {
     word: "cryptographic",
     type: "adj.",
     translations: ["kryptografisk, -, -e"],
-    keywords: ["cryptography", "hashing"]
+    keywords: ["computer science"]
   },
   {
     word: "cube",
     type: "sb.",
     translations: ["kube, -n, -r, -rne"],
-    keywords: ["algorithmics", "formal methods", "geometry", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "cubic",
     type: "adj.",
     note: "also : \"cubical\"",
     translations: ["kubisk, -, -e"],
-    keywords: ["algorithmics", "formal methods", "geometry", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "cut",
     type: "sb.",
     translations: ["snit, -tet, -, -tene"],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "cycle",
     type: "sb.",
     translations: ["cy|kel, -klen, -kler, -klerne"],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "cyclic",
@@ -724,7 +714,7 @@ export const en_dk : Lexeme[] = [
       "cyklisk, -, -e",
       "kred|set, -set, -sede"
     ],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "deadline",
@@ -736,7 +726,7 @@ export const en_dk : Lexeme[] = [
     word: "data structure",
     type: "sb.",
     translations: ["datastruktur, -en, -er, -erne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "debugger",
@@ -748,7 +738,7 @@ export const en_dk : Lexeme[] = [
     word: "decidable",
     type: "adj.",
     translations: ["afgørlig, -t, -e"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "decide",
@@ -757,7 +747,7 @@ export const en_dk : Lexeme[] = [
       "beslutte, -r, -de, -t",
       "afgøre, -r, afgjorde, afgjort"
     ],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "decision",
@@ -766,37 +756,37 @@ export const en_dk : Lexeme[] = [
       "beslutning, -en, -er, -erne",
       "afgørelse, -n, -r, -rne"
     ],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "decision diagram",
     type: "sb.",
     translations: ["beslutningsdiagram, -met, -mer, -merne"],
-    keywords: ["algorithmics", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "decision problem",
     type: "sb.",
     translations: ["beslutningsproblem, -et, -er, -erne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "decision tree",
     type: "sb.",
     translations: ["beslutningstræ, -et, -er, -erne"],
-    keywords: ["machine learning"]
+    keywords: ["computer science"]
   },
   {
     word: "declarative",
     type: "adj.",
     translations: ["deklarativ, -t, -e"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "define",
     type: "vb.",
     translations: ["definere, -r, -de, -t"],
-    keywords: ["algorithmics", "cryptography", "formal methods", "mathematics", "programming languages"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "delta",
@@ -808,7 +798,7 @@ export const en_dk : Lexeme[] = [
     word: "depth-first",
     type: "adj.",
     translations: ["dybde først, -, -"],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "depth-first search",
@@ -817,13 +807,13 @@ export const en_dk : Lexeme[] = [
       "dybde først søgning, -en, -er, -erne",
       "dybdesøgning, -en, -er, -erne"
     ],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "dereference",
     type: "vb.",
     translations: ["afreferere, -r, -de, -t"],
-    keywords: ["programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "derivation",
@@ -832,25 +822,25 @@ export const en_dk : Lexeme[] = [
       "derivation, -en, -er, -erne",
       "derivationstrin, -net, -, -nene"
     ],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "derivation tree",
     type: "sb.",
     translations: ["derivationstræ, -et, -er, -erne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "determinisation",
     type: "sb.",
     translations: ["determinisering, -en, -er, -erne"],
-    keywords: ["complexity theory", "algorithmics", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "deterministic",
     type: "adj.",
     translations: ["deterministisk, -, -e"],
-    keywords: ["complexity theory", "algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "developer",
@@ -863,13 +853,13 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     note: "GB: diagonalisation",
     translations: ["diagonalisering, -en, -er, -erne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "dictionary",
     type: "sb.",
     translations: ["ord|bog, -bogen, -bøger, -bøgerne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "directed",
@@ -878,7 +868,7 @@ export const en_dk : Lexeme[] = [
       "oriente|ret, -ret, -rede",
       "ret|tet, -tet, -tede"
     ],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "difference",
@@ -894,25 +884,25 @@ export const en_dk : Lexeme[] = [
     word: "disjunction",
     type: "sb.",
     translations: ["disjunktion, -en, -er, -erne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "distinguish",
     type: "vb.",
     translations: ["skelne, -r, -de, -t"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "distinguishability",
     type: "sb.",
     translations: ["skelnelighed, -en, -er, -erne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "distinguishable",
     type: "adj.",
     translations: ["skelnelig, -t, -e"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "distributive",
@@ -926,13 +916,13 @@ export const en_dk : Lexeme[] = [
       "del-og-kombinér",
       "del-og-hersk",
     ],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "dynamic",
     type: "adj.",
     translations: ["dynamisk, -, -e"],
-    keywords: ["algorithmics", "formal methods", "programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "execute",
@@ -945,13 +935,13 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     note: "also : \"arc\"",
     translations: ["kant, -en, -er, -erne"],
-    keywords: ["graph", "geometry"]
+    keywords: ["computer science"]
   },
   {
     word: "empty",
     type: "adj.",
     translations: ["tom, -t, -me"],
-    keywords: ["algorithmics", "complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science"]
   },
   {
     word: "enumerate",
@@ -960,7 +950,7 @@ export const en_dk : Lexeme[] = [
       "nummerere, -r, -de, -t",
       "opliste, -r, -de, -t"
     ],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "enumerable",
@@ -969,7 +959,7 @@ export const en_dk : Lexeme[] = [
       "nummera|bel, -belt, -ble",
       "oplistelig, -t, -e"
     ],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "epsilon",
@@ -981,31 +971,31 @@ export const en_dk : Lexeme[] = [
     word: "equivalence",
     type: "sb.",
     translations: ["ækvivalens, -en, -er, -erne"],
-    keywords: ["complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "equivalence class",
     type: "sb.",
     translations: ["ækvivalensklasse, -n, -r, -rne"],
-    keywords: ["complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "equivalence relation",
     type: "sb.",
     translations: ["ækvivalensrelation, -en, -er, -erne"],
-    keywords: ["complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "error",
     type: "sb.",
     translations: ["fejl, -en, -, -ene"],
-    keywords: ["programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "error code",
     type: "sb.",
     translations: ["fejlkode, -n, -r, -rne"],
-    keywords: ["programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "eta",
@@ -1017,7 +1007,7 @@ export const en_dk : Lexeme[] = [
     word: "exception",
     type: "sb.",
     translations: ["undtagelse, -n, -r, -rne"],
-    keywords: ["programming languages", "software engineering"],
+    keywords: ["computer science", "software engineering"],
     phrases: [
       ["an exception was thrown", "en undtagelse blev kastet"],
       ["exceptions are exceptional", "undtagelser er kun undtgelsesvis"]
@@ -1027,26 +1017,26 @@ export const en_dk : Lexeme[] = [
     word: "expression",
     type: "sb.",
     translations: ["udtryk, -ket, -, kene"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "expressiveness",
     type: "sb.",
     translations: ["udtrykskraft, -en, -er, -erne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "factorial",
     type: "sb.",
     translations: ["fakultet, -et, -er, -erne"],
-    keywords: ["complexity theory", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "false",
     type: "sb.",
     note: "see also \"bot\"",
     translations: ["falsk"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "fetch",
@@ -1058,7 +1048,7 @@ export const en_dk : Lexeme[] = [
     word: "field",
     type: "sb.",
     translations: ["legeme, -t, -r, -rne"],
-    keywords: ["cryptography", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "finite",
@@ -1070,50 +1060,50 @@ export const en_dk : Lexeme[] = [
     word: "fixpoint",
     type: "sb.",
     translations: ["fixpunkt, -et, -er, -erne"],
-    keywords: ["complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "flow",
     type: "sb.",
     translations: ["strømning, -en, -er, -erne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "for all",
     type: "adj.",
     note: "also \"universal\"",
     translations: ["for alle", "universel"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "formal",
     type: "adj.",
     translations: ["formel, -t, -le"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "forest",
     type: "sb.",
     translations: ["skov, -en, -e, -ene"],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "free",
     type: "adj.",
     translations: ["fri, -t, -e"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "function",
     type: "sb.",
     translations: ["funktion, -en, -er, -erne"],
-    keywords: ["cryptography", "formal methods", "mathematics", "programming languages"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "functional",
     type: "adj.",
     translations: ["funktionel, -t, -le"],
-    keywords: ["formal methods", "programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "gamma",
@@ -1125,85 +1115,85 @@ export const en_dk : Lexeme[] = [
     word: "grammar",
     type: "sb.",
     translations: ["grammatik, -ken, -ker, -kerne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "graph",
     type: "sb.",
     translations: ["graf, -en, -er, -erne"],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "greedy",
     type: "adj.",
     translations: ["grådig, -t, -e"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "hash",
     type: "vb.",
     translations: ["hakke, -r, -de, -t"],
-    keywords: ["algorithmics", "cryptography", "hashing"]
+    keywords: ["computer science"]
   },
   {
     word: "hash function",
     type: "sb.",
     translations: ["hakkefunktion, -en, -er, -erne"],
-    keywords: ["algorithmics", "cryptography", "hashing"]
+    keywords: ["computer science"]
   },
   {
     word: "hash table",
     type: "sb.",
     translations: ["hakketabel, -len, -ler, -lerne"],
-    keywords: ["algorithmics", "hashing"]
+    keywords: ["computer science"]
   },
   {
     word: "hash value",
     type: "sb.",
     translations: ["hakkeværdi, -en, -er, -erne"],
-    keywords: ["algorithmics", "cryptography", "hashing"]
+    keywords: ["computer science"]
   },
   {
     word: "head",
     type: "sb.",
     note: "also \"car\"",
     translations: ["hoved, -et, -er, -erne"],
-    keywords: ["git", "programming languages"]
+    keywords: ["computer science", "git"]
   },
   {
     word: "heap",
     type: "sb.",
     translations: ["hob, -en, -e, -erne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "hidden layer",
     type: "sb.",
     translations: ["(et) skjult lag, (det) skjulte lag, (de) skjulte lag"],
-    keywords: ["machine learning"]
+    keywords: ["computer science"]
   },
   {
     word: "homotopy",
     type: "sb.",
     translations: ["homotopi, -en, -er, -erne"],
-    keywords: ["formal methods", "geometry", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "homotopy",
     type: "adj.",
     translations: ["homotopisk, -, -e"],
-    keywords: ["formal methods", "geometry", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "hull",
     type: "sb.",
     translations: ["hylst|er, -eret, -re, -rerne"],
-    keywords: ["algorithmics", "geometry"]
+    keywords: ["computer science"]
   },
   {
     word: "human-computer interaction",
     translations: ["menneske-maskine interaktion"],
-    keywords: []
+    keywords: ["computer science"]
   },
   {
     word: "iff",
@@ -1215,26 +1205,26 @@ export const en_dk : Lexeme[] = [
     word: "imperative",
     type: "adj.",
     translations: ["imperativ, -t, -e"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word : "implication",
     type: "sb.",
     translations: ["implikation, -en, -er, -erne"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "imply",
     type: "vb.",
     translations: ["medfør|e, -er, -ede, -t"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "impure",
     type: "adj.",
     note: "see also \"side effect\"",
     translations: ["uren, -t, -e"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "immutable",
@@ -1243,61 +1233,61 @@ export const en_dk : Lexeme[] = [
       "umutérbar, -t, -e",
       "uforanderlig, -t, -e"
     ],
-    keywords: ["programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "incidence matrix",
     type: "sb.",
     translations: ["incidensmat|rix, -rixen, ricer, -ricerne"],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "incomplete",
     type: "adj.",
     translations: ["ufuldstændig, -t, -e"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "indistinguishability",
     type: "sb.",
     translations: ["uskelnelighed, -en, -er, -erne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "indistinguishable",
     type: "adj.",
     translations: ["uskelnelig, -t, -e"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "induction",
     type: "sb.",
     translations: ["induktion, -en, -er, -erne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "induction hypothesis",
     type: "sb.",
     translations: ["induktionshypotese, -n, -r, -rne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "inductive",
     type: "adj.",
     translations: ["induktiv, -t, -e"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "inductive case",
     type: "sb.",
     translations: ["induktionstilfælde, -t, -r, -rne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "inductive step",
     type: "sb.",
     translations: ["induktionsskridt, -et, -, -ene"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "infinite",
@@ -1309,13 +1299,13 @@ export const en_dk : Lexeme[] = [
     word: "informal",
     type: "sb.",
     translations: ["uformel, -t, -e"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "initial state",
     type: "sb.",
     translations: ["starttilstand, -en, -e, -ene"],
-    keywords: ["formal methods", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "injective",
@@ -1327,37 +1317,37 @@ export const en_dk : Lexeme[] = [
     word: "input",
     type: "sb.",
     translations: ["inddata, -en, -, -ene"],
-    keywords: ["complexity theory", "algorithmics", "cryptography"]
+    keywords: ["computer science"]
   },
   {
     word: "insertion sort",
     type: "sb.",
     translations: ["indsættelsessortering, -en, -er, -erne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "integer",
     type: "sb.",
     translations: ["heltal, -let, -, -lene"],
-    keywords: ["databases", "mathematics", "programming languages", "software engineering"]
+    keywords: ["computer science", "mathematics", "software engineering"]
   },
   {
     word: "interface",
     type: "sb.",
     translations: ["grænseflade, -n, -r, -rne"],
-    keywords: ["programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "interpret",
     type: "vb.",
     translations: ["fortolke, -r, -de, -t"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "interpreter",
     type: "sb.",
     translations: ["fortolker, -en, -e, -ne"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "intersection",
@@ -1373,7 +1363,7 @@ export const en_dk : Lexeme[] = [
     word: "invariant",
     type: "sb.",
     translations: ["invariant, -en, -er, -erne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "iota",
@@ -1389,13 +1379,13 @@ export const en_dk : Lexeme[] = [
       "irregulær, -t, -e",
       "ikke-regulær, t, -e"
     ],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "isomorphic",
     type: "adj.",
     translations: ["isomorf, -, -e"],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "isomorphism",
@@ -1404,7 +1394,7 @@ export const en_dk : Lexeme[] = [
       "isomorfi, -en, -er, -erne",
       "isomorfisme, -n, -r, -rne"
     ],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "kappa",
@@ -1416,7 +1406,7 @@ export const en_dk : Lexeme[] = [
     word: "key",
     type: "sb.",
     translations: ["nøgle, -n, -r, -rne"],
-    keywords: ["cryptography", "algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "lambda",
@@ -1429,31 +1419,31 @@ export const en_dk : Lexeme[] = [
     word: "language",
     type: "sb.",
     translations: ["sprog, -et, -, -ene"],
-    keywords: ["complexity theory", "cryptography", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "language property",
     type: "sb.",
     translations: ["sprogegenskab, -en, -er, -erne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "lexical",
     type: "adj.",
     translations: ["leksikalsk, -, -e"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "lexicographic",
     type: "adj.",
     translations: ["leksikografisk, -, -e"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "lazy",
     type: "adj.",
     translations: ["doven, -t, dovne"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "level",
@@ -1462,25 +1452,25 @@ export const en_dk : Lexeme[] = [
       "lag, -et, -, -ene",
       "niveau, -et, -er, -erne"
     ],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "library",
     type: "sb.",
     translations: ["bibliotek, -et, -er, -erne"],
-    keywords: []
+    keywords: ["software engineering"]
   },
   {
     word: "lift",
     type: "vb.",
     translations: ["løfte, -r, -de, -t"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "limit",
     type: "sb.",
     translations: ["grænse, -n, -er, -erne"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "linear",
@@ -1492,19 +1482,19 @@ export const en_dk : Lexeme[] = [
     word: "linearithmic",
     type: "adj.",
     translations: ["linearitmisk, -, -e"],
-    keywords: ["algorithmics", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "linear probing",
     type: "sb.",
     translations: ["lineær sondering, -en, -er, -erne"],
-    keywords: ["mathematics", "hashing"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "link",
     type: "vb.",
     translations: ["hægte"],
-      keywords: ["algorithmics", "software engineering"]
+      keywords: ["computer science", "software engineering"]
   },
   {
     word: "linked list",
@@ -1513,61 +1503,61 @@ export const en_dk : Lexeme[] = [
       "(en) kædet liste, (den) kædede liste, (de) kædede lister",
       "(en) hægtet liste, (den) hægtede liste, (de) hægtede lister"
     ],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "location",
     type: "sb.",
     translations: ["lokation, -en, -er, -erne"],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "locality-sensitive",
     type: "adj.",
     translations: ["afstandsfølsom, -, -me"],
-    keywords: ["algorithmics", "hashing"]
+    keywords: ["computer science"]
   },
   {
     word: "logic",
     type: "sb.",
     translations: ["logik, -ken, -ker, -kerne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "lookup",
     type: "sb.",
     translations: ["opslag, -et, -, -ene"],
-    keywords: ["algorithmics", "databases", "programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "loop",
     type: "sb.",
     translations: ["løkke, -n, -r, -rne"],
-    keywords: ["algorithmics", "programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "lower",
     type: "adj.",
     translations: ["nedre, -, -"],
-    keywords: ["algorithmics", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "machine learning",
     type: "sb.",
     translations: ["maskinlæring, -en"],
-    keywords: ["machine learning"]
+    keywords: ["computer science"]
   },
   {
     word: "machine code",
     type: "sb.",
     translations: ["maskinkode, -n, -, rne"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "Markov chain",
     type: "sb.",
     translations: ["markovkæde, -n, -r, -rne"],
-    keywords: ["algorithmics", "formal methods", "machine learning"]
+    keywords: ["computer science"]
   },
   {
     word: "matrix, matrices",
@@ -1586,19 +1576,19 @@ export const en_dk : Lexeme[] = [
     word: "membership",
     type: "sb.",
     translations: ["medlemsskab, -et, -er, -erne"],
-    keywords: ["complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "memory",
     type: "sb.",
     translations: ["hukommelse, -n, -r, -rne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "merge",
     type: "vb.",
     translations: ["flette, -r, -de, -t"],
-    keywords: ["algorithmics", "databases"]
+    keywords: ["computer science"]
   },
   {
     word: "merge request",
@@ -1610,32 +1600,32 @@ export const en_dk : Lexeme[] = [
     word: "merge sort",
     type: "sb.",
     translations: ["flettesortering, -en, -er, -erne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "minimization",
     type: "sb.",
     note: "GB: minimisation",
     translations: ["minimering, -en, -er, -erne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "model",
     type: "sb.",
     translations: ["model, -len, -ler, -lerne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "monad",
     type: "sb.",
     translations: ["monade, -n, -r, -rne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "monadic",
     type: "adj.",
     translations: ["monadisk, -, -e"],
-    keywords: []
+    keywords: ["computer science"]
   },
   {
     word: "mu",
@@ -1647,13 +1637,13 @@ export const en_dk : Lexeme[] = [
     word: "mu-calculus",
     note: "μ-calculus",
     translations: ["my-kalkyle, -n, -r, -rne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "multi-threaded",
     type: "adj.",
     translations: ["flertråd|en, -et, -ede"],
-    keywords: ["concurrency"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "mutable",
@@ -1662,25 +1652,25 @@ export const en_dk : Lexeme[] = [
       "mutérbar, -t, -e",
       "foranderlig, -t, -e"
     ],
-    keywords: ["programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "narrow",
     type: "adj.",
     translations: ["tynd"],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "natural deduction",
     type: "sb.",
     translations: ["naturlig deduktion"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "node",
     type: "sb.",
     translations: ["knude, -n, -r, -rne"],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "nondeterministic",
@@ -1689,7 +1679,7 @@ export const en_dk : Lexeme[] = [
       "nondeterministisk, -, -e",
       "ikke-deterministisk, -, -e"
     ],
-    keywords: ["algorithmics", "complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "nonterminal",
@@ -1698,7 +1688,7 @@ export const en_dk : Lexeme[] = [
       "nonterminal, -en, -er, -erne",
       "ikke-terminal, -en, -er, -erne"
     ],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "non-trivial",
@@ -1710,14 +1700,14 @@ export const en_dk : Lexeme[] = [
     word: "normalisation",
     type: "sb.",
     translations: ["normalisering"],
-    keywords: ["algorithmics", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "not",
     type: "adv.",
     note: "also \"negation\"",
     translations: ["ikke", "negation"],
-    keywords: ["algorithmics", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "nu",
@@ -1741,32 +1731,32 @@ export const en_dk : Lexeme[] = [
     word: "open addressing",
     type: "sb.",
     translations: ["åben adressering, -en, -er, -erne"],
-    keywords: ["algorithmics", "hashing"]
+    keywords: ["computer science"]
   },
   {
     word: "operational",
     type: "adj.",
     translations: ["operationel, -t, -le"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "or",
     type: "adv.",
     note: "see also \"disjunction\"",
     translations: ["eller", "og/eller"],
-    keywords: ["algorithmics", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "order",
     type: "sb.",
     translations: ["orden", "ordning"],
-    keywords: ["algorithmics", "complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "order",
     type: "vb.",
     translations: ["ordne, -r, -de, -t"],
-    keywords: ["algorithmics", "complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "ordered",
@@ -1775,13 +1765,13 @@ export const en_dk : Lexeme[] = [
       "ord|net, -net, -nede",
       "sorte|ret, -ret, -rede"
     ],
-    keywords: ["algorithmics", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "output",
     type: "sb.",
     translations: ["uddata, -en, -, -ene"],
-    keywords: ["algorithmics", "complexity theory", "cryptography"]
+    keywords: ["computer science"]
   },
   {
     word: "overhead",
@@ -1790,19 +1780,19 @@ export const en_dk : Lexeme[] = [
       "overhead, -et, -s, -ene ",
       "fast omkostning, faste omkostning, faste omkostninger"
     ],
-    keywords: ["algorithmics", "concurrency", "programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "paradigm",
     type: "sb.",
     translations: ["paradigme, -t, -r, -rne"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "partial",
     type: "adj.",
     translations: ["partiel, -t, -le"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "partition",
@@ -1811,7 +1801,7 @@ export const en_dk : Lexeme[] = [
       "partition, -en, -er, -erne",
       "partitionering, -en, -er, -erne"
     ],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "path",
@@ -1820,7 +1810,7 @@ export const en_dk : Lexeme[] = [
       "sti, -en, -er, -erne",
       "vej, -en, -e, -ene"
     ],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "path compression",
@@ -1829,25 +1819,25 @@ export const en_dk : Lexeme[] = [
       "stiforkortning, -en, -er, -erne",
       "vejforkortning, -en, -er, -erne",
     ],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "pattern",
     type: "sb.",
     translations: ["møns|ter, -teret, -tre, -trene"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "pattern matching",
     type: "sb.",
     translations: ["mønstergenkendelse, -n, -r, -rne"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "performance",
     type: "sb.",
     translations: ["ydeevne, -n, -r, -rne"],
-    keywords: ["algorithmics", "programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "phi",
@@ -1859,7 +1849,7 @@ export const en_dk : Lexeme[] = [
     word: "planar",
     type: "adj.",
     translations: ["planær, -t, -e"],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "pi",
@@ -1871,73 +1861,73 @@ export const en_dk : Lexeme[] = [
     word: "precedence",
     type: "sb.",
     translations: ["præcedens"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "pointer",
     type: "sb.",
     translations: ["peger, -en, -e, -erne"],
-    keywords: ["programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "polynomial",
     type: "sb.",
     translations: ["polynomie, -t, -r, -rne"],
-    keywords: ["algorithmics", "complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "polynomial",
     type: "adj.",
     translations: ["polynomiel, -t, -le"],
-    keywords: ["algorithmics", "complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "predicate",
     type: "sb.",
     translations: ["prædikat, -et, -er, -erne"],
-    keywords: ["algorithmics", "complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "prefix",
     type: "sb.",
     translations: ["præfiks, -et, -er, -erne"],
-    keywords: ["algorithmics", "complexity theory"]
+    keywords: ["computer science"]
   },
   {
     word: "prefix tree",
     type: "sb.",
     translations: ["præfikstræ, -et, -er, -erne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "premise",
     type: "sb.",
     translations: ["præmis, -sen, -ser, -serne"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "priority queue",
     type: "sb.",
     translations: ["prioritetskø, -en, -er, -erne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "product construction",
     type: "sb.",
     translations: ["produktkonstruktion, -en, -er, -erne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "production",
     type: "sb.",
     translations: ["produktion, -en, -er, -erne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "program",
     type: "sb.",
     translations: ["program, -et, -er, -erne"],
-      keywords: ["formal methods", "programming languages", "software engineering"]
+      keywords: ["computer science", "software engineering"]
   },
   {
     word: "program",
@@ -1958,31 +1948,31 @@ export const en_dk : Lexeme[] = [
     word: "programming language",
     type: "sb.",
     translations: ["programmeringssprog, -et, -, -ene"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "projection",
     type: "sb.",
     translations: ["projektion, -en, -er, -erne"],
-    keywords: ["databases", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "proof",
     type: "sb.",
     translations: ["bevis, -et, -er, -erne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "proof rule",
     type: "sb.",
     translations: ["bevis|regel, -reglen, -regler, -reglerne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "property",
     type: "sb.",
     translations: ["egenskab, -en, -er, -erne"],
-    keywords: ["complexity theory", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "psi",
@@ -2007,7 +1997,7 @@ export const en_dk : Lexeme[] = [
     type: "adj.",
     note: "see also \"side effect\"",
     translations: ["ren, -t, -e"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "push",
@@ -2022,61 +2012,61 @@ export const en_dk : Lexeme[] = [
     word: "quadratic",
     type: "adj.",
     translations: ["kvadratisk, -, -e"],
-    keywords: ["algorithmics", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "quadratic probing",
     type: "sb.",
     translations: ["kvadratisk sondering, -en, -er, -erne"],
-    keywords: ["algorithmics", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "quantifier",
     type: "sb.",
     translations: ["kvantor"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "quantify",
     type: "vb.",
     translations: ["kvantificere, -r, -ede, -t"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "queue",
     type: "sb.",
     translations: ["kø, -en, -er, -erne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "quick sort",
     type: "sb.",
     translations: ["kviksortering, -en, -er, -erne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "quotient",
     type: "sb.",
     translations: ["kvotient, -en, -er, -erne"],
-    keywords: ["cryptography", "formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "random",
     type: "adj.",
     translations: ["tilfældig, -t, -e"],
-    keywords: ["algorithmics", "cryptography"]
+    keywords: ["computer science"]
   },
   {
     word: "rank",
     type: "sb.",
     translations: ["rang, -en, -, -ene"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "reachable",
     type: "adj.",
     translations: ["opnåelig, -t, -e"],
-    keywords: ["complexity theory", "formal methods", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "rebase",
@@ -2088,73 +2078,73 @@ export const en_dk : Lexeme[] = [
     word: "record",
     type: "sb.",
     translations: ["post,  -en, -er, -erne"],
-    keywords: ["databases", "programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "recursion",
     type: "sb.",
     translations: ["rekursion, -en, -er, -erne"],
-    keywords: ["algorithmics", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "recursive",
     type: "adj.",
     translations: ["rekursiv, -t, -e"],
-    keywords: ["algorithmics", "complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "recursively enumerable",
     type: "adj.",
     translations: ["rekursiv nummera|bel, -belt, -ble"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "reduction",
     type: "sb.",
     translations: ["reduktion, -en, -er, -erne"],
-    keywords: ["complexity theory", "cryptography"]
+    keywords: ["computer science"]
   },
   {
     word: "reference",
     type: "sb.",
     translations: ["reference, -n, -r, -rne"],
-    keywords: ["programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "reference",
     type: "vb.",
     translations: ["referere, -r, -de, -t"],
-    keywords: ["programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "reflexive",
     type: "adj.",
     translations: ["refleksiv, -t, -e"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "regular",
     type: "adj.",
     translations: ["regulær, -t, -e"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "regularity",
     type: "sb.",
     translations: ["regularitet, -en, -er, -erne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "reject",
     type: "vb.",
     translations: ["afvi|se, -ser, -ste, -st"],
-    keywords: ["complexity theory", "cryptography", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "relation",
     type: "sb.",
     translations: ["relation, -en, -er, -erne"],
-    keywords: ["algorithmics", "complexity theory", "formal methods", "graph", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "rename",
@@ -2163,7 +2153,7 @@ export const en_dk : Lexeme[] = [
       "omdø|be, -ber, -bte, -bt",
       "omnavngive, -r, -de, -t"
     ],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "repository",
@@ -2181,13 +2171,13 @@ export const en_dk : Lexeme[] = [
     word: "root",
     type: "sb.",
     translations: ["rod, -en, rødder, rødderne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "rule",
     type: "sb.",
     translations: ["regel, -reglen, -regler, -reglerne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "running time",
@@ -2196,55 +2186,55 @@ export const en_dk : Lexeme[] = [
       "kørselstid, -en, -er, -erne",
       "udførselstid, -en, -er, -erne"
     ],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "reason",
     type: "vb.",
     translations: ["ræsonnere, -r, -de, -t"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "reasoning",
     type: "sb.",
     translations: ["ræsonnement, -et, -er, -erne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "satisfiability",
     type: "sb.",
     translations: ["tilfredstillelse, -n, -r, -rne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "satisfiable",
     type: "adj.",
     translations: ["tilfredstillelig, -t, -e"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "satisfy",
     type: "vb.",
     translations: ["tilfredstille, -r, -de, -t"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "scope",
     type: "sb.",
     translations: ["virkefelt, -et, -er, -erne"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "search",
     type: "vb.",
     translations: ["søg|e, -er, -te, -t"],
-    keywords: ["algorithmics", "databases"]
+    keywords: ["computer science"]
   },
   {
     word: "search tree",
     type: "sb.",
     translations: ["søgetræ, -et, -er, -erne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "set",
@@ -2256,24 +2246,24 @@ export const en_dk : Lexeme[] = [
     word: "semantics",
     type: "sb.",
     translations: ["semantik, -ken, -ker, -kerne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "semantic entailment",
     translations: ["logisk konsekvens"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "sequence",
     type: "sb.",
     translations: ["sekvens, -en, -er, -erne"],
-    keywords: ["algorithmics", "complexity theory"]
+    keywords: ["computer science"]
   },
   {
     word: "share",
     type: "vb.",
     translations: ["delr, -r, delte, delt"],
-    keywords: ["algorithmics", "concurrency", "programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "side effect",
@@ -2282,7 +2272,7 @@ export const en_dk : Lexeme[] = [
       "bivirkning, -en, -er, -erne",
       "sideeffekt, -en, -er, -erne"
     ],
-    keywords: ["concurrency", "programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "sigma",
@@ -2293,13 +2283,13 @@ export const en_dk : Lexeme[] = [
   {
     word: "simplex",
     translations: ["simpleks"],
-    keywords: ["geometry"]
+    keywords: ["computer science"]
   },
   {
     word: "simplicial complex",
     type: "adj.",
     translations: ["simplicielt kompleks, -t, -e"],
-    keywords: ["geometry"]
+    keywords: ["computer science"]
   },
   {
     word: "sink",
@@ -2308,25 +2298,25 @@ export const en_dk : Lexeme[] = [
       "dræn, -et, -, -ene",
       "afløb, -et, -, -ene"
     ],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "sound",
     type: "adj.",
     translations: ["sund, -t, -e"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "source",
     type: "sb.",
     translations: ["kilde, -n, -r, -rne"],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "source code",
     type: "sb.",
     translations: ["kildekode, -n, -r, -rne"],
-    keywords: ["programming languages"],
+    keywords: ["computer science"],
     phrases: [
       ["open-source", "åben kildekode"]
     ]
@@ -2335,7 +2325,7 @@ export const en_dk : Lexeme[] = [
     word: "space",
     type: "sb.",
     translations: ["plads, -en, -er, -erne"],
-    keywords: ["algorithmics", "complexity theory"],
+    keywords: ["computer science"],
     phrases: [
       ["the algorithm's uses linear space", "algoritmens pladsforbrug er lineær"]
     ]
@@ -2344,14 +2334,14 @@ export const en_dk : Lexeme[] = [
     word: "space complexity",
     type: "sb.",
     translations: ["pladskompleksitet, -en, -er, -erne"],
-    keywords: ["algorithmics", "complexity theory"]
+    keywords: ["computer science"]
   },
   {
     word: "square",
     type: "sb.",
     note: "on a tape",
     translations: ["felt, -et, -er, -erne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "squash",
@@ -2363,7 +2353,7 @@ export const en_dk : Lexeme[] = [
     word: "stack",
     type: "sb.",
     translations: ["stak, -ken, -ke, -kene"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "stash",
@@ -2375,19 +2365,19 @@ export const en_dk : Lexeme[] = [
     word: "state",
     type: "sb.",
     translations: ["tilstand, -en, -e, -ene"],
-    keywords: ["formal methods", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "state space",
     type: "sb.",
     translations: ["tilstandsrum, -met, -, -mene"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "static",
     type: "adj.",
     translations: ["statisk, -, -e"],
-    keywords: ["formal methods", "programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "string",
@@ -2396,7 +2386,7 @@ export const en_dk : Lexeme[] = [
       "streng, -en, -e, -ene",
       "ord, -et, -, -ene"
     ],
-    keywords: ["algorithmics", "complexity theory", "cryptography", "formal methods"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "subset",
@@ -2408,19 +2398,19 @@ export const en_dk : Lexeme[] = [
     word: "subset construction",
     type: "sb.",
     translations: ["delmængdekonstruktion, -en, -er, -erne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "suffix",
     type: "sb.",
     translations: ["suffiks, -et, -er, -erne"],
-    keywords: ["algorithmics", "complexity theory"]
+    keywords: ["computer science"]
   },
   {
     word: "supervised learning",
     type: "sb.",
     translations: ["overvåget læring"],
-    keywords: ["machine learning"]
+    keywords: ["computer science"]
   },
   {
     word: "surjective",
@@ -2441,25 +2431,25 @@ export const en_dk : Lexeme[] = [
       "symbol, -et, -er, -erne",
       "tegn, -et, -, -ene"
     ],
-    keywords: ["formal methods", "complexity theory"]
+    keywords: ["computer science"]
   },
   {
     word: "symmetric",
     type: "adj.",
     translations: ["symmetrisk, -t, -e"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "syntax",
     type: "sb.",
     translations: ["syntaks, -en, -er, -erne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "table",
     type: "sb.",
     translations: ["tabel, -len, -ler, -lerne"],
-    keywords: ["algorithmics", "hashing"]
+    keywords: ["computer science"]
   },
   {
     word: "tag",
@@ -2478,13 +2468,13 @@ export const en_dk : Lexeme[] = [
     note: "also \"cdr\"",
     type: "sb.",
     translations: ["hale, -n, -r, -rne"],
-    keywords: ["programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "tape",
     type: "sb.",
     translations: ["bånd, -et, -, -ene"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "tau",
@@ -2496,7 +2486,7 @@ export const en_dk : Lexeme[] = [
     word: "tautology",
     type: "sb.",
     translations: ["tautologi, -en, -er, -erne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "ternary",
@@ -2508,14 +2498,14 @@ export const en_dk : Lexeme[] = [
     word: "terminal",
     type: "sb.",
     translations: ["terminal, -en, -er, -erne"],
-    keywords: ["complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "termination",
     type: "sb.",
     note: "also \"halt\"",
     translations: ["terminering, -en, -er, -erne"],
-    keywords: ["algorithmics", "complexity theory", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "theta",
@@ -2527,19 +2517,19 @@ export const en_dk : Lexeme[] = [
     word: "thread",
     type: "sb.",
     translations: ["tråd, -en, -e, -ene"],
-    keywords: ["concurrency"]
+    keywords: ["computer science"]
   },
   {
     word: "throw",
     type: "vb.",
     translations: ["kaste, -r, -ede"],
-    keywords: ["programming languages", "software engineering"]
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "time complexity",
     type: "sb.",
     translations: ["tidskompleksitet, -en, -er, -erne"],
-    keywords: ["algorithmics", "complexity theory"]
+    keywords: ["computer science"]
   },
   {
     word: "tool",
@@ -2552,13 +2542,13 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     note: "see also \"true\"",
     translations: ["top, -pen, -pe, -pene"],
-    keywords: ["cryptography", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "top-down",
     type: "adj.",
     translations: ["top-ned"],
-    keywords: ["algorithmics"],
+    keywords: ["computer science"],
     phrases: [
       ["top-down 2-4 tree", "top-ned 2-4-træ"]
     ]
@@ -2567,7 +2557,7 @@ export const en_dk : Lexeme[] = [
     word: "topologic, topological",
     type: "adj.",
     translations: ["topologisk, -, -e"],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "total",
@@ -2576,37 +2566,37 @@ export const en_dk : Lexeme[] = [
       "(automata) fuldstændig, -t, -e",
       "(correctness) total, -t, -e"
     ],
-    keywords: ["formal methods", "graph", "mathematics"],
+    keywords: ["computer science", "mathematics"],
   },
   {
     word: "transition",
     type: "sb.",
     translations: ["transition, -en, -er, -erne"],
-    keywords: ["formal methods", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "transition function",
     type: "sb.",
     translations: ["transitionsfunktion, -en, -er, -erne"],
-    keywords: ["formal methods", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "transition system",
     type: "sb.",
     translations: ["transitionssystem, -met, -mer, -merne"],
-    keywords: ["formal methods", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "transitive",
     type: "adj.",
     translations: ["transitiv, -t, -e"],
-    keywords: ["formal methods", "graph", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "trie",
     type: "sb.",
     translations: ["trie, -n, -r, -rne"],
-    keywords: ["algorithmics"]
+    keywords: ["computer science"]
   },
   {
     word: "trivial",
@@ -2619,37 +2609,37 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     note: "see also \"top\"",
     translations: ["sand"],
-    keywords: ["formal methods", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "truncate",
     type: "vb.",
     translations: ["trunkere, -r, -de, -t"],
-    keywords: ["algorithmics", "cryptography", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "truncated",
     type: "adj.",
     translations: ["trunke|ret, -ret, -rede"],
-    keywords: ["algorithmics", "cryptography", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "truth table",
     type: "sb.",
     translations: ["sandhedstabel, -len, -ler, -lerne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "type",
     type: "sb.",
     translations: ["type, -n, -r, -erne"],
-    keywords: ["formal methods", "programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "type theory",
     type: "sb.",
     translations: ["typeteori, -n, -r, -erne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "unary",
@@ -2664,14 +2654,14 @@ export const en_dk : Lexeme[] = [
         "overtællelig, -t, -e",
         "ikke-nummera|bel, -belt, -ble",
     ],
-    keywords: ["complexity theory", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "undecidable",
     type: "adj.",
     note: "also \"non-decidable\"",
     translations: ["uafgørlig, -t, -e"],
-    keywords: ["complexity theory"]
+    keywords: ["computer science"]
   },
   {
     word: "undirected",
@@ -2680,7 +2670,7 @@ export const en_dk : Lexeme[] = [
       "uoriente|ret, -ret, -rede",
       "uret|tet, -tet, -tede"
     ],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "union",
@@ -2696,7 +2686,7 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     note: "also \"disjoint-set data structure\"",
     translations: ["forén-og-find"],
-    keywords: ["algorithmics"],
+    keywords: ["computer science"],
     phrases: [
       ["union by rank", "rangeret forening"],
       ["union by size", "vægtet forening"]
@@ -2706,25 +2696,25 @@ export const en_dk : Lexeme[] = [
     word: "unit",
     type: "sb.",
     translations: ["enhed, -en, -er, -erne"],
-    keywords: ["formal methods", "mathematics", "programming languages"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "unit type",
     type: "sb.",
     translations: ["enhedstype, -n, -r, -rne"],
-    keywords: ["formal methods", "programming languages"]
+    keywords: ["computer science"]
   },
   {
     word: "universal",
     type: "adj.",
     translations: ["universel, -t, -le"],
-    keywords: ["algorithmics", "cryptography", "hashing"]
+    keywords: ["computer science"]
   },
   {
     word: "unreachable",
     type: "sb.",
     translations: ["uopnåelig, -t, -e"],
-    keywords: ["complexity theory", "formal methods", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "upsilon",
@@ -2736,13 +2726,13 @@ export const en_dk : Lexeme[] = [
     word: "upper",
     type: "adj.",
     translations: ["øvre, -, -"],
-    keywords: ["algorithmics", "mathematics"]
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "valid",
     type: "adj.",
     translations: ["gyldig, -t, -t"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "validation",
@@ -2754,7 +2744,7 @@ export const en_dk : Lexeme[] = [
     word: "vector",
     type: "sb.",
     translations: ["vektor, -en, -er, -erne"],
-    keywords: ["algorithmics", "mathematics", "programming languages", "software engineering"],
+    keywords: ["computer science", "mathematics", "software engineering"],
     phrases: [
       ["the element is inserted into a vector", "elementet indsættes i en ubegrænset række"]
     ]
@@ -2763,7 +2753,7 @@ export const en_dk : Lexeme[] = [
     word: "verification",
     type: "sb.",
     translations: ["verifikation, -en, -er, -erne"],
-    keywords: ["formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "vertex, vertice",
@@ -2773,37 +2763,37 @@ export const en_dk : Lexeme[] = [
       "hjørne, -t, -r, -rne",
       "punkt, -et, -er, -erne"
     ],
-    keywords: ["geometry", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "weight",
     type: "sb.",
     translations: ["vægt, -en, -e, -ene"],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "weighted",
     type: "adj.",
     translations: ["væg|tet, -tet, -tede"],
-    keywords: ["algorithmics", "graph"]
+    keywords: ["computer science"]
   },
   {
     word: "wide",
     type: "adj.",
     translations: ["bred, -t, -e"],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "width",
     type: "sb.",
     translations: ["bredde, -n, -r, -rne"],
-    keywords: ["graph"]
+    keywords: ["computer science"]
   },
   {
     word: "word",
     type: "sb.",
     translations: ["ord, -et, -, -ene"],
-    keywords: ["algorithmics", "complexity theory"],
+    keywords: ["computer science"],
     phrases: [
       ["a machine word is often 1 byte", "et maskinord er ofte 1 byte stor"]
     ]
@@ -2813,7 +2803,7 @@ export const en_dk : Lexeme[] = [
     type: "adv.",
     note: "also \"exclusive or\"",
     translations: ["enten-eller", "eksklusivt eller"],
-    keywords: ["algorithmics", "formal methods"]
+    keywords: ["computer science"]
   },
   {
     word: "xi",
