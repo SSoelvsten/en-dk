@@ -1,15 +1,13 @@
 .Filter {
   margin: auto;
-  width: fit-content;
-
-  $select-width: 7rem;
-
-  input {
-    margin-right: 0.4rem;
-  }
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 
   input,
   select {
+    margin: 0.2rem;
+
     background-color: white;
     border-radius: 0.3rem;
     border: 0.1rem solid black;
