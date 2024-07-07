@@ -1,6 +1,7 @@
 export const keywords = [
   "algorithmics",
   "complexity theory",
+  "concurrency",
   "cryptography",
   "databases",
   "formal methods",
@@ -29,6 +30,24 @@ export type Lexeme = {
 };
 
 export const en_dk : Lexeme[] = [
+  {
+    word: "abstract",
+    type: "adj.",
+    translations: ["abstrakt, -, -"],
+    keywords: ["formal methods", "programming languages", "software engineering"]
+  },
+  {
+    word: "abstract",
+    type: "vb.",
+    translations: ["abstrahere, -r, -de, -t"],
+    keywords: ["programming languages", "software engineering"]
+  },
+  {
+    word: "abstract",
+    type: "sb.",
+    translations: ["resumé, -et, -er, -erne"],
+    keywords: []
+  },
   {
     word: "accept",
     type: "vb.",
@@ -63,6 +82,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["mathematics"]
   },
   {
+    word: "ahead-of-time",
+    type: "adj.",
+    translations: [
+      "... på forhånd",
+      "forhånds-..."
+    ],
+    keywords: ["programming languages"],
+    phrases: [
+      ["ahead-of-time optimizations", "forhåndsoptimeret / optimeret på forhånd"]
+    ]
+  },
+  {
     word: "algebra",
     type: "sb.",
     translations: ["algebra, -en, -er, -erne"],
@@ -91,6 +122,18 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["alfabet, -et, -er, -erne"],
     keywords: ["complexity theory", "formal methods"]
+  },
+  {
+    word: "analyse",
+    type: "vb.",
+    translations: ["analysere, -r, -de, -t"],
+    keywords: ["formal methods"]
+  },
+  {
+    word: "analysis",
+    type: "sb.",
+    translations: ["analyse, -n, -r, -rne"],
+    keywords: ["formal methods"]
   },
   {
     word: "ambiguous",
@@ -175,6 +218,12 @@ export const en_dk : Lexeme[] = [
       "startbetingelse, -n, -r, -rne"
     ],
     keywords: ["algorithmics", "formal methods"]
+  },
+  {
+    word: "behaviour",
+    type: "sb.",
+    translations: ["adfærd, -en"],
+    keywords: ["formal methods"]
   },
   {
     word: "beta",
@@ -358,6 +407,12 @@ export const en_dk : Lexeme[] = [
     ]
   },
   {
+    word: "channel",
+    type: "sb.",
+    translations: ["kanal, -en, -er, -erne"],
+    keywords: ["algorithmics", "concurrency", "cryptography", "programming languages"]
+  },
+  {
     word: "character",
     type: "sb.",
     note: "see also \"symbol\"",
@@ -536,6 +591,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["complexity theory", "cryptography"]
   },
   {
+    word: "concept",
+    type: "sb.",
+    translations: ["koncept, -et, -er, -erne"],
+    keywords: ["programming languages"]
+  },
+  {
+    word: "concurrent",
+    type: "adj.",
+    translations: ["parallel, -t, -le"],
+    keywords: ["concurrency"]
+  },
+  {
     word: "configuration",
     type: "sb.",
     translations: ["konfiguration, -en, -er, -erne"],
@@ -591,6 +658,12 @@ export const en_dk : Lexeme[] = [
     type: "adj.",
     translations: ["konveks, -t, -e"],
     keywords: ["algorithmics", "geometry", "mathematics"]
+  },
+  {
+    word: "core",
+    type: "sb.",
+    translations: ["kerne, -n, -r, -rne"],
+    keywords: ["concurrency"]
   },
   {
     word: "correctness",
@@ -859,7 +932,13 @@ export const en_dk : Lexeme[] = [
     word: "dynamic",
     type: "adj.",
     translations: ["dynamisk, -, -e"],
-    keywords: ["algorithmics"]
+    keywords: ["algorithmics", "formal methods", "programming languages"]
+  },
+  {
+    word: "execute",
+    type: "vb.",
+    translations: ["eksekvere, -r, -de, -t"],
+    keywords: []
   },
   {
     word: "edge",
@@ -1028,7 +1107,13 @@ export const en_dk : Lexeme[] = [
     word: "function",
     type: "sb.",
     translations: ["funktion, -en, -er, -erne"],
-    keywords: ["cryptography", "formal methods"]
+    keywords: ["cryptography", "formal methods", "mathematics", "programming languages"]
+  },
+  {
+    word: "functional",
+    type: "adj.",
+    translations: ["funktionel, -t, -le"],
+    keywords: ["formal methods", "programming languages"]
   },
   {
     word: "gamma",
@@ -1127,6 +1212,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["mathematics"]
   },
   {
+    word: "imperative",
+    type: "adj.",
+    translations: ["imperativ, -t, -e"],
+    keywords: ["programming languages"]
+  },
+  {
     word : "implication",
     type: "sb.",
     translations: ["implikation, -en, -er, -erne"],
@@ -1141,6 +1232,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "impure",
     type: "adj.",
+    note: "see also \"side effect\"",
     translations: ["uren, -t, -e"],
     keywords: ["programming languages"]
   },
@@ -1373,6 +1465,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["graph"]
   },
   {
+    word: "library",
+    type: "sb.",
+    translations: ["bibliotek, -et, -er, -erne"],
+    keywords: []
+  },
+  {
     word: "lift",
     type: "vb.",
     translations: ["løfte, -r, -de, -t"],
@@ -1552,6 +1650,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["formal methods"]
   },
   {
+    word: "multi-threaded",
+    type: "adj.",
+    translations: ["flertråd|en, -et, -ede"],
+    keywords: ["concurrency"]
+  },
+  {
     word: "mutable",
     type: "adj.",
     translations: [
@@ -1680,10 +1784,19 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics", "complexity theory", "cryptography"]
   },
   {
+    word: "overhead",
+    type: "sb.",
+    translations: [
+      "overhead, -et, -s, -ene ",
+      "fast omkostning, faste omkostning, faste omkostninger"
+    ],
+    keywords: ["algorithmics", "concurrency", "programming languages"]
+  },
+  {
     word: "paradigm",
     type: "sb.",
     translations: ["paradigme, -t, -r, -rne"],
-    keywords: []
+    keywords: ["programming languages"]
   },
   {
     word: "partial",
@@ -1729,6 +1842,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["mønstergenkendelse, -n, -r, -rne"],
     keywords: ["programming languages"]
+  },
+  {
+    word: "performance",
+    type: "sb.",
+    translations: ["ydeevne, -n, -r, -rne"],
+    keywords: ["algorithmics", "programming languages"]
   },
   {
     word: "phi",
@@ -1885,7 +2004,8 @@ export const en_dk : Lexeme[] = [
   },
   {
     word: "pure",
-    type:  "adj.",
+    type: "adj.",
+    note: "see also \"side effect\"",
     translations: ["ren, -t, -e"],
     keywords: ["programming languages"]
   },
@@ -2079,6 +2199,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["algorithmics"]
   },
   {
+    word: "reason",
+    type: "vb.",
+    translations: ["ræsonnere, -r, -de, -t"],
+    keywords: ["formal methods"]
+  },
+  {
+    word: "reasoning",
+    type: "sb.",
+    translations: ["ræsonnement, -et, -er, -erne"],
+    keywords: ["formal methods"]
+  },
+  {
     word: "satisfiability",
     type: "sb.",
     translations: ["tilfredstillelse, -n, -r, -rne"],
@@ -2135,13 +2267,22 @@ export const en_dk : Lexeme[] = [
     word: "sequence",
     type: "sb.",
     translations: ["sekvens, -en, -er, -erne"],
-    keywords: ["complexity theory", "algorithmics"]
+    keywords: ["algorithmics", "complexity theory"]
+  },
+  {
+    word: "share",
+    type: "vb.",
+    translations: ["delr, -r, delte, delt"],
+    keywords: ["algorithmics", "concurrency", "programming languages"]
   },
   {
     word: "side effect",
     type: "sb.",
-    translations: ["bivirkning, -en, -er, -erne"],
-    keywords: ["programming languages"]
+    translations: [
+      "bivirkning, -en, -er, -erne",
+      "sideeffekt, -en, -er, -erne"
+    ],
+    keywords: ["concurrency", "programming languages"]
   },
   {
     word: "sigma",
@@ -2185,7 +2326,10 @@ export const en_dk : Lexeme[] = [
     word: "source code",
     type: "sb.",
     translations: ["kildekode, -n, -r, -rne"],
-    keywords: ["programming languages"]
+    keywords: ["programming languages"],
+    phrases: [
+      ["open-source", "åben kildekode"]
+    ]
   },
   {
     word: "space",
@@ -2238,6 +2382,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["tilstandsrum, -met, -, -mene"],
     keywords: ["formal methods"]
+  },
+  {
+    word: "static",
+    type: "adj.",
+    translations: ["statisk, -, -e"],
+    keywords: ["formal methods", "programming languages"]
   },
   {
     word: "string",
@@ -2374,6 +2524,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["greek alphabet"]
   },
   {
+    word: "thread",
+    type: "sb.",
+    translations: ["tråd, -en, -e, -ene"],
+    keywords: ["concurrency"]
+  },
+  {
     word: "throw",
     type: "vb.",
     translations: ["kaste, -r, -ede"],
@@ -2384,6 +2540,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["tidskompleksitet, -en, -er, -erne"],
     keywords: ["algorithmics", "complexity theory"]
+  },
+  {
+    word: "tool",
+    type: "sb.",
+    translations: ["værktøj, -et, -er, -erne"],
+    keywords: []
   },
   {
     word: "top",
