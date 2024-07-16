@@ -76,7 +76,7 @@ export const en_dk : Lexeme[] = [
     type: "adj.",
     translations: [
       "... på forhånd",
-      "forhånds-..."
+      "forhånds..."
     ],
     keywords: ["computer science"],
     phrases: [
@@ -187,7 +187,7 @@ export const en_dk : Lexeme[] = [
     word: "axiom",
     type: "sb.",
     translations: ["aksiom, -et, -er, -erne"],
-    keywords: ["mathematics"],
+    keywords: ["computer science", "mathematics"],
     phrases: [
       ["axiom of choice", "udvalgsaksiomet"]
     ]
@@ -249,6 +249,12 @@ export const en_dk : Lexeme[] = [
     word: "bit",
     type: "sb.",
     translations: ["bit, -ten, -s, -tene"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "bitwise",
+    type: "adj.",
+    translations: ["bitvis, -t, -e"],
     keywords: ["computer science"]
   },
   {
@@ -1710,6 +1716,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["greek alphabet"]
   },
   {
+    word: "object",
+    type: "sb.",
+    translations: ["objekt, -et, -er, -erne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "objective function",
+    type: "sb.",
+    translations: ["målfunktion, -en, -er, -erne"],
+    keywords: ["computer science", "mathematics"]
+  },
+  {
     word: "omega",
     note: "Ω ω",
     translations: ["omega"],
@@ -1732,6 +1750,20 @@ export const en_dk : Lexeme[] = [
     type: "adj.",
     translations: ["operationel, -t, -le"],
     keywords: ["computer science"]
+  },
+  {
+    word: "optimization",
+    type: "sb.",
+    note: "GB: optimisation",
+    translations: ["optimering, -en, -er, -erne"],
+    keywords: ["computer science", "mathematics"]
+  },
+  {
+    word: "optimize",
+    type: "vb.",
+    note: "GB: optimise",
+    translations: ["optimere, -r, -de, -t"],
+    keywords: ["computer science", "mathematics"]
   },
   {
     word: "or",
@@ -1831,6 +1863,20 @@ export const en_dk : Lexeme[] = [
     word: "performance",
     type: "sb.",
     translations: ["ydeevne, -n, -r, -rne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "pessimization",
+    type: "sb.",
+    note: "GB: pessimisation",
+    translations: ["pessimering, -en, -er, -erne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "pessimize",
+    type: "vb.",
+    note: "GB: pessimise",
+    translations: ["optimere, -r, -de, -t"],
     keywords: ["computer science"]
   },
   {
@@ -2256,7 +2302,13 @@ export const en_dk : Lexeme[] = [
   {
     word: "share",
     type: "vb.",
-    translations: ["delr, -r, delte, delt"],
+    translations: ["dele, -r, delte, delt"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "shift",
+    type: "vb.",
+    translations: ["forskyde, -r, -de, forskudt"],
     keywords: ["computer science"]
   },
   {
