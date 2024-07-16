@@ -310,12 +310,6 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science", "mathematics"]
   },
   {
-    word: "amend",
-    type: "sb.",
-    translations: ["gren, -en, -e, -ene"],
-    keywords: ["git"]
-  },
-  {
     word: "branch",
     type: "sb.",
     translations: ["gren, -en, -e, -ene"],
