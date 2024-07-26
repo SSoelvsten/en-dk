@@ -1397,6 +1397,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "iterate",
+    type: "vb.",
+    translations: ["iterere, -r, -ede, -t"],
+    keywords: ["computer science", "software engineering"]
+  },
+  {
+    word: "iterator",
+    type: "sb.",
+    translations: ["iterator, -en, -er, -erne"],
+    keywords: ["software engineering"]
+  },
+  {
     word: "kappa",
     note: "Κ κ",
     translations: ["kappa"],
