@@ -1872,6 +1872,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "peer review",
+    type: "sb.",
+    translations: ["fagfællebedømmelse, -n, -r, -rne"],
+    keywords: []
+  },
+  {
+    word: "peer review",
+    type: "vb.",
+    translations: ["fagfællebedøm|me, -mer, -mede, -t"],
+    keywords: []
+  },
+  {
     word: "performance",
     type: "sb.",
     translations: ["ydeevne, -n, -r, -rne"],
