@@ -431,6 +431,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["greek alphabet"]
   },
   {
+    word: "cite",
+    type: "vb.",
+    translations: ["henvis|e, -er, -te, -t"],
+    keywords: ["computer science", "mathematics"]
+  },
+  {
+    word: "citation",
+    type: "sb.",
+    translations: ["henvisning, -en, -er, -erne"],
+    keywords: ["computer science", "mathematics"]
+  },
+  {
     word: "class",
     type: "sb.",
     translations: ["klasse, -n, -r, -rne"],
