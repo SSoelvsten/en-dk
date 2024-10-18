@@ -3,7 +3,8 @@ export const keywords = [
   "git",
   "greek alphabet",
   "mathematics",
-  "software engineering"
+  "software engineering",
+  "typography",
 ] as const;
 
 export type KeyWord = typeof keywords[number];
@@ -149,6 +150,12 @@ export const en_dk : Lexeme[] = [
     note: "see also \"conjunction\"",
     translations: ["og", "både-og"],
     keywords: ["computer science"]
+  },
+  {
+    word: "apostrophe",
+    type: "sb.",
+    translations: ["apostrof, -fen, fer, ferne"],
+    keywords: ["typography"]
   },
   {
     word: "array",
@@ -482,10 +489,22 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "colon",
+    type: "sb.",
+    translations: ["kolon, -et, -er, -erne"],
+    keywords: ["typography"]
+  },
+  {
     word: "combine",
     type: "vb.",
     translations: ["kombinere, -r, -de, -t"],
     keywords: []
+  },
+  {
+    word: "comma",
+    type: "sb.",
+    translations: ["komma, -et, -er, -erne"],
+    keywords: ["typography"]
   },
   {
     word: "commit",
@@ -735,6 +754,12 @@ export const en_dk : Lexeme[] = [
     keywords: []
   },
   {
+    word: "dash",
+    type: "sb.",
+    translations: ["tankestreg, -en, -er, -erne"],
+    keywords: ["typography"]
+  },
+  {
     word: "data structure",
     type: "sb.",
     translations: ["datastruktur, -en, -er, -erne"],
@@ -950,6 +975,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "ellipsis",
+    type: "sb.",
+    translations: ["udeladelsesprikker"],
+    keywords: ["typography"]
+  },
+  {
     word: "empty",
     type: "adj.",
     translations: ["tom, -t, -me"],
@@ -1024,6 +1055,12 @@ export const en_dk : Lexeme[] = [
       ["an exception was thrown", "en undtagelse blev kastet"],
       ["exceptions are exceptional", "undtagelser er kun undtgelsesvis"]
     ]
+  },
+  {
+    word: "exclamation point",
+    type: "sb.",
+    translations: ["udråbstegn, -et, -, -ene"],
+    keywords: ["typography"]
   },
   {
     word: "expression",
@@ -1206,6 +1243,12 @@ export const en_dk : Lexeme[] = [
     word: "human-computer interaction",
     translations: ["menneske-maskine interaktion"],
     keywords: ["computer science"]
+  },
+  {
+    word: "hyphen",
+    type: "sb.",
+    translations: ["bindestreg", "-en", "-er", "erne"],
+    keywords: ["typography"]
   },
   {
     word: "iff",
@@ -1839,6 +1882,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "parenthesis",
+    type: "sb.",
+    translations: ["parentes, -en, -er, -erne"],
+    keywords: ["typography"]
+  },
+  {
     word: "partial",
     type: "adj.",
     translations: ["partiel, -t, -le"],
@@ -1900,6 +1949,13 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["ydeevne, -n, -r, -rne"],
     keywords: ["computer science"]
+  },
+  {
+    word: "period",
+    type: "sb.",
+    note: "GB: full stop",
+    translations: ["punktum, -met, -mer, merne"],
+    keywords: ["typography"]
   },
   {
     word: "pessimization",
@@ -2109,6 +2165,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "question mark",
+    type: "sb.",
+    translations: ["spørgsmålstegn, -et, -, -ene"],
+    keywords: ["typography"]
+  },
+  {
     word: "queue",
     type: "sb.",
     translations: ["kø, -en, -er, -erne"],
@@ -2119,6 +2181,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["kviksortering, -en, -er, -erne"],
     keywords: ["computer science"]
+  },
+  {
+    word: "quotation mark",
+    type: "sb.",
+    translations: ["citationstegn, -et, -, -ene"],
+    keywords: ["typography"]
   },
   {
     word: "quotient",
@@ -2330,6 +2398,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "semicolon",
+    type: "sb.",
+    translations: ["semikolon, -et, -er, -erne"],
+    keywords: ["typography"]
+  },
+  {
     word: "sequence",
     type: "sb.",
     translations: ["sekvens, -en, -er, -erne"],
@@ -2346,6 +2420,13 @@ export const en_dk : Lexeme[] = [
     type: "vb.",
     translations: ["forskyde, -r, -de, forskudt"],
     keywords: ["computer science"]
+  },
+  {
+    word: "slash",
+    type: "sb.",
+    note: "forward slash",
+    translations: ["skråstreg -en, -er, -erne"],
+    keywords: ["typography"]
   },
   {
     word: "side effect",
@@ -2411,6 +2492,12 @@ export const en_dk : Lexeme[] = [
     phrases: [
       ["the algorithm's uses linear space", "algoritmens pladsforbrug er lineær"]
     ]
+  },
+  {
+    word: "space",
+    type: "sb.",
+    translations: ["mellemrum, -met, -, -mene"],
+    keywords: ["typography"],
   },
   {
     word: "space complexity",
