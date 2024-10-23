@@ -152,6 +152,16 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "angle brace",
+    type: "sb.",
+    note: "⟨ chevron ⟩",
+    translations: [
+      "vinkelparentes, -en, -er, -erne",
+      "vinkelklamme, -n, -r, -rne",
+    ],
+    keywords: ["typography"]
+  },
+  {
     word: "apostrophe",
     type: "sb.",
     translations: ["apostrof, -fen, fer, ferne"],
@@ -321,6 +331,27 @@ export const en_dk : Lexeme[] = [
     type: "vb.",
     translations: ["begrænse, -r, -de, -t"],
     keywords: ["computer science", "mathematics"]
+  },
+  {
+    word: "brace",
+    type: "sb.",
+    note: "{curly} bracket",
+    translations: [
+      "tuborgklamme, -n, -r, -rne",
+      "kap|sel, -slen, -sler, -slerne",
+      "en krøllet parentes, den krøllede parentes, de krøllede parenteser",
+    ],
+    keywords: ["typography"]
+  },
+  {
+    word: "bracket",
+    type: "sb.",
+    note: "[square] bracket",
+    translations: [
+      "klamme, -n, -r, -rne",
+      "en kantet parentes, den kantede parentes, de kantede parenteser",
+    ],
+    keywords: ["typography"]
   },
   {
     word: "branch",
@@ -1884,6 +1915,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "parenthesis",
     type: "sb.",
+    note: "(round) bracket",
     translations: ["parentes, -en, -er, -erne"],
     keywords: ["typography"]
   },
