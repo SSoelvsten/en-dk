@@ -115,18 +115,6 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
-    word: "analyse",
-    type: "vb.",
-    translations: ["analysere, -r, -de, -t"],
-    keywords: ["computer science"]
-  },
-  {
-    word: "analysis",
-    type: "sb.",
-    translations: ["analyse, -n, -r, -rne"],
-    keywords: ["computer science"]
-  },
-  {
     word: "ambiguous",
     type: "adj.",
     translations: ["tvetydig, -t, -e"],
@@ -142,6 +130,18 @@ export const en_dk : Lexeme[] = [
     word: "amortised",
     type: "adj.",
     translations: ["amortise|ret, -ret, -rede"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "analyse",
+    type: "vb.",
+    translations: ["analysere, -r, -de, -t"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "analysis",
+    type: "sb.",
+    translations: ["analyse, -n, -r, -rne"],
     keywords: ["computer science"]
   },
   {
