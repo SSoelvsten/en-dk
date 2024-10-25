@@ -22,8 +22,7 @@ const App = () => {
               && (filterCtxt.category === "" || l.keywords.some((kw: string) => kw === filterCtxt.category))
           })
           .map((l: Dictionary.Lexeme) => {
-            const key = l.word + (l.type ? l.type : "") + (l.note ? l.note : "");
-            return <Lexeme lexeme={l} key={key} />
+            return <Lexeme lexeme={l} key={JSON.stringify(l)} />
           })}
       </div>
     </div>
