@@ -127,8 +127,9 @@ export const en_dk : Lexeme[] = [
     keywords: ["git"]
   },
   {
-    word: "amortised",
+    word: "amortized",
     type: "adj.",
+    note: "GB: amortised",
     translations: ["amortise|ret, -ret, -rede"],
     keywords: ["computer science"]
   },
@@ -1278,7 +1279,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "hyphen",
     type: "sb.",
-    translations: ["bindestreg", "-en", "-er", "erne"],
+    translations: ["bindestreg, -en, -er, erne"],
     keywords: ["typography"]
   },
   {
@@ -1905,6 +1906,12 @@ export const en_dk : Lexeme[] = [
       "fast omkostning, faste omkostning, faste omkostninger"
     ],
     keywords: ["computer science"]
+  },
+  {
+    word: "paper",
+    type: "sb.",
+    translations: ["arti|kel, -klen, -kler, -klerne"],
+    keywords: []
   },
   {
     word: "paradigm",
