@@ -15,6 +15,7 @@ export type Lexeme = {
   word: string;
   type?: WordType;
   note?: string;
+  search_terms?: string;
   translations: string[];
   keywords: KeyWord[];
   phrases?: [string, string][];
@@ -156,6 +157,7 @@ export const en_dk : Lexeme[] = [
     word: "angle brace",
     type: "sb.",
     note: "⟨ chevron ⟩",
+    search_terms: "<>",
     translations: [
       "vinkelparentes, -en, -er, -erne",
       "vinkelklamme, -n, -r, -rne",

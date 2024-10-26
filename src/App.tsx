@@ -19,6 +19,7 @@ const App = () => {
             const input_lowered = filterCtxt.input.toLocaleLowerCase();
             return (l.word.toLocaleLowerCase().includes(input_lowered)
               || (l.note && l.note.toLocaleLowerCase().includes(input_lowered))
+              || (l.search_terms && l.search_terms.toLocaleLowerCase().includes(input_lowered))
               || (l.phrases && l.phrases.some(([en, _]) => en.includes(input_lowered))))
               && (filterCtxt.category === "" || l.keywords.some((kw: string) => kw === filterCtxt.category))
           })
