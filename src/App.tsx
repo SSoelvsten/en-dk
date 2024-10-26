@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './App.scss';
 
-import Filter, { FilterNone } from './Filter.tsx';
+import Filter, { FilterDefault } from './Filter.tsx';
 import Lexeme from './Lexeme.tsx';
 
 import * as Dictionary from './dictionary.ts';
 
 const App = () => {
-  const [filterCtxt, setFilterCtxt] = useState(FilterNone);
+  const [filterCtxt, setFilterCtxt] = useState(FilterDefault);
 
   return (
     <div className="App">

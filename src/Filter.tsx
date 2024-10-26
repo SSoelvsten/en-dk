@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Filter.scss';
 import * as Dictionary from './dictionary.ts';
+import { GetURLParam, SetURLParam } from './url_param.ts'
 
 export interface FilterContext {
   input: string;
@@ -12,6 +13,11 @@ export const FilterNone: FilterContext = {
   category: "",
 };
 
+export const FilterDefault: FilterContext = {
+  input: GetURLParam('search') || '',
+  category: GetURLParam('category') || ''
+};
+
 interface FilterProps {
   onChange: (ctxt: FilterContext) => void;
 };
@@ -21,8 +27,11 @@ type FilterCategory = Dictionary.KeyWord | "";
 const FilterCategories: FilterCategory[] = ["", ...Dictionary.keywords];
 
 const Filter = ({ onChange }: FilterProps) => {
-  const [input, setInput] = useState(FilterNone.input);
-  const [category, setCategory] = useState(FilterNone.category);
+  const [input, setInput] = useState(FilterDefault.input);
+  useEffect(() => SetURLParam('search', input), [input]);
+
+  const [category, setCategory] = useState(FilterDefault.category);
+  useEffect(() => SetURLParam('category', category), [category]);
 
   useEffect(() => onChange({ input, category }), [input, category, onChange]);
 
@@ -51,10 +60,14 @@ const Filter = ({ onChange }: FilterProps) => {
       <div className="Inputs">
         <input onChange={(e) => setInput(e.target.value)}
           placeholder="filter . . ."
+          value={input}
           ref={textInput}
         />
 
-        <select onChange={(e) => setCategory(e.target.value as FilterCategory)}>
+        <select
+          onChange={(e) => setCategory(e.target.value as FilterCategory)}
+          value={category}
+        >
           {FilterCategories.map((c) => <option key={c}>{c}</option>)}
         </select>
       </div>
