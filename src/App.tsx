@@ -16,9 +16,10 @@ const App = () => {
       <div className="Words">
         {Dictionary.en_dk
           .filter((l: Dictionary.Lexeme) => {
-            return (l.word.includes(filterCtxt.input)
-              || (l.note && l.note.includes(filterCtxt.input))
-              || (l.phrases && l.phrases.some(([en, _]) => en.includes(filterCtxt.input))))
+            const input_lowered = filterCtxt.input.toLocaleLowerCase();
+            return (l.word.toLocaleLowerCase().includes(input_lowered)
+              || (l.note && l.note.toLocaleLowerCase().includes(input_lowered))
+              || (l.phrases && l.phrases.some(([en, _]) => en.includes(input_lowered))))
               && (filterCtxt.category === "" || l.keywords.some((kw: string) => kw === filterCtxt.category))
           })
           .map((l: Dictionary.Lexeme) => {
