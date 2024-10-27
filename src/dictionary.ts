@@ -165,6 +165,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["typography"]
   },
   {
+    word: "anonymous",
+    type: "adj.",
+    translations: ["anonym, -t, -e"],
+    keywords: ["software engineering"]
+  },
+  {
     word: "apostrophe",
     type: "sb.",
     translations: ["apostrof, -fen, fer, ferne"],
@@ -234,6 +240,15 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["adfærd, -en"],
     keywords: ["computer science"]
+  },
+  {
+    word: "best-case",
+    type: "adj.",
+    translations: ["bedst tænkelig, -t, -e"],
+    keywords: ["computer science"],
+    phrases: [
+      ["The best case running time is O(1)", "Den bedst tænkelige kørseltsid er O(1)"]
+    ]
   },
   {
     word: "beta",
@@ -761,6 +776,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science", "mathematics"]
   },
   {
+    word: "curried",
+    type: "adj.",
+    translations: ["curri|et, -et, -ede"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "curry",
+    type: "vb.",
+    translations: ["curry, -er, -ede, -et"],
+    keywords: ["computer science"]
+  },
+  {
     word: "cut",
     type: "sb.",
     translations: ["snit, -tet, -, -tene"],
@@ -900,6 +927,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["derivationstræ, -et, -er, -erne"],
     keywords: ["computer science"]
+  },
+  {
+    word: "design pattern",
+    type: "sb.",
+    translations: ["designmøn|ster, -stret, -strer, -strerne"],
+    keywords: ["software engineering"]
   },
   {
     word: "determinisation",
@@ -1096,6 +1129,16 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["udråbstegn, -et, -, -ene"],
     keywords: ["typography"]
+  },
+  {
+    word: "expected",
+    type: "adj.",
+    translations: ["forven|tet, -tet, -tede"],
+    keywords: ["computer science", "mathematics"],
+    phrases: [
+      ["The worst case expected running time is O(n lg n)", "Den værst tænkelige forventede kørselstid er O(n lg n)"],
+      ["Its expected value is 0.5", "Dens forventede værdi er 0,5"]
+    ]
   },
   {
     word: "expression",
@@ -1514,8 +1557,18 @@ export const en_dk : Lexeme[] = [
     word: "lambda",
     type: "sb.",
     note: "Λ λ",
-    translations: ["lambda, -en, -er, -erne"],
+    translations: ["lambda"],
     keywords: ["greek alphabet"]
+  },
+  {
+    word: "lambda",
+    type: "sb.",
+    note: "anonymous function",
+    translations: [
+      "lambda, -en, -er, -erne",
+      "en anonym funktion, den anonyme funktion, de anonyme funktioner"
+    ],
+    keywords: ["software engineering"]
   },
   {
     word: "language",
@@ -2245,7 +2298,26 @@ export const en_dk : Lexeme[] = [
   {
     word: "random",
     type: "adj.",
-    translations: ["tilfældig, -t, -e"],
+    translations: [
+      "tilfældig, -t, -e",
+      "randomise|ret, -ret, -rede"
+    ],
+    keywords: ["computer science"]
+  },
+  {
+    word: "randomize",
+    type: "vb.",
+    note: "GB: randomise",
+    search_terms: ["randomise"],
+    translations: ["randomisere, -r, -de, -t"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "randomization",
+    type: "sb.",
+    note: "GB: randomisation",
+    search_terms: ["randomisation"],
+    translations: ["randomisering, -en, -er, -erne"],
     keywords: ["computer science"]
   },
   {
@@ -3015,6 +3087,15 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"],
     phrases: [
       ["a machine word is often 1 byte", "et maskinord er ofte 1 byte stor"]
+    ]
+  },
+  {
+    word: "worst-case",
+    type: "adj.",
+    translations: ["værst tænkelig, -t, -e"],
+    keywords: ["computer science"],
+    phrases: [
+      ["The worst case running time is O(n²)", "Den værst tænkelige kørseltsid er O(n²)"]
     ]
   },
   {
