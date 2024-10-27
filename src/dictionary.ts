@@ -15,7 +15,7 @@ export type Lexeme = {
   word: string;
   type?: WordType;
   note?: string;
-  search_terms?: string;
+  search_terms?: string[];
   translations: string[];
   keywords: KeyWord[];
   phrases?: [string, string][];
@@ -157,7 +157,7 @@ export const en_dk : Lexeme[] = [
     word: "angle brace",
     type: "sb.",
     note: "⟨ chevron ⟩",
-    search_terms: "<>",
+    search_terms: ["<", ">", "<>", "><"],
     translations: [
       "vinkelparentes, -en, -er, -erne",
       "vinkelklamme, -n, -r, -rne",
@@ -923,6 +923,7 @@ export const en_dk : Lexeme[] = [
     word: "diagonalization",
     type: "sb.",
     note: "GB: diagonalisation",
+    search_terms: ["diagonalisation"],
     translations: ["diagonalisering, -en, -er, -erne"],
     keywords: ["computer science"]
   },
@@ -1707,6 +1708,7 @@ export const en_dk : Lexeme[] = [
     word: "minimization",
     type: "sb.",
     note: "GB: minimisation",
+    search_terms: ["minimisation"],
     translations: ["minimering, -en, -er, -erne"],
     keywords: ["computer science"]
   },
@@ -1856,6 +1858,7 @@ export const en_dk : Lexeme[] = [
     word: "optimization",
     type: "sb.",
     note: "GB: optimisation",
+    search_terms: ["optimisation"],
     translations: ["optimering, -en, -er, -erne"],
     keywords: ["computer science", "mathematics"]
   },
@@ -1863,6 +1866,7 @@ export const en_dk : Lexeme[] = [
     word: "optimize",
     type: "vb.",
     note: "GB: optimise",
+    search_terms: ["optimise"],
     translations: ["optimere, -r, -de, -t"],
     keywords: ["computer science", "mathematics"]
   },
@@ -1995,6 +1999,7 @@ export const en_dk : Lexeme[] = [
     word: "period",
     type: "sb.",
     note: "GB: full stop",
+    search_terms: ["full stop"],
     translations: ["punktum, -met, -mer, merne"],
     keywords: ["typography"]
   },
@@ -2002,6 +2007,7 @@ export const en_dk : Lexeme[] = [
     word: "pessimization",
     type: "sb.",
     note: "GB: pessimisation",
+    search_terms: ["pessimisation"],
     translations: ["pessimering, -en, -er, -erne"],
     keywords: ["computer science"]
   },
@@ -2009,6 +2015,7 @@ export const en_dk : Lexeme[] = [
     word: "pessimize",
     type: "vb.",
     note: "GB: pessimise",
+    search_terms: ["pessimise"],
     translations: ["optimere, -r, -de, -t"],
     keywords: ["computer science"]
   },
@@ -2528,6 +2535,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "space",
     type: "sb.",
+    note: "memory",
     translations: ["plads, -en, -er, -erne"],
     keywords: ["computer science"],
     phrases: [
@@ -2537,6 +2545,7 @@ export const en_dk : Lexeme[] = [
   {
     word: "space",
     type: "sb.",
+    note: "typography",
     translations: ["mellemrum, -met, -, -mene"],
     keywords: ["typography"],
   },
