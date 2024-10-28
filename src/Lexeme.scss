@@ -24,11 +24,11 @@
   .Phrases {
     margin-top: 0.1rem;
     .English {
-      display: inline-block;
+      display: contents;
       padding-right: 0.4rem;
     }
     .Danish {
-      display: inline-block;
+      display: contents;
       font-style: italic;
     }
   }

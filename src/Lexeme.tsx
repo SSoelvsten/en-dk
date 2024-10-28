@@ -20,8 +20,8 @@ const Lexeme = ({ lexeme }: LexemeProps) => {
         {lexeme.phrases.map(([en,dk], idx) =>
           <>
             <div className="English">{en}</div>
-            <div className="Danish">{dk}</div>
-            {idx+1 !== lexeme.phrases?.length && <> ⚬ </>}
+            <div className="Danish">&ensp; {dk}</div>
+            {idx + 1 !== lexeme.phrases?.length && <> ⚬ </>}
           </>
         )}
       </div>}
