@@ -17,7 +17,7 @@ const Lexeme = ({ lexeme }: LexemeProps) => {
       {lexeme.translations.map((t) => <div className="Translation">{t}</div>)}
 
       {lexeme.phrases && <div className="Phrases">
-        {lexeme.phrases.map(([en,dk], idx) =>
+        {lexeme.phrases.map(([en, dk], idx) =>
           <>
             <div className="English">{en}</div>
             <div className="Danish">&ensp; {dk}</div>

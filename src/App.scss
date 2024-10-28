@@ -1,9 +1,10 @@
 .App {
   padding: 2rem;
-  @media not print
-  {
+
+  @media not print {
     padding-top: 5rem;
   }
+
   max-width: 64rem;
   margin: auto;
 
