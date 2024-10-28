@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Filter.scss';
 import * as Dictionary from './dictionary.ts';
-import { GetURLParam, SetURLParam } from './url_param.ts'
+import { GetURLParam, SetURLParam } from './url_util.ts'
 
 export interface FilterContext {
   input: string;
