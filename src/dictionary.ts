@@ -2262,7 +2262,19 @@ export const en_dk : Lexeme[] = [
   {
     word: "quantify",
     type: "vb.",
-    translations: ["kvantificere, -r, -ede, -t"],
+    translations: ["kvantificere, -r, -de, -t"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "query",
+    type: "sb.",
+    translations: ["forespørgsel, forespørgslen, forespørgsler, forespørgslerne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "query",
+    type: "vb.",
+    translations: ["fore|spørge, -spørger, -spurgte, -spurgt"],
     keywords: ["computer science"]
   },
   {
