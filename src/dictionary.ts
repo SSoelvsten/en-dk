@@ -1239,6 +1239,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["greek alphabet"]
   },
   {
+    word: "global",
+    type: "adj.",
+    translations: ["global, -t, -e"],
+    keywords: ["computer science", "software engineering"]
+  },
+  {
     word: "grammar",
     type: "sb.",
     translations: ["grammatik, -ken, -ker, -kerne"],
@@ -1659,6 +1665,12 @@ export const en_dk : Lexeme[] = [
       "(en) hægtet liste, (den) hægtede liste, (de) hægtede lister"
     ],
     keywords: ["computer science"]
+  },
+  {
+    word: "local",
+    type: "adj.",
+    translations: ["local, -t, -e"],
+    keywords: ["computer science", "software engineering"]
   },
   {
     word: "location",
