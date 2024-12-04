@@ -1964,6 +1964,14 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science", "mathematics"]
   },
   {
+    word: "order of magnitude",
+    type: "sb.",
+    translations: [
+      "størrelsesorden, -en, -er, -erne",
+    ],
+    keywords: ["computer science", "mathematics"]
+  },
+  {
     word: "output",
     type: "sb.",
     translations: ["uddata, -en, -, -ene"],
