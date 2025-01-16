@@ -1777,6 +1777,14 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science", "mathematics"]
   },
   {
+    word: "lowercase",
+    type: "sb.",
+    translations: [
+      "minuskel, minusklen, minuskler, minusklerne",
+    ],
+    keywords: ["computer science"]
+  },
+  {
     word: "machine learning",
     type: "sb.",
     translations: ["maskinlæring, -en"],
@@ -3203,6 +3211,15 @@ export const en_dk : Lexeme[] = [
     type: "adj.",
     translations: ["øvre, -, -"],
     keywords: ["computer science", "mathematics"]
+  },
+  {
+    word: "uppercase",
+    type: "sb.",
+    translations: [
+      "stort bogstav",
+      "versal, -en, -er, -erne"
+    ],
+    keywords: ["computer science"]
   },
   {
     word: "valid",
