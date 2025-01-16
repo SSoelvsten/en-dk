@@ -47,6 +47,26 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "acceptance",
+    type: "sb.",
+    translations: ["accept, -en, -er, -erne"],
+    keywords: ["computer science"],
+    phrases: [
+      ["weak accept", "svag accept"],
+      ["strong accept", "streng accept"]
+    ]
+  },
+  {
+    word: "accepted",
+    type: "adj.",
+    translations: ["accepte|ret, -ret, -rede"],
+    keywords: ["computer science"],
+    phrases: [
+      ["weakly accepted", "svagt accepteret"],
+      ["strongly accepted", "strengt accepteret"]
+    ]
+  },
+  {
     word: "accepting state",
     type: "sb.",
     translations: ["accepttilstand, -en, -e, -ene"],
@@ -186,6 +206,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science", "software engineering"]
   },
   {
+    word: "artifact",
+    type: "sb.",
+    translations: ["artifakt, -et, -er, -erne"],
+    keywords: []
+  },
+  {
     word: "associative",
     type: "adj.",
     translations: ["assiociativ, -t, -e"],
@@ -196,6 +222,12 @@ export const en_dk : Lexeme[] = [
     type: "adj.",
     translations: ["asymptotisk, -, -e"],
     keywords: ["computer science"]
+  },
+  {
+    word: "author",
+    type: "sb.",
+    translations: ["forfatter, -en, -e, -ne"],
+    keywords: []
   },
   {
     word: "average",
@@ -532,6 +564,13 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science", "mathematics"]
   },
   {
+    word: "co-author",
+    search_terms: ["coauthor"],
+    type: "sb.",
+    translations: ["medforfatter, -en, -e, -ne"],
+    keywords: []
+  },
+  {
     word: "collision",
     type: "sb.",
     translations: ["kollision, -en, -er, -erne"],
@@ -653,6 +692,18 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["beregning, -en, -er, -erne"],
     keywords: ["computer science"]
+  },
+  {
+    word: "condition",
+    type: "sb.",
+    translations: ["betingelse, -n, -r, -rne"],
+    keywords: []
+  },
+  {
+    word: "conditional",
+    type: "adj.",
+    translations: ["beting|et, -et, -ede"],
+    keywords: []
   },
   {
     word: "concatenate",
@@ -1022,6 +1073,23 @@ export const en_dk : Lexeme[] = [
       "del-og-hersk",
     ],
     keywords: ["computer science"]
+  },
+  {
+    word: "duplicate",
+    type: "vb.",
+    translations: [
+      "dublere, -r, -de, -t",
+      "duplikere, -r, -de, -t"
+    ],
+    keywords: []
+  },
+  {
+    word: "duplication",
+    type: "sb.",
+    translations: [
+      "dublering, -en, -er, -erne",
+      "duplikation, -en, -er, -erne"],
+    keywords: []
   },
   {
     word: "dynamic",
@@ -1727,6 +1795,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "material",
+    type: "sb.",
+    translations: ["materiale, -t, -r, -rne"],
+    keywords: []
+  },
+  {
     word: "matrix, matrices",
     type: "sb.",
     translations: ["matrix, -er, matricer, matricerne"],
@@ -2051,6 +2125,23 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "peer",
+    type: "sb.",
+    note: "in network",
+    translations: [
+      "part, -en, -er, -erne",
+      "kontrahent, -en, -er, -erne"
+    ],
+    keywords: []
+  },
+  {
+    word: "peer",
+    type: "sb.",
+    note: "fellow scientist",
+    translations: ["fagfælle, -n, -r, -rne"],
+    keywords: []
+  },
+  {
     word: "peer review",
     type: "sb.",
     translations: ["fagfællebedømmelse, -n, -r, -rne"],
@@ -2060,6 +2151,12 @@ export const en_dk : Lexeme[] = [
     word: "peer review",
     type: "vb.",
     translations: ["fagfællebedøm|me, -mer, -mede, -t"],
+    keywords: []
+  },
+  {
+    word: "peer reviewer",
+    type: "sb.",
+    translations: ["fagfællebedømmer, -en, -e, -ne"],
     keywords: []
   },
   {
@@ -2121,6 +2218,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["peger, -en, -e, -erne"],
     keywords: ["computer science", "software engineering"]
+  },
+  {
+    word: "polyhedron",
+    type: "sb.",
+    translations: ["polyede, -n, -r, -rne"],
+    keywords: ["mathematics"]
   },
   {
     word: "polynomial",
@@ -2232,6 +2335,24 @@ export const en_dk : Lexeme[] = [
     note: "Ψ ψ",
     translations: ["psi"],
     keywords: ["greek alphabet"]
+  },
+  {
+    word: "publication",
+    type: "sb.",
+    translations: ["publikation, -en, -er, -erne"],
+    keywords: []
+  },
+  {
+    word: "publish",
+    type: "vb.",
+    translations: ["publicere, -r, -de, -t"],
+    keywords: []
+  },
+  {
+    word: "published",
+    type: "adj.",
+    translations: ["publice|ret, -ret, -rede"],
+    keywords: []
   },
   {
     word: "pull",
@@ -2371,6 +2492,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["git"]
   },
   {
+    word: "rebuttal",
+    type: "sb.",
+    translations: ["indsigelse, -n, -r, -rne"],
+    keywords: []
+  },
+  {
     word: "record",
     type: "sb.",
     translations: ["post,  -en, -er, -erne"],
@@ -2435,6 +2562,26 @@ export const en_dk : Lexeme[] = [
     type: "vb.",
     translations: ["afvi|se, -ser, -ste, -st"],
     keywords: ["computer science"]
+  },
+  {
+    word: "rejected",
+    type: "adj.",
+    translations: ["afvist, -, -e"],
+    keywords: ["computer science"],
+    phrases: [
+      ["weakly rejected", "svagt afvist"],
+      ["strongly rejected", "strengt afvist"]
+    ]
+  },
+  {
+    word: "rejection",
+    type: "sb.",
+    translations: ["afvisning, -en, -er, -erne"],
+    keywords: ["computer science"],
+    phrases: [
+      ["weak reject", "svag afvisning"],
+      ["strong reject", "streng afvisning"]
+    ]
   },
   {
     word: "relation",
@@ -2734,6 +2881,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["overvåget læring"],
     keywords: ["computer science"]
+  },
+  {
+    word: "supplementary",
+    type: "adj.",
+    translations: ["supplerende, -, -"],
+    keywords: []
   },
   {
     word: "surjective",
