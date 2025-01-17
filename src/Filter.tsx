@@ -40,6 +40,8 @@ const Filter = ({ onChange }: FilterProps) => {
   //
   // Based on:
   // https://dev.to/alexefimenko/implementing-debounce-in-react-for-efficient-delayed-search-queries-4m49
+  const [latestUnbounced, setLatestUnbounced] = useState<FilterContext>(FilterDefault);
+
   const debounceDelay = 200;
   const debounce = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -48,10 +50,14 @@ const Filter = ({ onChange }: FilterProps) => {
       clearTimeout(debounce.current);
     }
     debounce.current = setTimeout(() => {
-      onChange({ input, category })
+      if (input !== latestUnbounced.input || category !== latestUnbounced.category) {
+        setLatestUnbounced({ input, category });
+        onChange({ input, category })
+      }
       debounce.current = null;
     }, debounceDelay);
   },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [input, category, onChange]);
 
   // ----------------------------------------------------------------------------------------------
