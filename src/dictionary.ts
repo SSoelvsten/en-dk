@@ -2995,7 +2995,12 @@ export const en_dk : Lexeme[] = [
     word: "test",
     type: "sb.",
     translations: ["test, -en, -, -ene"],
-    keywords: ["computer science"]
+    keywords: ["computer science"],
+    phrases: [
+      ["unit test", "modultest / deltest"],
+      ["integration test", "integrationstest"],
+      ["system test", "systemtest"]
+    ]
   },
   {
     word: "theta",
