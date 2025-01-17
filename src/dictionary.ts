@@ -2995,7 +2995,7 @@ export const en_dk : Lexeme[] = [
     word: "test",
     type: "sb.",
     translations: ["test, -en, -, -ene"],
-    keywords: ["computer science"],
+    keywords: ["computer science", "software engineering"],
     phrases: [
       ["unit test", "modultest / deltest"],
       ["integration test", "integrationstest"],
