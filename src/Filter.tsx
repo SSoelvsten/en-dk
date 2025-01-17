@@ -30,13 +30,10 @@ const Filter = ({ onChange }: FilterProps) => {
   // ----------------------------------------------------------------------------------------------
   // State
   const [input, setInput] = useState(FilterDefault.input);
-  useEffect(() => SetURLParam('search', input), [input]);
-
   const [category, setCategory] = useState(FilterDefault.category);
-  useEffect(() => SetURLParam('category', category), [category]);
 
   // ----------------------------------------------------------------------------------------------
-  // Send updates (debounced) to listener
+  // Send updates (debounced) to listener and URL
   //
   // Based on:
   // https://dev.to/alexefimenko/implementing-debounce-in-react-for-efficient-delayed-search-queries-4m49
@@ -52,6 +49,8 @@ const Filter = ({ onChange }: FilterProps) => {
     debounce.current = setTimeout(() => {
       if (input !== latestUnbounced.input || category !== latestUnbounced.category) {
         setLatestUnbounced({ input, category });
+        SetURLParam('search', input);
+        SetURLParam('category', category);
         onChange({ input, category })
       }
       debounce.current = null;
