@@ -27,14 +27,35 @@ type FilterCategory = Dictionary.KeyWord | "";
 const FilterCategories: FilterCategory[] = ["", ...Dictionary.keywords];
 
 const Filter = ({ onChange }: FilterProps) => {
+  // ----------------------------------------------------------------------------------------------
+  // State
   const [input, setInput] = useState(FilterDefault.input);
   useEffect(() => SetURLParam('search', input), [input]);
 
   const [category, setCategory] = useState(FilterDefault.category);
   useEffect(() => SetURLParam('category', category), [category]);
 
-  useEffect(() => onChange({ input, category }), [input, category, onChange]);
+  // ----------------------------------------------------------------------------------------------
+  // Send updates (debounced) to listener
+  //
+  // Based on:
+  // https://dev.to/alexefimenko/implementing-debounce-in-react-for-efficient-delayed-search-queries-4m49
+  const debounceDelay = 200;
+  const debounce = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  useEffect(() => {
+    if (debounce.current) {
+      clearTimeout(debounce.current);
+    }
+    debounce.current = setTimeout(() => {
+      onChange({ input, category })
+      debounce.current = null;
+    }, debounceDelay);
+  },
+    [input, category, onChange]);
+
+  // ----------------------------------------------------------------------------------------------
+  // Additional Keyboard logic
   const textInput = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
