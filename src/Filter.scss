@@ -21,6 +21,14 @@
       border: 0.1rem solid black;
       padding: 0.3rem 0.5rem;
     }
+
+    input:hover {
+      cursor: text;
+    }
+
+    select:hover {
+      cursor: pointer;
+    }
   }
 
   .Separator {
