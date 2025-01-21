@@ -55,7 +55,7 @@ interface DownloadProps {
 
 const Download = ({ lexemes }: DownloadProps) =>
   <button className="Download" onClick={() => tsv(lexemes)}>
-    <span>&#8677;</span> (tsv)
+    <span className="Icon">&#8677;</span><span>(tsv)</span>
   </button>;
 
 export default Download;
