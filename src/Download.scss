@@ -1,0 +1,23 @@
+.Download {
+    position: fixed;
+    z-index: 999;
+    top: 1.3rem;
+    right: 1.5rem;
+
+    color: black;
+    text-align: center;
+
+    >span {
+        display: inline-block;
+        font-size: 1.2rem;
+        transform: rotate(90deg);
+    }
+
+    background-color: white;
+    font-size: 1rem;
+    border: none;
+
+    @media print {
+        display: none !important;
+    }
+}
