@@ -475,10 +475,14 @@ export const en_dk : Lexeme[] = [
   {
     word: "chain",
     type: "sb.",
-    translations: [
-      "kæde, -n, -r, -rne",
-      "(hash table) kollisionsliste, -n, -r, -rne"
-    ],
+    translations: ["kæde, -n, -r, -rne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "chain",
+    type: "sb.",
+    note: "hash table",
+    translations: ["kollisionsliste, -n, -r, -rne"],
     keywords: ["computer science"],
     phrases: [
       ["The table uses hashing with chaining", "Tabellen bruger kollisionslister"]
