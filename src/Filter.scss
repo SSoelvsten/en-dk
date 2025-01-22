@@ -14,6 +14,11 @@
     flex-flow: row wrap;
     justify-content: center;
 
+    /* Fix for Tiny Screens (Issue #34) */
+    @media screen and (max-width: 25rem) {
+      flex-flow: column;
+    }
+
     input,
     select {
       margin: 0.2rem;
