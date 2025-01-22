@@ -443,9 +443,38 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "buffer",
+    type: "sb.",
+    translations: ["buffer, -en, -e, -ne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "bus",
+    type: "sb.",
+    translations: ["bus, -sen, -ser, -serne"],
+    keywords: ["computer science"],
+    phrases: [
+      ["data bus", "databus"],
+      ["adress bus", "adressebus"],
+      ["control bus", "kontrolbus"]
+    ]
+  },
+  {
     word: "byte",
     type: "sb.",
     translations: ["byte, -n, -s, -ne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "cache",
+    type: "sb.",
+    translations: ["cache, -n, -r, -rne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "cache memory",
+    type: "sb.",
+    translations: ["cachehukommelse, -n, -r, -rne"],
     keywords: ["computer science"]
   },
   {
@@ -539,6 +568,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["klasse, -n, -r, -rne"],
     keywords: ["mathematics"]
+  },
+  {
+    word: "clipboard",
+    type: "sb.",
+    translations: ["udklipsholder, -en, -e, -ne"],
+    keywords: []
   },
   {
     word: "closed",
@@ -876,6 +911,21 @@ export const en_dk : Lexeme[] = [
     keywords: ["typography"]
   },
   {
+    word: "data storage",
+    type: "sb.",
+    note: "see also: \"disk\"",
+    translations: [
+      "datalag|er, -ret, -re, -rene"
+    ],
+    keywords: ["computer science"],
+    phrases: [
+      [
+        "data is put on a storage device, e.g., a DVD or harddisk",
+        "dataen er gemt på en lagringsenhed, såsom en dvd eller et pladelager"
+      ]
+    ]
+  },
+  {
     word: "data structure",
     type: "sb.",
     translations: ["datastruktur, -en, -er, -erne"],
@@ -1039,6 +1089,27 @@ export const en_dk : Lexeme[] = [
       "forskel, -len, -le, -lene"
     ],
     keywords: ["mathematics"]
+  },
+  {
+    word: "disk",
+    type: "sb.",
+    note: "see also: \"storage\"",
+    translations: [
+      "disk, -en, -e, -ene",
+    ],
+    keywords: ["computer science"],
+    phrases: [
+      ["CD", "cd"],
+      ["DVD", "dvd"],
+      ["harddisk", "pladelager / harddisk"],
+      ["SSD", "SSD"]
+    ]
+  },
+  {
+    word: "disk space",
+    type: "sb.",
+    translations: ["diskplads, -en"],
+    keywords: ["computer science"]
   },
   {
     word: "disjunction",
@@ -1225,6 +1296,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "external",
+    type: "adj.",
+    translations: ["ekstern, -t, -e"],
+    keywords: ["computer science"]
+  },
+  {
     word: "factorial",
     type: "sb.",
     translations: ["fakultet, -et, -er, -erne"],
@@ -1326,6 +1403,21 @@ export const en_dk : Lexeme[] = [
     word: "graph",
     type: "sb.",
     translations: ["graf, -en, -er, -erne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "graphic",
+    type: "sb.",
+    translations: ["grafik, -ken, -ker, -kerne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "graphicscard",
+    type: "sb.",
+    translations: [
+      "grafikkort, -et, -, -ene",
+      "skærmkort, -et, -, -ene"
+    ],
     keywords: ["computer science"]
   },
   {
@@ -1547,6 +1639,12 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["grænseflade, -n, -r, -rne"],
     keywords: ["computer science", "software engineering"]
+  },
+  {
+    word: "internal",
+    type: "adj.",
+    translations: ["intern, -t, -e"],
+    keywords: ["computer science"]
   },
   {
     word: "interpret",
@@ -2379,6 +2477,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["git"]
   },
   {
+    word: "punched card",
+    type: "sb.",
+    translations: ["hulkort, -et, -, -ene"],
+    keywords: []
+  },
+  {
     word: "pure",
     type: "adj.",
     note: "see also \"side effect\"",
@@ -2459,6 +2563,15 @@ export const en_dk : Lexeme[] = [
     type: "sb.",
     translations: ["kvotient, -en, -er, -erne"],
     keywords: ["computer science", "mathematics"]
+  },
+  {
+    word: "RAM",
+    type: "sb.",
+    translations: [
+      "ram, -men, -, -mene",
+      "arbejds|lager, -lageret, -lagre, -lagrene"
+    ],
+    keywords: ["computer science"]
   },
   {
     word: "random",
@@ -2558,6 +2671,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "register",
+    type: "sb.",
+    translations: ["regi|ster, -stret, -stre, -strene"],
+    keywords: ["computer science"]
+  },
+  {
     word: "regular",
     type: "adj.",
     translations: ["regulær, -t, -e"],
@@ -2621,6 +2740,12 @@ export const en_dk : Lexeme[] = [
     note: "Ρ ρ",
     translations: ["rho"],
     keywords: ["greek alphabet"]
+  },
+  {
+    word: "ROM",
+    type: "sb.",
+    translations: ["rom, -men, -, -mene"],
+    keywords: ["computer science"]
   },
   {
     word: "root",
