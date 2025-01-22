@@ -1,0 +1,46 @@
+.RoundButton {
+    /* Position */
+    & {
+      position: fixed;
+      bottom: 1.3rem;
+      right: 1.5rem;
+    }
+
+    /* Style */
+    & {
+      background-color: white;
+      border: double;
+      border-radius: 50%;
+
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+
+    /* Icon */
+    & {
+      color: black;
+      font-size: 1.4rem;
+
+      .Icon {
+        text-align: center;
+        display: block;
+      }
+    }
+
+    /* Hover Animation */
+    & {
+      opacity: 0.5;
+      transition: 0.2s;
+
+      &:hover {
+          opacity: 1.0;
+          transition: 0.2s;
+          cursor: pointer;
+      }
+    }
+
+    /* Hide on Print */
+    @media print {
+        display: none !important;
+    }
+}

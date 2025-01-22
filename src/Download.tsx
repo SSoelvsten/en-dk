@@ -1,10 +1,10 @@
 import React from 'react';
-import './Download.scss';
-import * as Dictionary from './dictionary.ts';
+import { Lexeme } from './dictionary';
+import RoundButton from './RoundButton';
 
 // -----------------------------------------------------------------------------------------------
 
-const lexeme_key = (l: Dictionary.Lexeme) => {
+const lexeme_key = (l: Lexeme) => {
   const word = l.word.replaceAll(' ', '_');
   const type = l.type ? `_${l.type.slice(0, -1)}` : '';
   const note = l.note && !(l.note.startsWith("GB:") || l.note.startsWith("see") || l.note.startsWith("also"))
@@ -14,7 +14,7 @@ const lexeme_key = (l: Dictionary.Lexeme) => {
 
 const tsv_header: string = "key\tword\ttype\tnote\ttranslations\tphrases"
 
-const tsv_lexeme = (l: Dictionary.Lexeme) => {
+const tsv_lexeme = (l: Lexeme) => {
   const key: string = lexeme_key(l);
   const word: string = l.word;
   const type: string = l.type ? l.type : "";
@@ -25,7 +25,7 @@ const tsv_lexeme = (l: Dictionary.Lexeme) => {
   return `${key}\t${word}\t${type}\t${note}\t${tran}\t${phra}`;
 };
 
-const tsv = (lexemes: Dictionary.Lexeme[]) => {
+const tsv = (lexemes: Lexeme[]) => {
   // Based on: https://stackoverflow.com/a/33542499
   const file_content: string = `${tsv_header}\n${lexemes.map(l => tsv_lexeme(l)).join('\n')}\n`;
   const file_name: string = "en-dk.tsv";
@@ -50,12 +50,10 @@ const tsv = (lexemes: Dictionary.Lexeme[]) => {
 // -----------------------------------------------------------------------------------------------
 
 interface DownloadProps {
-  lexemes: Dictionary.Lexeme[]
+  lexemes: Lexeme[]
 };
 
 const Download = ({ lexemes }: DownloadProps) =>
-  <button className="Download" onClick={() => tsv(lexemes)}>
-    <span className="Icon">&#8677;</span><span>(tsv)</span>
-  </button>;
+  <RoundButton onClick={() => tsv(lexemes)} emoji="&#8677;" emojiRotate={90} title='tsv'/>
 
 export default Download;
