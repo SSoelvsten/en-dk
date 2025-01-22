@@ -6,6 +6,7 @@ import Lexeme from './Lexeme.tsx';
 
 import * as Dictionary from './dictionary.ts';
 import Download from './Download.tsx';
+import Share from './Share.tsx';
 
 const App = () => {
   const [filterCtxt, setFilterCtxt] = useState(FilterDefault);
@@ -21,11 +22,15 @@ const App = () => {
 
   return (
     <div className="App">
-      <Download lexemes={lexemes} />
       <Filter onChange={setFilterCtxt} />
 
       <div className="Words">
         {lexemes.map(l => <Lexeme lexeme={l} key={JSON.stringify(l)} />)}
+      </div>
+
+      <div className="Buttons">
+        <Share />
+        <Download lexemes={lexemes} />
       </div>
     </div>
   );

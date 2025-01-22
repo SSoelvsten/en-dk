@@ -40,4 +40,15 @@
       margin-bottom: 1rem;
     }
   }
+
+  /* Buttons */
+  .Buttons {
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }

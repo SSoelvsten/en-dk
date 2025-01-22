@@ -1,3 +1,7 @@
+export function GetURL(): string {
+  return window.location.href;
+}
+
 /// Returns the parameter value for a given key. If none exists, then it returns `null`.
 export function GetURLParam<V = string> (key: string) {
   const params: URLSearchParams = new URLSearchParams(document.location.search);

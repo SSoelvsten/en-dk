@@ -54,6 +54,6 @@ interface DownloadProps {
 };
 
 const Download = ({ lexemes }: DownloadProps) =>
-  <RoundButton onClick={() => tsv(lexemes)} emoji="&#8677;" emojiRotate={90} title='tsv'/>
+  <RoundButton onClick={() => tsv(lexemes)} emoji="&#8677;" emojiRotate={90} title='download tsv'/>
 
 export default Download;
