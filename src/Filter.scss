@@ -1,4 +1,5 @@
 .Filter {
+  /* Place at The Top and On Top */
   width: calc(100% - 2rem);
   background-color: white;
 
@@ -6,6 +7,7 @@
   left: 1rem;
   top: 0;
 
+  /* Input Fields */
   .Inputs {
     margin: 1rem 0 0 0;
     display: flex;
@@ -31,11 +33,13 @@
     }
   }
 
+  /* Seperator beneath */
   .Separator {
     margin: 1rem 0 0.1rem 0;
     border-bottom: double;
   }
 
+  /* Hide when printing the page. */
   @media print {
     display: none !important;
   }

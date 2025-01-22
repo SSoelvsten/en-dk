@@ -1,13 +1,20 @@
 .App {
-  padding: 2rem;
+  /* Space for Filter at top */
+  & {
+    padding: 2rem;
 
-  @media not print {
-    padding-top: 5rem;
+    @media not print {
+      padding-top: 5rem;
+    }
   }
 
-  max-width: 64rem;
-  margin: auto;
+  /* Margins */
+  & {
+    max-width: 64rem;
+    margin: auto;
+  }
 
+  /* Columns */
   .Words {
     margin: 0;
     column-count: 3;
