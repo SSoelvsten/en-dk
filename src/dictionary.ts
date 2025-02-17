@@ -1968,6 +1968,18 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "model checker",
+    type: "sb.",
+    translations: ["modelafprøver, -en, -er, -erne"],
+    keywords: ["computer science"]
+  },
+  {
+    word: "model checking",
+    type: "sb.",
+    translations: ["modelafprøvning, -en, -er, -erne"],
+    keywords: ["computer science"]
+  },
+  {
     word: "monad",
     type: "sb.",
     translations: ["monade, -n, -r, -rne"],
