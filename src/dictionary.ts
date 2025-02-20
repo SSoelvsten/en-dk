@@ -1112,6 +1112,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "disjoint",
+    type: "adj.",
+    translations: ["disjunkt, -, -e"],
+    keywords: ["computer science", "mathematics"]
+  },
+  {
     word: "disjunction",
     type: "sb.",
     translations: ["disjunktion, -en, -er, -erne"],
@@ -1930,6 +1936,13 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science", "mathematics"]
   },
   {
+    word: "memoization",
+    type: "sb.",
+    note: "GB: memoisation",
+    translations: ["memoisering, -en, -er, -erne"],
+    keywords: ["computer science"]
+  },
+  {
     word: "memory",
     type: "sb.",
     translations: ["hukommelse, -n, -r, -rne"],
@@ -2358,6 +2371,18 @@ export const en_dk : Lexeme[] = [
     type: "adj.",
     translations: ["polynomiel, -t, -le"],
     keywords: ["computer science", "mathematics"]
+  },
+  {
+    word: "practical",
+    type: "adj.",
+    translations: ["praktisk, -, -e"],
+    keywords: []
+  },
+  {
+    word: "practice",
+    type: "sb.",
+    translations: ["praksis, -sen, -ser, -serne"],
+    keywords: []
   },
   {
     word: "predicate",
@@ -3142,6 +3167,18 @@ export const en_dk : Lexeme[] = [
       ["integration test", "integrationstest"],
       ["system test", "systemtest"]
     ]
+  },
+  {
+    word: "theory",
+    type: "sb.",
+    translations: ["teori, -en, -er, -erne"],
+    keywords: []
+  },
+  {
+    word: "theoretical",
+    type: "adj.",
+    translations: ["teoritisk, -, -e"],
+    keywords: []
   },
   {
     word: "theta",
