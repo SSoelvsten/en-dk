@@ -1625,7 +1625,10 @@ export const en_dk : Lexeme[] = [
   {
     word: "input",
     type: "sb.",
-    translations: ["inddata, -en, -, -ene"],
+    translations: [
+      "inddata, -en, -, -ene",
+      "input, -tet, -, -tene"
+    ],
     keywords: ["computer science"]
   },
   {
@@ -2183,7 +2186,10 @@ export const en_dk : Lexeme[] = [
   {
     word: "output",
     type: "sb.",
-    translations: ["uddata, -en, -, -ene"],
+    translations: [
+      "uddata, -en, -, -ene",
+      "output, -et, -, -tene"
+    ],
     keywords: ["computer science"]
   },
   {
