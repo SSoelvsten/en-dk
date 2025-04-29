@@ -1646,7 +1646,10 @@ export const en_dk : Lexeme[] = [
   {
     word: "interface",
     type: "sb.",
-    translations: ["grænseflade, -n, -r, -rne"],
+    translations: [
+      "snitflade, -n, -r, -rne",
+      "grænseflade, -n, -r, -rne"
+    ],
     keywords: ["computer science", "software engineering"]
   },
   {
