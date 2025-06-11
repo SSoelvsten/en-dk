@@ -3111,6 +3111,12 @@ export const en_dk : Lexeme[] = [
     keywords: ["computer science"]
   },
   {
+    word: "tacit knowledge",
+    type: "sb.",
+    translations: ["tavs viden"],
+    keywords: ["computer science"]
+  },
+  {
     word: "tag",
     type: "sb.",
     translations: ["mærke, -t, -r, -rne"],
